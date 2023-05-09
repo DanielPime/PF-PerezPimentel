@@ -1,0 +1,1709 @@
+                                                                                                                /* HOME */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+                                        /* BARRA DE NAVEGACIÓN */
+                                          /* BOOTSTRAP NAVBAR */
+
+.navbar {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: black; 
+}
+
+
+.navbar-toggler-icon{
+  color: white;
+  stroke-width: 1.5px;
+}
+
+.navbar-collapse{
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-collapse .navbar-nav .nav-item a{
+  color: white;
+}
+
+.nav-item{
+  margin: 0 70px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.nav-item a{
+  color: white;
+}
+
+.nav-item a:hover{
+  opacity: 0.5%;
+}
+
+.logo_nav{
+  height: 60px;
+  margin-left: 30px;
+}
+
+                                          /* MAIN */
+                                          /* CARROUSEL */
+.carousel-item img {
+  max-height: 550px;
+  object-fit: cover;
+}
+
+.carousel-caption{
+  font-size: xx-large;
+  color: black;
+}
+ 
+.carousel-caption-title{
+  color: white;
+}
+
+.carousel-caption-txt{
+  color: white;
+}
+
+.carousel-caption a{
+  text-decoration: none;
+}
+
+.carousel-caption a:hover{
+  opacity: 0.10;
+}
+
+                                           /* OFERTA */
+.oferta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.oferta__container-title{
+  font-weight: 100;
+}
+
+                                          /* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 200px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.foot__container a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.foot a:hover{
+  opacity: 0.10%;
+}
+
+
+.box__description hr{
+  border: none;
+  height: 1px;
+  background-color: #343434;
+  margin-bottom: 30px;
+}
+
+.box__description{
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+}
+
+.box__description p{
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+}
+
+.box__description article{
+  margin-bottom: 0px;
+  color: #343434;
+  font-weight: 500;
+} 
+
+                                                                                                         /* MAIN BRANDS */
+                                          /* MAIN */
+
+
+                                          
+.main__brands{
+  background-image: url(../assets/image/carrusel\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 60px;
+}
+
+
+                                                                                                          /* CATEGORIES */
+
+
+                                                                                                            /* WHOLESALE */
+                                        /* MAIN */
+.mayoreo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.mayoreo__container-title{
+  font-weight: 100;
+}
+                                                                                                              /* CH */
+                                       /* MAIN */
+.main__frags{
+  margin-top: 60px;
+}
+                                                                                                            /* CH-LADY */
+
+                                                                                                            /* CH-MEN */
+
+                                                                                                             /* CONTACT */
+
+
+                                                                                                    /* ETIQUETAS @MEDIA */  
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+      /* MINIM */
+@media (min-width: 0px) and (max-width:230px){
+                                          /* CAT-LADY */ /*/////////////////////////////////////////////////////////////////////////////////////*/
+  /* MAIN */
+  /* CARDS */
+  .brands__container-L{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    height: 1450px;
+    max-width: 230px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .brand1-L{
+    background-image: url(../assets/image/cat-lady-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+  }
+  
+  .brand1-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand2-L{
+    background-image: url(../assets/image/cat-men-bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+  }
+
+  .brand2-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand3-L{
+    background-image: url(../assets/image/cat-men-bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+  }
+
+  .brand3-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand4-L{
+    background-image: url(../assets/image/cat-men-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+  }
+
+  .brand4-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand5-L{
+    background-image: url(../assets/image/cat-men-bg5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+  }
+
+  .brand5-L a{
+    text-decoration: none;
+    color: black;
+  }
+  
+                                          /* CAT-MEN */ /*//////////////////////////////////////////////////////////////////////////////////////*/
+  /* MAIN */
+  /* CARDS */
+  .brands__container-M{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin: 0 auto;
+    height: 1450px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .brand1-M{
+    background-image: url(../assets/image/cat-men-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .brand1-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand2-M{
+    background-image: url(../assets/image/cat-men-bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand2-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand3-M{
+    background-image: url(../assets/image/cat-men-bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand3-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand4-M{
+    background-image: url(../assets/image/cat-men-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand4-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand5-M{
+    background-image: url(../assets/image/cat-men-bg5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand5-M a{
+    text-decoration: none;
+    color: black;
+  }
+                                          /* MAINBRANDS */ /*///////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* BRANDS */
+  .brands {
+    margin-top: 60px;
+    padding: 50px 50px;
+    max-width: 100%;
+  }
+  
+  .brands__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .brands__cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  
+  .card-b {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card__header-b img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .card__title-b {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .card__description-b {
+    margin-bottom: 40px;
+  }
+  
+  .card__link-b1 {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+
+  .card__link-b2 {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+
+                                        /* CH-LADY */ /*////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* FRAGANCIAS */
+.frags__container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 50px;
+  margin: 0 auto;
+  max-width: 576px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.frag{
+  font-size: 20px;
+}
+
+.frag a{
+  text-decoration: none;
+  color: black;
+}
+
+.self{
+  justify-self: center;
+  align-self: center;
+}
+
+.alterned1{
+  order: 2;
+}
+
+.alterned2{
+  order: 1;
+}
+
+.alterned3{
+  order: 4;
+}
+
+.alterned4{
+  order: 3;
+}
+
+.alterned5{
+  order: 6;
+}
+
+.alterned6{
+  order: 5;
+}
+
+.alterned7{
+  order: 8;
+}
+
+.alterned8{
+  order: 7;
+}
+
+.alterned9{
+  order: 10;
+}
+
+.alterned10{
+  order: 9;
+}
+
+.frag-img{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.foot a img{
+  height: 10vh;
+}
+
+                                      /* CONTACTO */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+/* MAIN */
+/* CARDS */
+.contact {
+  margin-top: 60px;
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+.contact__title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact__cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+}
+
+.card__header img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.card__title {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.card__description {
+  margin-bottom: 40px;
+}
+
+.card__link {
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0;
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+      /* MOBLIE FIRTS */
+@media (min-width:231px) and (max-width:590px){
+                                            /* CAT-LADY */ /*/////////////////////////////////////////////////////////////////////////////////////*/
+  /* MAIN */
+  /* CARDS */
+  .brands__container-L{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 1450px;
+    max-width: 500px;
+    margin-top: 60px;
+    margin-bottom: 50px
+  }
+
+  .brand1-L{
+    background-image: url(../assets/image/cat-lady-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .brand1-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand2-L{
+    background-image: url(../assets/image/cat-lady-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand2-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand3-L{
+    background-image: url(../assets/image/cat-lady-bg3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand3-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand4-L{
+    background-image: url(../assets/image/cat-lady-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand4-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand5-L{
+    background-image: url(../assets/image/cat-lady-bg5.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand5-L a{
+    text-decoration: none;
+    color: black;
+  }
+                                          /* CAT-MEN */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* CARDS */
+  .brands__container-M{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 1450px;
+    max-width: 500px;
+    margin-top: 60px;
+    margin-bottom: 50px
+  }
+
+  .brand1-M{
+    background-image: url(../assets/image/cat-men-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .brand1-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand2-M{
+    background-image: url(../assets/image/cat-men-bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand2-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand3-M{
+    background-image: url(../assets/image/cat-men-bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand3-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand4-M{
+    background-image: url(../assets/image/cat-men-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand4-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand5-M{
+    background-image: url(../assets/image/cat-men-bg5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+  }
+
+  .brand5-M a{
+    text-decoration: none;
+    color: black;
+  }
+
+                                          /* MAINBRANDS */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* BRANDS */
+  .brands {
+    margin-top: 60px;
+    padding: 50px 50px;
+    max-width: 100%;
+  }
+  
+  .brands__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .brands__cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  
+  .card-b {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card__header-b img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .card__title-b {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .card__description-b {
+    margin-bottom: 40px;
+  }
+  
+  .card__link-b1 {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+
+  .card__link-b2 {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+                                        /* CH-LADY */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+.frags__container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 50px;
+  margin: 0 auto;
+  max-width: 576px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.frag{
+  font-size: 30px;
+}
+
+.frag a{
+  text-decoration: none;
+  color: black;
+}
+
+.self{
+  justify-self: center;
+  align-self: center;
+}
+
+.alterned1{
+  order: 2;
+}
+
+.alterned2{
+  order: 1;
+}
+
+.alterned3{
+  order: 4;
+}
+
+.alterned4{
+  order: 3;
+}
+
+.alterned5{
+  order: 6;
+}
+
+.alterned6{
+  order: 5;
+}
+
+.alterned7{
+  order: 8;
+}
+
+.alterned8{
+  order: 7;
+}
+
+.alterned9{
+  order: 10;
+}
+
+.alterned10{
+  order: 9;
+}
+
+.frag-img{
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+                                        /* CONTACTO */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+/* MAIN */
+/* CARDS */
+.contact {
+  margin-top: 60px;
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+.contact__title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact__cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+}
+
+.card__header img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.card__title {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.card__description {
+  margin-bottom: 40px;
+}
+
+.card__link {
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0;
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+      /* MEDIUM */
+@media (min-width: 501px){
+                                         /* CAT-LADY */ /*/////////////////////////////////////////////////////////////////////////////////////*/
+  /* MAIN */
+  /* CARDS */
+  .brands__container-L{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 1450px;
+    max-width: 1400px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .brand1-L{
+    background-image: url(../assets/image/cat-lady-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .brand1-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand2-L{
+    background-image: url(../assets/image/cat-lady-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand2-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand3-L{
+    background-image: url(../assets/image/cat-lady-bg3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand3-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand4-L{
+    background-image: url(../assets/image/cat-lady-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand4-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand5-L{
+    background-image: url(../assets/image/cat-lady-bg5.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand5-L a{
+    text-decoration: none;
+    color: black;
+  }
+                                        /* CAT-MEN */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* CARDS */
+  .brands__container-M{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 1450px;
+    max-width: 1400px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .brand1-M{
+    background-image: url(../assets/image/cat-men-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .brand1-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand2-M{
+    background-image: url(../assets/image/cat-men-bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand2-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand3-M{
+    background-image: url(../assets/image/cat-men-bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand3-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand4-M{
+    background-image: url(../assets/image/cat-men-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand4-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand5-M{
+    background-image: url(../assets/image/cat-men-bg5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand5-M a{
+    text-decoration: none;
+    color: black;
+  }
+
+                                        /* MAINBRANDS */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* BRANDS */
+  .brands {
+    margin-top: 60px;
+    padding: 50px 50px;
+    max-width: 100%;
+  }
+  
+  .brands__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .brands__cards {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+  
+  .card-b {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card__header-b img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  }
+
+  .card__title-b {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .card__description-b {
+    margin-bottom: 40px;
+  }
+  
+  .card__link-b1 {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  .card__link-b2 {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+
+                                        /* CH-LADY */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* FRAGANCIAS */
+  .frags__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .frag{
+    font-size: 30px;
+  }
+  
+  .frag a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .self{
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .alterned1{
+    order: 1;
+  }
+  
+  .alterned2{
+    order: 2;
+  }
+  
+  .alterned3{
+    order: 4;
+  }
+  
+  .alterned4{
+    order: 3;
+  }
+  
+  .alterned5{
+    order: 5;
+  }
+  
+  .alterned6{
+    order: 6;
+  }
+  
+  .alterned7{
+    order: 8;
+  }
+  
+  .alterned8{
+    order: 7;
+  }
+  
+  .alterned9{
+    order: 9;
+  }
+  
+  .alterned10{
+    order: 10;
+  }
+  
+  .frag-img{
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+                                        /* CONTACTO */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* CARDS */
+  .contact {
+    margin-top: 60px;
+    padding: 0 20px;
+    margin-bottom: 60px;
+  }
+  
+  .contact__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .contact__cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card__header img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  }
+
+  .card__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .card__description {
+    margin-bottom: 40px;
+  }
+  
+  .card__link {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 0;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+      /* DESKTOP */
+@media (min-width:769px) and (max-width:1920){
+                                        /* CAT-LADY */ /*///////////////////////////////////////////////////////////////////////////////////////*/
+  /* MAIN */
+  /* CARDS */
+  .brands__container-L{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 1450px;
+    max-width: 1920px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .brand1-L{
+    background-image: url(../assets/image/cat-lady-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .brand1-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand2-L{
+    background-image: url(../assets/image/cat-lady-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand2-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand3-L{
+    background-image: url(../assets/image/cat-lady-bg3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand3-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand4-L{
+    background-image: url(../assets/image/cat-lady-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand4-L a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand5-L{
+    background-image: url(../assets/image/cat-lady-bg5.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand5-L a{
+    text-decoration: none;
+    color: black;
+  }
+                                        /* CAT-MEN */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* CARDS */
+  .brands__container-M{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 1450px;
+    max-width: 1920px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .brand1-M{
+    background-image: url(../assets/image/cat-men-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .brand1-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand2-M{
+    background-image: url(../assets/image/cat-men-bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand2-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand3-M{
+    background-image: url(../assets/image/cat-men-bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand3-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand4-M{
+    background-image: url(../assets/image/cat-men-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand4-M a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .brand5-M{
+    background-image: url(../assets/image/cat-men-bg5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+  }
+
+  .brand5-M a{
+    text-decoration: none;
+    color: black;
+  }
+                                        /* MAINBRANDS */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* BRANDS */
+  .brands {
+    margin-top: 60px;
+    padding: 50px 50px;
+    max-width: 100%;
+  }
+  
+  .brands__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .brands__cards {
+    max-width: 120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+  
+  .card-b {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card__header-b img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .card__title-b {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .card__description-b {
+    margin-bottom: 40px;
+  }
+  
+  .card__link-b1 {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+
+  .card__link-b2 {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+                                          /* CH-LADY */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+  /* MAIN */
+  /* FRAGANCIAS */
+  .frags__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .frag{
+    font-size: 30px;
+  }
+  
+  .frag a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .self{
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .alterned1{
+    order: 1;
+  }
+  
+  .alterned2{
+    order: 2;
+  }
+  
+  .alterned3{
+    order: 4;
+  }
+  
+  .alterned4{
+    order: 3;
+  }
+  
+  .alterned5{
+    order: 5;
+  }
+  
+  .alterned6{
+    order: 6;
+  }
+  
+  .alterned7{
+    order: 8;
+  }
+  
+  .alterned8{
+    order: 7;
+  }
+  
+  .alterned9{
+    order: 9;
+  }
+  
+  .alterned10{
+    order: 10;
+  }
+  
+  .frag-img{
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+                                        /* CONTACTO */ /*/////////////////////////////////////////////////////////////////////////////////////////*/ 
+/* MAIN */
+/* CARDS */
+.contact {
+  margin-top: 60px;
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+.contact__title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact__cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+}
+
+.card__header img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.card__title {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.card__description {
+  margin-bottom: 40px;
+}
+
+.card__link {
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0;
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfumería fina</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+  <body>
+                                      <!-- BARRA DE NAVEGACIÓN -->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/image/LOGOTIPO.jpg" alt="" class="logo_nav">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 96 960 960" width="48">
+              <path d="M132.462 799.537v-43.845h695.384v43.845H132.462Zm0-201.768v-43.845h695.384v43.845H132.462Zm0-201.461v-43.845h695.384v43.845H132.462Z"/>
+            </svg>
+          </button>          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/main-brands.html">Principales marcas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu bg-black">
+                  <li><a class="dropdown-item" href="pages/categories-brands-lady.html">Dama</a></li>
+                  <li><a class="dropdown-item" href="pages/categories-brands-men.html">Caballero</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/wholesale.html">Mayoreo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contact.html">Contacto</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+                                        <!-- MAIN -->
+
+                                        <!-- CAROUSEL-->
+  <section class="carouselsection">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/image/carusel (1).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="carousel-caption-title">Bienvenido</h2>
+            <p class="carousel-caption-txt">"Enciende tu esencia."</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/image/carusel (2).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="carousel-caption-title">Oferta de envío.</h2>
+            <a href="pages/freeshipment.html">
+                <p class="carousel-caption-txt">Conoce la oferta que tenemos para ti.</p>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/image/carusel (3).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="carousel-caption-title">Mayoreo.</h2>
+            <a href="pages/wholesale.html">
+              <p class="carousel-caption-txt">Da clic aquí para saber más.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>                                 
+  </section>                                        
+                                        <!-- OFERTA -->
+      <section class="oferta">
+        <div class="oferta__container">
+        <h1 class="oferta__container-title">Oferta de envío</h1>
+          <p class="oferta__container-text">Envío sin costo en pedidos con un valor igual o mayor a $20,000.00 MXN, aplicable solo a clientes de provincia.</p>
+          <div class="conocer__link">
+          <a href="pages/freeshipment.html">
+            <button class="btn btn-primary px-4 py-2fs-5 mt-2"> Conocer </button>
+          </div>
+          </a>
+        </div>
+      </section>
+    </main>
+                                        <!-- FOOTER -->
+        <footer>
+          <div class="container foot">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="index.html">
+                  <img src="assets/image/LOGOTIPO.jpg" alt="Logo" class="logo">
+                </a>
+              </div>
+              <div class="col-md-4 foot__container">
+                <h4>Categorías</h4>
+                <a href="pages/categories-brands-lady.html">Dama</a><br>
+                <a href="pages/categories-brands-men.html">Caballero</a><br>
+              </div>
+              <div class="col-md-4 foot__container">
+                <h4>Mayoreo</h4>
+                <a href="pages/wholesale.html">Información de Mayoreo</a>
+              </div>
+              <div class="col-md-4 foot__container">
+                <h4>Contacto</h4>
+                <a href="pages/contact.html">Información de Contacto</a>
+              </div>
+            </div>
+                <div class="col-md-4 box__description">
+                  <hr/>
+                    <p>PERFUMERÍA FINA</p>
+                    <article> Enciende tu esencia </article>
+                </div>
+            </div>
+        </footer>
+  </body>
+</html>
