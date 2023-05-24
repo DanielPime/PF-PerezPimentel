@@ -1,0 +1,46 @@
+                                            // NAVBAR
+.navbar {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: black; 
+  }
+
+  &-toggler-icon {
+    color: $fontwhite;
+    stroke-width: 1.5px;
+  }
+
+  &-collapse {
+    display: flex;
+    justify-content: center;
+    
+    .navbar-nav{
+
+        .nav-item{
+            margin: 0 70px;
+            font-size: 15px;
+            font-weight: 100;
+
+            a {
+                color: $fontwhite;
+                font-weight: $fontMx;
+                
+                &:hover {
+                    opacity: 0.5%;
+                }
+            }
+        }
+    }
+
+}  
+} 
+
+.logo_nav {
+  height: 60px;
+  margin-left: 30px;
+}
