@@ -1,0 +1,14 @@
+                                                                                                    // WHOLESALE
+                                            // MAIN
+.mayoreo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+  &__container-title{
+    font-weight: 100;
+  }
+}

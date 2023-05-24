@@ -4,191 +4,44 @@ body{
     font-weight: 100;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
+// UTILS
 @import "utils/variables";
+@import "utils/global";
+
+// COMPONENTS
+@import "components/haeder";
+@import "components/footer";
+
+// VIEWS
+@import "views/index";
+@import "views/main-brands";
+@import "views/categories-brands-lady";
+@import "views/categories-brands-men";
+
+@import "views/ch-l";
+@import "views/ch-m";
+@import "views/cl-l";
+@import "views/cl-m";
+@import "views/el-l";
+@import "views/el-m";
+@import "views/gv-l";
+@import "views/gv-m";
+@import "views/kz-l";
+@import "views/kz-m";
+
+@import "views/wholes";
+@import "views/frees";
+@import "views/contact";
                                                                                                         // INDEX
                                                                                                         // MAIN
-                                            // NAVBAR
-.navbar {
-  height: 60px;
-  position: sticky;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: black; 
-  }
-
-  &-toggler-icon {
-    color: $fontwhite;
-    stroke-width: 1.5px;
-  }
-
-  &-collapse {
-    display: flex;
-    justify-content: center;
-    
-    .navbar-nav{
-
-        .nav-item{
-            margin: 0 70px;
-            font-size: 15px;
-            font-weight: 100;
-
-            a {
-                color: $fontwhite;
-                font-weight: $fontMx;
-                
-                &:hover {
-                    opacity: 0.5%;
-                }
-            }
-        }
-    }
-
-}  
-} 
-
-.logo_nav {
-  height: 60px;
-  margin-left: 30px;
-}
 
 
-                                            // CAROUSEL
-.carousel-item img {
-  max-height: 550px;
-  object-fit: cover;
-}
+                              
 
-.carousel-caption {
-  font-size: xx-large;
-  color: black;
-}
 
-.carousel-caption{
 
-    &-title {
-      color: $fontwhite;
-    }
-  
-    &-txt {
-      color: $fontwhite;
-    }
-     
-    a {
-        text-decoration: none;
 
-        &:hover {
-            opacity: 0.10;
-          }
-      }
-  }
-                               
-
-                                             // FOOTER
-.footer{
-    width: 100%;
-    padding: 50px 0px;
-    background-color: black;
-
-    .container__footer{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      max-width: 1200px;
-      
-      .logo_b{
-        margin-left: 5;
-      }
-    }
-
-    .box__footer{
-      display: flex;
-      flex-direction: column;
-      padding: 40px;
-
-      &__title{
-        margin-top: 30px;
-        font-size: xx-large;
-        font-weight:200px;
-        color: white;
-      }
-
-      ul{
-        list-style-type: none;
-      }
-
-      a{
-        margin-top: 10px;
-        color: white;
-        text-decoration: none;
-
-        &:hover{
-          opacity: 0.10;
-        }
-
-        h5{
-          font-size: large;
-          font-weight:100;
-        }
-      }
-    }
-
-    .box__description {
-      max-width: 1170px;
-      margin: auto;
-      text-align: center;
-
-      hr {
-        border: none;
-        height: 1px;
-        background-color: #343434;
-        margin-bottom: 30px;
-      }
-
-      p {
-        margin-bottom: 0px;
-        color: #343434;
-        font-weight: 500;
-      }
-
-      span {
-        margin-bottom: 0px;
-        color: #343434;
-        font-weight: 500;
-      }
-    }
-  }
-                                                                                                    // MAIN BRANDS
-                                            // MAIN
-.main__brands {
-    background-image: url(../assets/image/carrusel\ \(1\).jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin-top: 60px;
-  }
-                                                                                                    // WHOLESALE
-                                            // MAIN
-.mayoreo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-
-  &__container-title{
-    font-weight: 100;
-  }
-}
 
                                                                                                     // CH
                                             // MAIN
