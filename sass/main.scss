@@ -1,0 +1,6203 @@
+                                                                                                        // GENERAL
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@import "utils/variables";
+                                                                                                        // INDEX
+                                                                                                        // MAIN
+                                            // NAVBAR
+.navbar {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: black; 
+  }
+
+  &-toggler-icon {
+    color: $fontwhite;
+    stroke-width: 1.5px;
+  }
+
+  &-collapse {
+    display: flex;
+    justify-content: center;
+    
+    .navbar-nav{
+
+        .nav-item{
+            margin: 0 70px;
+            font-size: 15px;
+            font-weight: 100;
+
+            a {
+                color: $fontwhite;
+                font-weight: $fontMx;
+                
+                &:hover {
+                    opacity: 0.5%;
+                }
+            }
+        }
+    }
+
+}  
+} 
+
+.logo_nav {
+  height: 60px;
+  margin-left: 30px;
+}
+
+
+                                            // CAROUSEL
+.carousel-item img {
+  max-height: 550px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  font-size: xx-large;
+  color: black;
+}
+
+.carousel-caption{
+
+    &-title {
+      color: $fontwhite;
+    }
+  
+    &-txt {
+      color: $fontwhite;
+    }
+     
+    a {
+        text-decoration: none;
+
+        &:hover {
+            opacity: 0.10;
+          }
+      }
+  }
+                               
+
+                                             // FOOTER
+.footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: black;
+
+    .container__footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      
+      .logo_b{
+        margin-left: 5;
+      }
+    }
+
+    .box__footer{
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+
+      &__title{
+        margin-top: 30px;
+        font-size: xx-large;
+        font-weight:200px;
+        color: white;
+      }
+
+      ul{
+        list-style-type: none;
+      }
+
+      a{
+        margin-top: 10px;
+        color: white;
+        text-decoration: none;
+
+        &:hover{
+          opacity: 0.10;
+        }
+
+        h5{
+          font-size: large;
+          font-weight:100;
+        }
+      }
+    }
+
+    .box__description {
+      max-width: 1170px;
+      margin: auto;
+      text-align: center;
+
+      hr {
+        border: none;
+        height: 1px;
+        background-color: #343434;
+        margin-bottom: 30px;
+      }
+
+      p {
+        margin-bottom: 0px;
+        color: #343434;
+        font-weight: 500;
+      }
+
+      span {
+        margin-bottom: 0px;
+        color: #343434;
+        font-weight: 500;
+      }
+    }
+  }
+                                                                                                    // MAIN BRANDS
+                                            // MAIN
+.main__brands {
+    background-image: url(../assets/image/carrusel\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 60px;
+  }
+                                                                                                    // WHOLESALE
+                                            // MAIN
+.mayoreo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+  &__container-title{
+    font-weight: 100;
+  }
+}
+
+                                                                                                    // CH
+                                            // MAIN
+.main__frags{
+  margin-top: 60px;
+}
+
+                                                                                                // ETIQUETAS @MEDIA
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+// MINIM
+@media (min-width: 0px){
+                                            // INDEX
+                        // MAIN
+                        // VIDEOSECTION-LADY
+.video-section-lady {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  margin-top: 90px;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.encuentra{
+  &-info{
+    height: 300px;
+    max-width: 700px;
+    padding: $padding;
+    margin: 60px 0px;
+
+    h1{
+      color: black;
+    }
+
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+    }
+  }
+}
+
+                        // VIDEOSECTION-MEN
+.video-section-men {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+                                             // OFERTA
+.newsindex{
+  // display: flex;
+  margin-top: 200px;
+  max-width: 100%;
+  
+
+  .ofertaindex{
+    background-image: url(../assets/image/bg-shipM.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px;
+      color: white;
+
+      &-title{
+        font-weight: 100px;
+      }
+
+      button{
+        background-color: white
+      }
+    }
+  }
+
+                                             //WHOLESALE 
+  .mayoreoindex{
+    background-image: url(../assets/image/bg-whole.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px;
+      color: white;
+
+      &-title{
+        font-weight: 100px;
+      }
+
+      button{
+        background-color: white
+      }
+    }
+  }
+}
+                                            // CAT-LADY
+                        // MAIN
+                        // SECTIONINTER
+.brand-sectionInter{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 40px;
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+                        // SECTIONBRANDS
+.barnd-sectionCH{
+  background-image: url(../assets/image/cat-lady-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionCL{
+  background-image: url(../assets/image/cat-lady-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionEL{
+  background-image: url(../assets/image/cat-lady-bg3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionGV{
+  background-image: url(../assets/image/cat-lady-bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionKZ{
+  background-image: url(../assets/image/cat-lady-bg5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+}
+
+                                            // CAT-MEN
+                        // MAIN
+                        // SECTIONINTER
+                        // SECTIONBRANDS
+.barnd-sectionCHM{
+  background-image: url(../assets/image/cat-men-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionCLM{
+  background-image: url(../assets/image/cat-men-bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionELM{
+  background-image: url(../assets/image/cat-men-bg3.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionGVM{
+  background-image: url(../assets/image/cat-men-bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionKZM{
+  background-image: url(../assets/image/cat-men-bg5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+}
+
+                                            // MAINBRANDS //////////////////////////////////////////////////////////
+                        // MAIN
+                        // BARNDS
+  .brands {
+    margin-top: 60px;
+    padding: 50px 50px;
+    max-width: 100%;
+  
+    &__cards {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 50px;
+  
+      .card__b {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  
+        .header-b img {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+          margin-bottom: 20px;
+          object-fit: cover;
+        }
+  
+        .title-b {
+          margin-bottom: 20px;
+          font-size: 20px;
+        }
+  
+        .description-b {
+          margin-bottom: 40px;
+        }
+  
+        .linkb1,
+        .linkb2 {
+          background-color: black;
+          color: #fff;
+          font-weight: bold;
+          padding: 15px 25px;
+          border-radius: 10px;
+          width: 100%;
+          display: inline-block;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 5px;
+        }
+      }
+    }
+}
+  
+
+                                            // BRANDS STYLE  ////////////////////////////////////////////////////////////
+                        // MAIN
+                        // FRAGANCIAS
+.containerMobile{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 576px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .frag{
+        font-size: 20px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            justify-content: center;
+            align-content: center;
+            display: block;
+        }
+
+        small{
+            display: block;
+        }
+
+    }
+    .self{
+        justify-self: center;
+        align-self: center;
+    }
+
+    .alterned1{
+        order: 2;
+    }
+
+    .alterned2{
+        order: 1;
+    }
+    
+    .alterned3{
+        order: 4;
+    }
+    
+    .alterned4{
+        order: 3;
+    }
+    
+    .alterned5{
+        order: 6;
+    }
+    
+    .alterned6{
+        order: 5;
+    }
+    
+    .alterned7{
+        order: 8;
+    }
+    
+    .alterned8{
+        order: 7;
+    }
+    
+    .alterned9{
+        order: 10;
+    }
+    
+    .alterned10{
+        order: 9;
+    }
+
+    .frag-img{
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+}
+
+                                            // WHOLESALE  ////////////////////////////////////////////////////////////////
+                        // MAIN
+.descubre{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.mayoreo{
+  background-image: url(../assets/image/bg-whole.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &__container-info{
+
+    &-text{
+    height: 400px;
+    max-width: 100%;
+    }
+    
+    h1{
+      color: black;
+    }
+
+    p{
+      color: black;
+    }
+
+    a{
+      .btn {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+                                            // FREESHIPMENT
+                        // MAIN
+.compromiso{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 100px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.oferta{
+  background-image: url(../assets/image/bg-shipM.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &__container-info{
+
+    &-text{
+    height: 400px;
+    max-width: 100%;
+    }
+    
+    h1{
+      color: black;
+    }
+
+    p{
+      color: black;
+    }
+
+    a{
+      .btn {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+.thx{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+                                            // CONTACT ////////////////////////////////////////////////////////////
+                        // MAIN
+                        // CARDS
+.contact {
+  margin-top: 60px;
+  padding: 0 20px;
+  margin-bottom: 60px;
+
+    &__title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    &__cards {
+        max-width: 500px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+            &__header img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                object-fit: cover;
+            }
+
+            &__title {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+        
+            &__description {
+                margin-bottom: 40px;
+            }
+    
+            &__link {
+                background-color: black;
+                color: #fff;
+                font-weight: bold;
+                padding: 15px 0;
+                border-radius: 10px;
+                width: 100%;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+    }   
+}
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// MOBILE FIRST
+@media (min-width:500px){
+                                            // INDEX
+                        // MAIN
+                        // VIDEOSECTION-LADY
+.video-section-lady {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  margin-top: 90px;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+  }
+}
+
+.encuentra{
+  &-info{
+    height: 300px;
+    max-width: 700px;
+    padding: $padding;
+    margin: 60px 0px;
+
+    h1{
+      color: black;
+    }
+
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+    }
+  }
+}
+
+                        // VIDEOSECTION-MEN
+.video-section-men {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+  }
+}
+
+                                             // OFERTA
+.newsindex{
+  display: flex;
+  margin-top: 200px;
+  
+
+  .ofertaindex{
+    background-image: url(../assets/image/bg-ship.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px;
+      color: white;
+
+      &-title{
+        font-weight: 100px;
+      }
+
+      button{
+        background-color: white
+      }
+    }
+  }
+
+                                             //WHOLESALE 
+  .mayoreoindex{
+    background-image: url(../assets/image/bg-whole.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px;
+      color: white;
+
+      &-title{
+        font-weight: 100px;
+      }
+
+      button{
+        background-color: white
+      }
+    }
+  }
+}
+                                            // CAT-LADY
+                        // MAIN
+                        // SECTIONINTER
+.brand-sectionInter{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 40px;
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+                        // SECTIONBRANDS
+.barnd-sectionCH{
+  background-image: url(../assets/image/cat-lady-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionCL{
+  background-image: url(../assets/image/cat-lady-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionEL{
+  background-image: url(../assets/image/cat-lady-bg3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionGV{
+  background-image: url(../assets/image/cat-lady-bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionKZ{
+  background-image: url(../assets/image/cat-lady-bg5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+}
+                                            // CAT-MEN
+                        // MAIN
+                        // SECTIONINTER
+                        // SECTIONBRANDS
+.barnd-sectionCHM{
+  background-image: url(../assets/image/cat-men-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionCLM{
+  background-image: url(../assets/image/cat-men-bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionELM{
+  background-image: url(../assets/image/cat-men-bg3.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionGVM{
+  background-image: url(../assets/image/cat-men-bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionKZM{
+  background-image: url(../assets/image/cat-men-bg5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+}
+                                            // MAINBRANDS //////////////////////////////////////////////////////////
+                        // MAIN
+                        // BARNDS
+.brands {
+    margin-top: 60px;
+    padding: 50px 50px;
+    max-width: 100%;
+
+    &__cards {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+
+        .card-b {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+            .header-b img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                object-fit: cover;
+            }
+
+            .title-b {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+
+            .description-b {
+                margin-bottom: 40px;
+            }
+
+            .link-b1,
+            .link-b2 {
+                background-color: black;
+                color: #fff;
+                font-weight: bold;
+                padding: 15px 25px;
+                border-radius: 10px;
+                width: 100%;
+                display: inline-block;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 5px;
+            }
+        }
+    }
+}
+
+                                            // BRANDS STYLE  ////////////////////////////////////////////////////////////
+                        // MAIN
+                        // FRAGANCIAS
+.containerMobile{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 576px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .frag{
+        font-size: 30px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            justify-content: center;
+            align-content: center;
+            display: block;
+        }
+
+        small{
+            display: block;
+        }
+
+    }
+    
+    .self{
+        justify-self: center;
+        align-self: center;
+    }
+
+    .alterned1{
+        order: 2;
+    }
+      
+    .alterned2{
+        order: 1;
+    }
+      
+    .alterned3{
+        order: 4;
+    }
+      
+    .alterned4{
+        order: 3;
+    }
+      
+    .alterned5{
+        order: 6;
+    }
+      
+    .alterned6{
+        order: 5;
+    }
+      
+    .alterned7{
+        order: 8;
+    }
+      
+    .alterned8{
+        order: 7;
+    }
+      
+    .alterned9{
+        order: 10;
+    }
+      
+    .alterned10{
+        order: 9;
+    }
+
+    .frag-img{
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+                                            // WHOLESALE  ////////////////////////////////////////////////////////////////
+                        // MAIN
+.descubre{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.mayoreo{
+  background-image: url(../assets/image/bg-whole.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &__container-info{
+
+    &-text{
+    height: 400px;
+    max-width: 100%;
+    }
+    
+    h1{
+      color: black;
+      margin-top: 50px;
+    }
+
+    p{
+      color: black;
+    }
+
+    a{
+      .btn {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+                                            // FREESHIPMENT
+                        // MAIN
+.compromiso{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.oferta{
+  background-image: url(../assets/image/bg-shipM.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &__container-info{
+
+    &-text{
+    height: 400px;
+    max-width: 100%;
+    }
+    
+    h1{
+      color: black;
+    }
+
+    p{
+      color: black;
+    }
+
+    a{
+      .btn {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+.thx{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+                                            // CONTACT  //////////////////////////////////////////////////////////////
+                        // MAIN
+                        // CARDS
+.contact {
+  margin-top: 60px;
+  padding: 0 20px;
+  margin-bottom: 60px;
+
+    &__title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    &__cards {
+        max-width: 700px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+            &__header img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                object-fit: cover;
+            }
+
+            &__title {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+    
+            &__description {
+                margin-bottom: 40px;
+            }
+    
+            &__link {
+                background-color: black;
+                color: #fff;
+                font-weight: bold;
+                padding: 15px 0;
+                border-radius: 10px;
+                width: 100%;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// MEDIUM
+@media (min-width: 700px){
+                                            // INDEX
+                        // MAIN
+                        // VIDEOSECTION-LADY
+.video-section-lady {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  margin-top: 90px;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+  }
+}
+
+.encuentra{
+  &-info{
+    height: 300px;
+    max-width: 700px;
+    padding: $padding;
+    margin: 60px 0px;
+
+    h1{
+      color: black;
+    }
+
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+    }
+  }
+}
+
+                        // VIDEOSECTION-MEN
+.video-section-men {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+  }
+}
+
+                                             // OFERTA
+.newsindex{
+  display: flex;
+  margin-top: 200px;
+
+  .ofertaindex{
+    background-image: url(../assets/image/bg-ship.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px;
+      color: white;
+
+      &-title{
+        font-weight: 100px;
+      }
+
+      button{
+        background-color: white
+      }
+    }
+  }
+
+                                             //WHOLESALE 
+  .mayoreoindex{
+    background-image: url(../assets/image/bg-whole.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px;
+      color: white;
+
+      &-title{
+        font-weight: 100px;
+      }
+
+      button{
+        background-color: white
+      }
+    }
+  }
+}
+           
+                                            // CAT-LADY
+                        // MAIN
+                        // SECTIONINTER
+.brand-sectionInter{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 40px;
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+                        // SECTIONBRANDS
+.barnd-sectionCH{
+  background-image: url(../assets/image/cat-lady-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionCL{
+  background-image: url(../assets/image/cat-lady-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionEL{
+  background-image: url(../assets/image/cat-lady-bg3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionGV{
+  background-image: url(../assets/image/cat-lady-bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionKZ{
+  background-image: url(../assets/image/cat-lady-bg5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+}
+
+                                            // CAT-MEN
+                        // MAIN
+                        // SECTIONINTER
+                        // SECTIONBRANDS
+.barnd-sectionCHM{
+  background-image: url(../assets/image/cat-men-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionCLM{
+  background-image: url(../assets/image/cat-men-bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionELM{
+  background-image: url(../assets/image/cat-men-bg3.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionGVM{
+  background-image: url(../assets/image/cat-men-bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionKZM{
+  background-image: url(../assets/image/cat-men-bg5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+}
+
+                                            // MAINBRANDS //////////////////////////////////////////////////////////
+                        // MAIN
+                        // BARNDS
+.brands {
+    margin-top: 60px;
+    padding: 50px 50px;
+    max-width: 100%;
+  
+    &__cards {
+         max-width: 100%;
+         margin: 0 auto;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         gap: 50px;
+  
+      .card__b {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  
+        .header-b img {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+          margin-bottom: 20px;
+          object-fit: cover;
+        }
+  
+        .title-b {
+          margin-bottom: 20px;
+          font-size: 20px;
+        }
+  
+        .description-b {
+          margin-bottom: 40px;
+        }
+  
+        .linkb1,
+        .linkb2 {
+          background-color: black;
+          color: #fff;
+          font-weight: bold;
+          padding: 15px 25px;
+          border-radius: 10px;
+          width: 100%;
+          display: inline-block;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 5px;
+        }
+      }
+    }
+  }
+
+                                            // BARNDS STYLE ////////////////////////////////////////////////////////////
+                        // MAIN
+                        // FRAGANCIAS
+///////////////////////////////////////////////////CH-LADY
+.frags__container-CH {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  margin: 0 auto;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      text-decoration: none;
+      color: black;
+      justify-content: center;
+      align-content: center;
+      display: block;
+    }
+
+    small {
+      display: block;
+    }
+  }
+
+  .self {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .alterned1 {
+    order: 1;
+  }
+
+  .alterned2 {
+    order: 2;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-GG.jpg");
+      background-size: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .alterned3 {
+    order: 4;
+  }
+
+  .alterned4 {
+    order: 3;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-CH.jpg");
+      background-size: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .alterned5 {
+    order: 5;
+  }
+
+  .alterned6 {
+    order: 6;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-212.jpg");
+      background-size: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .alterned7 {
+    order: 8;
+  }
+
+  .alterned8 {
+    order: 7;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-EDP.jpg");
+      background-size: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .alterned9 {
+    order: 9;
+  }
+
+  .alterned10 {
+    order: 10;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-212V.jpg");
+      background-size: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .frag-imgCH {
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+}
+
+///////////////////////////////////////////////////CLINIQUE-LADY  
+.frags__container-CL {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+    .alterned1 {
+        order: 1;
+    }
+
+    .alterned2 {
+        order: 2;
+        position: relative;
+
+        &:hover .frag-imgCL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/LADY/C-AE.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned3 {
+        order: 4;
+    }
+
+    .alterned4 {
+        order: 3;
+        position: relative;
+
+        &:hover .frag-imgCL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/LADY/C-C.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned5 {
+        order: 5;
+    }
+
+    .alterned6 {
+        order: 6;
+        position: relative;
+
+        &:hover .frag-imgCL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/LADY/C-HB.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned7 {
+        order: 8;
+    }
+
+    .alterned8 {
+        order: 7;
+        position: relative;
+
+        &:hover .frag-imgCL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/LADY/C-HH.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned9 {
+        order: 9;
+    }
+
+    .alterned10 {
+        order: 10;
+        position: relative;
+
+        &:hover .frag-imgCL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/LADY/C-S.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .frag-imgCL {
+        height: 100%;
+        object-fit: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+}
+
+///////////////////////////////////////////////////ESTEEL-LADY
+.frags__container-EL {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+
+    .alterned1 {
+        order: 1;
+    }
+
+    .alterned2 {
+        order: 2;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-BM.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned3 {
+        order: 4;
+    }
+
+    .alterned4 {
+        order: 3;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-BP.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned5 {
+        order: 5;
+    }
+
+    .alterned6 {
+        order: 6;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-P.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned7 {
+        order: 8;
+    }
+
+    .alterned8 {
+        order: 7;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-RD.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned9 {
+        order: 9;
+    }
+
+    .alterned10 {
+        order: 10;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-SN.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .frag-imgEL {
+        height: 100%;
+        object-fit: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+}
+
+///////////////////////////////////////////////////GIVENCHY-LADY
+.frags__container-GV {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+
+    .alterned1 {
+        order: 1;
+    }
+
+    .alterned2 {
+        order: 2;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-A.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned3 {
+        order: 4;
+    }
+
+    .alterned4 {
+        order: 3;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-DD.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned5 {
+        order: 5;
+    }
+
+    .alterned6 {
+        order: 6;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-L.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned7 {
+        order: 8;
+    }
+
+    .alterned8 {
+        order: 7;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-LB.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned9 {
+        order: 9;
+    }
+
+    .alterned10 {
+        order: 10;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-LR.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .frag-imgGV {
+        height: 100%;
+        object-fit: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+}
+
+///////////////////////////////////////////////////KENZO-LADY
+.frags__container-KZ {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+
+    .alterned1 {
+        order: 1;
+    }
+
+    .alterned2 {
+        order: 2;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned3 {
+        order: 4;
+    }
+
+    .alterned4 {
+        order: 3;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned5 {
+        order: 5;
+    }
+
+    .alterned6 {
+        order: 6;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned7 {
+        order: 8;
+    }
+
+    .alterned8 {
+        order: 7;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned9 {
+        order: 9;
+    }
+
+    .alterned10 {
+        order: 10;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .frag-imgKZ {
+        height: 100%;
+        object-fit: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+}
+
+///////////////////////////////////////////////////CH-MEN
+.frags__container-CHM {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-212NYC.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-212VB.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-212VP.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-BB.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-CH.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgCHM {
+      height: 100%;
+      object-fit: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+//////////////////////////////////////////////////CLINIQUE-MEN
+.frags__container-CLM {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-HM.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-HM100.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-ET.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-OIL.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-SPF.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgCLM {
+      height: 100%;
+      object-fit: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+//////////////////////////////////////////////////ESTEEL-MEN
+.frags__container-ELM {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-P.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-BP.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-I.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-WM.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-CS.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgELM {
+      height: 100%;
+      object-fit: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+//////////////////////////////////////////////////GIVENCHY-MEN
+.frags__container-GVM {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV-GB.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV--G.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV-GY.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV-PH.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV-PI.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgGVM {
+      height: 100%;
+      object-fit: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+//////////////////////////////////////////////////KENZO-MEN
+.frags__container-KZM {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    .frag {
+      font-size: 30px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+      }
+  
+      small {
+        display: block;
+      }
+    }
+  
+    .self {
+      justify-self: center;
+      align-self: center;
+    }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-PH.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-H.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-LE.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-A.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-JH.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgKZM {
+      height: 100%;
+      object-fit: cover;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+ 
+                                            // WHOLESALE  ////////////////////////////////////////////////////////////////
+                        // MAIN
+.descubre{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.mayoreo{
+  background-image: url(../assets/image/bg-whole.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &__container-info{
+
+    &-text{
+    height: 400px;
+    max-width: 100%;
+    }
+    
+    h1{
+      color: black;
+      margin-top: 50px;
+    }
+
+    p{
+      color: black;
+    }
+
+    a{
+      .btn {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+                                            // FREESHIPMENT
+                        // MAIN
+.compromiso{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.oferta{
+  background-image: url(../assets/image/bg-shipM.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &__container-info{
+
+    &-text{
+    height: 400px;
+    max-width: 100%;
+    }
+    
+    h1{
+      color: black;
+    }
+
+    p{
+      color: black;
+    }
+
+    a{
+      .btn {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+.thx{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+                                            // CONTACT  ////////////////////////////////////////////////////////////////
+                        // MAIN
+                        // CARDS
+.contact {
+    margin-top: 60px;
+    padding: 0 20px;
+    margin-bottom: 60px;
+
+    &__title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    &__cards {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+            &__header img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                object-fit: cover;
+            }
+
+            &__title {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+            
+            &__description {
+                margin-bottom: 40px;
+            }
+    
+            &__link {
+                background-color: black;
+                color: #fff;
+                font-weight: bold;
+                padding: 15px 0;
+                border-radius: 10px;
+                width: 100%;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+    }
+}
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// DESKTOP
+@media (min-width: 900px){
+                                            // INDEX
+                        // MAIN
+                        // VIDEOSECTION-LADY
+.video-section-lady {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  margin-top: 90px;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+  }
+}
+
+.encuentra{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &-info{
+    height: 300px;
+    max-width: 700px;
+    padding: $padding;
+    margin: 60px 0px;
+
+    h1{
+      color: black;
+      text-align: center;
+    }
+
+    p{
+      padding: 20px;
+      // text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+    }
+  }
+}
+
+                                             // OFERTA
+.newsindex{
+  display: flex;
+  margin-top: 200px;
+
+  .ofertaindex{
+    background-image: url(../assets/image/bg-ship.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px;
+      color: white;
+
+      &-title{
+        font-weight: 100px;
+      }
+
+      button{
+        background-color: white
+      }
+    }
+  }
+
+                                            // WHOLESALE 
+  .mayoreoindex{
+    background-image: url(../assets/image/bg-whole.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px;
+      color: white;
+
+      &-title{
+        font-weight: 100px;
+      }
+
+      button{
+        background-color: white
+      }
+    }
+  }
+}
+           
+
+                        // VIDEOSECTION-MEN
+.video-section-men {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+  }
+}
+                                            // CAT-LADY
+                        // MAIN
+                        // SECTIONINTER
+.brand-sectionInter{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 40px;
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+                        // SECTIONBRANDS
+.barnd-sectionCH{
+  background-image: url(../assets/image/cat-lady-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionCL{
+  background-image: url(../assets/image/cat-lady-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionEL{
+  background-image: url(../assets/image/cat-lady-bg3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionGV{
+  background-image: url(../assets/image/cat-lady-bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionKZ{
+  background-image: url(../assets/image/cat-lady-bg5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+}
+                                            // CAT-MEN
+                        // MAIN
+                        // SECTIONINTER
+                        // SECTIONBRANDS
+.barnd-sectionCHM{
+  background-image: url(../assets/image/cat-men-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionCLM{
+  background-image: url(../assets/image/cat-men-bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionELM{
+  background-image: url(../assets/image/cat-men-bg3.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionGVM{
+  background-image: url(../assets/image/cat-men-bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+}
+
+.barnd-sectionKZM{
+  background-image: url(../assets/image/cat-men-bg5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+}
+
+                                            // MAINBRANDS //////////////////////////////////////////////////////////
+                        // MAIN
+                        // BARNDS
+.brands {
+    margin-top: 60px;
+    padding: 50px 50px;
+    max-width: 100%;
+
+    &__cards {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+
+        .card__b {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+            .header-b img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                object-fit: cover;
+            }
+
+            .title-b {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+
+            .description-b {
+                margin-bottom: 40px;
+            }
+
+            .linkb1,
+            .linkb2 {
+              background-color: black;
+              color: #fff;
+              font-weight: bold;
+              padding: 15px 25px;
+              border-radius: 10px;
+              width: 100%;
+              display: inline-block;
+              text-align: center;
+              text-decoration: none;
+              margin: 5px 5px;
+            }
+        }
+    }
+}
+
+                                            // BARNDS STYLE ////////////////////////////////////////////////////////////
+                        // MAIN
+                        // FRAGANCIAS
+    .frags__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .frag {
+        font-size: 30px;
+
+        a {
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        align-content: center;
+        display: block;
+        }
+
+        small {
+        display: block;
+        }
+    }
+
+    .self {
+        justify-self: center;
+        align-self: center;
+    }
+
+    ///////////////////////////////////////////////////CH-LADY
+    .alterned1 {
+        order: 1;
+    }
+
+    .alterned2 {
+        order: 2;
+        position: relative;
+
+        &:hover .frag-imgCH {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/LADY/CH-GG.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned3 {
+        order: 4;
+    }
+
+    .alterned4 {
+        order: 3;
+        position: relative;
+
+        &:hover .frag-imgCH {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/LADY/CH-CH.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned5 {
+        order: 5;
+    }
+
+    .alterned6 {
+        order: 6;
+        position: relative;
+
+        &:hover .frag-imgCH {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/LADY/CH-212.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned7 {
+        order: 8;
+    }
+
+    .alterned8 {
+        order: 7;
+        position: relative;
+
+        &:hover .frag-imgCH {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/LADY/CH-EDP.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned9 {
+        order: 9;
+    }
+
+    .alterned10 {
+        order: 10;
+        position: relative;
+
+        &:hover .frag-imgCH {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/LADY/CH-212V.jpg");
+        background-size: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .frag-imgCH {
+        height: 100%;
+        object-fit: cover;
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+
+    ///////////////////////////////////////////////////CLINIQUE-LADY  
+        .alterned1 {
+            order: 1;
+        }
+
+        .alterned2 {
+            order: 2;
+            position: relative;
+
+            &:hover .frag-imgCL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/CLINIQUE/LADY/C-AE.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned3 {
+            order: 4;
+        }
+
+        .alterned4 {
+            order: 3;
+            position: relative;
+
+            &:hover .frag-imgCL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/CLINIQUE/LADY/C-C.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned5 {
+            order: 5;
+        }
+
+        .alterned6 {
+            order: 6;
+            position: relative;
+
+            &:hover .frag-imgCL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/CLINIQUE/LADY/C-HB.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned7 {
+            order: 8;
+        }
+
+        .alterned8 {
+            order: 7;
+            position: relative;
+
+            &:hover .frag-imgCL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/CLINIQUE/LADY/C-HH.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned9 {
+            order: 9;
+        }
+
+        .alterned10 {
+            order: 10;
+            position: relative;
+
+            &:hover .frag-imgCL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/CLINIQUE/LADY/C-S.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .frag-imgCL {
+            height: 100%;
+            object-fit: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+
+    ///////////////////////////////////////////////////ESTEEL-LADY
+        .alterned1 {
+            order: 1;
+        }
+
+        .alterned2 {
+            order: 2;
+            position: relative;
+
+            &:hover .frag-imgEL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/ESTEE-L/LADY/EL-BM.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned3 {
+            order: 4;
+        }
+
+        .alterned4 {
+            order: 3;
+            position: relative;
+
+            &:hover .frag-imgEL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/ESTEE-L/LADY/EL-BP.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned5 {
+            order: 5;
+        }
+
+        .alterned6 {
+            order: 6;
+            position: relative;
+
+            &:hover .frag-imgEL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/ESTEE-L/LADY/EL-P.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned7 {
+            order: 8;
+        }
+
+        .alterned8 {
+            order: 7;
+            position: relative;
+
+            &:hover .frag-imgEL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/ESTEE-L/LADY/EL-RD.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned9 {
+            order: 9;
+        }
+
+        .alterned10 {
+            order: 10;
+            position: relative;
+
+            &:hover .frag-imgEL {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/ESTEE-L/LADY/EL-SN.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .frag-imgEL {
+            height: 100%;
+            object-fit: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+    ///////////////////////////////////////////////////GIVENCHY-LADY
+        .alterned1 {
+            order: 1;
+        }
+
+        .alterned2 {
+            order: 2;
+            position: relative;
+
+            &:hover .frag-imgGV {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/GIVENCHY/LADY/GV-A.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned3 {
+            order: 4;
+        }
+
+        .alterned4 {
+            order: 3;
+            position: relative;
+
+            &:hover .frag-imgGV {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/GIVENCHY/LADY/GV-DD.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned5 {
+            order: 5;
+        }
+
+        .alterned6 {
+            order: 6;
+            position: relative;
+
+            &:hover .frag-imgGV {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/GIVENCHY/LADY/GV-L.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned7 {
+            order: 8;
+        }
+
+        .alterned8 {
+            order: 7;
+            position: relative;
+
+            &:hover .frag-imgGV {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/GIVENCHY/LADY/GV-LB.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned9 {
+            order: 9;
+        }
+
+        .alterned10 {
+            order: 10;
+            position: relative;
+
+            &:hover .frag-imgGV {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/GIVENCHY/LADY/GV-LR.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .frag-imgGV {
+            height: 100%;
+            object-fit: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+    ///////////////////////////////////////////////////KENZO-LADY
+        .alterned1 {
+            order: 1;
+        }
+
+        .alterned2 {
+            order: 2;
+            position: relative;
+
+            &:hover .frag-imgKZ {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned3 {
+            order: 4;
+        }
+
+        .alterned4 {
+            order: 3;
+            position: relative;
+
+            &:hover .frag-imgKZ {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned5 {
+            order: 5;
+        }
+
+        .alterned6 {
+            order: 6;
+            position: relative;
+
+            &:hover .frag-imgKZ {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned7 {
+            order: 8;
+        }
+
+        .alterned8 {
+            order: 7;
+            position: relative;
+
+            &:hover .frag-imgKZ {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .alterned9 {
+            order: 9;
+        }
+
+        .alterned10 {
+            order: 10;
+            position: relative;
+
+            &:hover .frag-imgKZ {
+            opacity: 0;
+            }
+            
+            &:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+            }
+        }
+
+        .frag-imgKZ {
+            height: 100%;
+            object-fit: cover;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+    }
+
+                                            // WHOLESALE  ////////////////////////////////////////////////////////////////
+                        // MAIN
+.descubre{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.mayoreo{
+  background-image: url(../assets/image/bg-whole.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &__container-info{
+
+    &-text{
+    height: 400px;
+    max-width: 100%;
+    }
+    
+    h1{
+      color: black;
+      margin-top: 50px;
+    }
+
+    p{
+      color: black;
+    }
+
+    a{
+      .btn {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+                                            // FREESHIPMENT
+                        // MAIN
+.compromiso{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.oferta{
+  background-image: url(../assets/image/bg-shipM.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &__container-info{
+
+    &-text{
+    height: 400px;
+    max-width: 100%;
+    }
+    
+    h1{
+      color: black;
+    }
+
+    p{
+      color: black;
+    }
+
+    a{
+      .btn {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+.thx{
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+  &__container-info{
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+    h2 {
+      margin: 0;
+    }
+  
+    p{
+      padding: 20px;
+      text-align: justify;
+      justify-content: center;
+      align-content: center;
+      color: black;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+}
+                                            // CONTACT  ////////////////////////////////////////////////////////////
+                        // MAIN
+                        // CARDS
+.contact {
+    margin-top: 60px;
+    padding: 0 20px;
+    margin-bottom: 60px;
+
+    &__title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    &__cards {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+            &__header img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                object-fit: cover;
+            }
+
+            &__title {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+
+            &__description {
+                margin-bottom: 40px;
+            }
+
+            &__link {
+                background-color: black;
+                color: #fff;
+                font-weight: bold;
+                padding: 15px 0;
+                border-radius: 10px;
+                width: 100%;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+    }
+}
+}

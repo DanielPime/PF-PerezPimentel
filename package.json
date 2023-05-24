@@ -1,0 +1,14 @@
+{
+  "name": "parcial-2-git",
+  "version": "1.0.0",
+  "description": "**Actualizaciones de la página**\r **General** *En todas las páginas web se les colocó una barra de navegación de Bootstrap y se adaptativa a pamtallas (responsibv). Y se rediseño el footer para ser adaptativo a pantallas*\r **Index** *Se estlizó la barra de navegación con una transparemcia y un hover en color negro, se colocó un enlace con dropdown que depliega las categorias y un menú propio de Bootstrap. Se colocó un carousel de Bootstrap para ser responsiv, con tres saliders, las slide 2 y 3 contienen un link a otra página propia del proyecto. La parte del contenido se estilizó.*\r **main-brands** *Se estilizó el fondo de la página y se añadieron cards que contienen las marcas que se manejan en la página con dos botones que llevan a la categoria de la marca seleccionada (dentro de @media).*\r **categories-brands-lady / men** *En las páginas de las categorias \"Dama\" y \"Caballero\" se agregaron secciones con imágenes de fondo con un vinculo hacía la página de la marca seleccionada (dentro de @media).*\r **Páginas de todas las marcas** *Se utilizó el sistema de Grid de CSS para las fragancias, las impagenes y los nombres de las fragamcias llevaría a la página de cada fragancia que aún no han sido creadas (dentro de @media). Por el momento a todas las páginas les puse el mismo texto e imágenes solo como prueba.*\r **wholesale** *La parte del contenido se estilizó.*\r **freeshipment** *La parte del contenido se estilizó.*\r **contact** *Se añadieron 4 cards, donde cada una contiene información de contacto (dentro de Qmedia).*",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css-sass/main.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
