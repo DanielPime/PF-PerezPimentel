@@ -1,38 +1,39 @@
-// FONT COLORS
+// FONT COLOR
 $fontblack: #000000;
 $fontogrey: #333;
 $fontgrey: #343434;
 $fontwhite: #ffffff;
 
-
-
-// FONT SIZE
+// FONT-SIZE
+// px
 $titlesize100: 100px;
 $titlesize200: 200px;
 $titlesize300: 300px;
-
+// measure
 $subtitleL: large;
 $subtitlexxL: xx-large;
 
-
-// FONTS
+// FONT-FAMILY
 $titlefont: Arial, Helvetica, sans-serif;
 $contentfont:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-
 // FONT WEIGHT
-$fontS: 100;
-$fontM: 300;
-$fontMx: 400;
+// px
+$fontS: 100px;
+$fontM: 300px;
+$fontMx: 400px;
+// value
+$fontBld: bold;
+
 
 
 // BACKGOUNDS
 $bgblack: black;
 
 //BG-IMAGE
-$bgA: fixed;
-$bgC: cover;
-$bgP: center;
+$bgAtt: fixed;
+$bgCov: cover;
+$bgCen: center;
 
 //BG-VIDE
 $bgpA: absolute;
@@ -45,35 +46,68 @@ $cvP: relative;
 $flex: flex;
 $fdc: column;
 
-//JUSTIFY CONTENT
+//POSITON
+$absolute: absolute;
 
 
 // LISTE STYLE
 $listnone: none;
 
 
-// TEXTDECORATIO
+
+// TEXTDECORATION
 $linknone: none;
 
 
 // PADDING
-$pdg: 0px;
-$pdg: 20px;
-$pdg: 30px;
-$pdg: 40px;
-$pdg: 50px;
+$pdg0: 0px;
+$pdg20: 20px;
+$pdg30: 30px;
+$pdg40: 40px;
+$pdg50: 50px;
 
 //MARGIN
+// margin
 $m: 0px;
+$m10: 10px;
+// mt
+$mt0: 0px;
 $mt250: 250px;
+// mb
+$mb20: 20px;
 
 
-// SECTION HEIGTH
+//HEIGTH
 $h300: 300px;
 $h400: 400px;
 
 //WIDTH
 $w100: 100%;
+
+
+// DISPLAY
+$disIB: inline-block;
+$disBk: block;
+$disFx: flex;
+
+
+
+// JUSTITY
+$justend: end;
+
+// ALING ITEM
+$algC: center;
+
+// BODER-RADIUS
+$br-rds4: 4px;
+$br-rds5: 5px;
+
+
+
+// BOX-SHADOE
+$bx-shw: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+
 
 
 $background-color: #f5f5f5;

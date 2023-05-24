@@ -34,7 +34,7 @@ body {
 }
 .navbar-collapse .navbar-nav .nav-item a {
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 400px;
 }
 .navbar-collapse .navbar-nav .nav-item a:hover {
   opacity: 0.5%;
