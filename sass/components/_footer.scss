@@ -2,7 +2,7 @@
 .footer{
     width: 100%;
     padding: 50px 0px;
-    background-color: black;
+    background-color: $bgblack;
 
     .container__footer{
       display: flex;
@@ -23,7 +23,7 @@
       &__title{
         margin-top: 30px;
         font-size: xx-large;
-        font-weight:200px;
+        font-weight: $fontMn;
         color: white;
       }
 

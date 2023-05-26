@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  a{
+    text-decoration: none;
+  }
+
+  .containerflex{
+    display: flex;
+  }
+
+  // MINIM
+  @media (min-width: $bpMn){}
+
+  // MOBILE FIRST
+  @media (min-width: $bpMob){}
+
+  // MEDIUM
+  @media (min-width: $bpMed){}
+
+  // DESKTOP
+  @media (min-width: $bpDkp){}

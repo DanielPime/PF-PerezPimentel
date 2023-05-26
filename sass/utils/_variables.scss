@@ -7,8 +7,8 @@ $fontwhite: #ffffff;
 // FONT-SIZE
 // px
 $titlesize100: 100px;
-$titlesize200: 200px;
-$titlesize300: 300px;
+// $titlesize200: 200px;
+// $titlesize300: 300px;
 // measure
 $subtitleL: large;
 $subtitlexxL: xx-large;
@@ -20,8 +20,9 @@ $contentfont:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 // FONT WEIGHT
 // px
 $fontS: 100px;
-$fontM: 300px;
-$fontMx: 400px;
+$fontMn: 200px;
+// $fontM: 300px;
+// $fontMx: 400px;
 // value
 $fontBld: bold;
 
@@ -29,11 +30,14 @@ $fontBld: bold;
 
 // BACKGOUNDS
 $bgblack: black;
+$bgwhite: white;
+
 
 //BG-IMAGE
 $bgAtt: fixed;
 $bgCov: cover;
 $bgCen: center;
+
 
 //BG-VIDE
 $bgpA: absolute;
@@ -42,9 +46,7 @@ $bgpA: absolute;
 //BG-VIDEO-CONTENT
 $cvP: relative;
 
-//FELXX
-$flex: flex;
-$fdc: column;
+
 
 //POSITON
 $absolute: absolute;
@@ -52,7 +54,6 @@ $absolute: absolute;
 
 // LISTE STYLE
 $listnone: none;
-
 
 
 // TEXTDECORATION
@@ -68,35 +69,65 @@ $pdg50: 50px;
 
 //MARGIN
 // margin
-$m: 0px;
+$m0: 0px;
 $m10: 10px;
+$moa: 0 auto;
 // mt
 $mt0: 0px;
+$mt20: 20px;
+$mt50: 50px;
+$mt60: 60px;
+$mt90: 90px;
+$mt200: 200px;
 $mt250: 250px;
 // mb
+$mb0: 0px;
 $mb20: 20px;
+$mb40: 40px;
+$mb50: 50px;
+$mb60: 60px;
 
 
 //HEIGTH
+// px
+$h200: 200px;
 $h300: 300px;
 $h400: 400px;
+$h500: 500px;
+// %
+$h100p: 100%;
+//auto
+$hauto: auto;
 
 //WIDTH
-$w100: 100%;
+// px
+
+// %
+$w100p: 100%;
+
+
+// MAX-WIDTH
+// px
+$mxw500: 500px;
+$mxw700: 700px;
+$mxw576: 576px;
+$mxw12000: 1200px;
+// %
+$mxw100p: 100%;
 
 
 // DISPLAY
 $disIB: inline-block;
 $disBk: block;
 $disFx: flex;
+$disGd: grid;
 
+// FLEX-DIRECTION
+$flxdtn: column;
 
-
-// JUSTITY
-$justend: end;
-
-// ALING ITEM
-$algC: center;
+//FELXX
+$flex: flex;
+$fdc: column;
 
 // BODER-RADIUS
 $br-rds4: 4px;
@@ -104,11 +135,29 @@ $br-rds5: 5px;
 
 
 
-// BOX-SHADOE
+// BOX-SHADOw
 $bx-shw: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
 
 
+// ALIGN ITEM
+$algC: center;
 
+// JUSTIFY-CONTENT
+$jfyC: center;
+$jfyE: end;
+
+// ALIGN-CONTENT
+$algconc: center;
+
+// JUSTIFY-SELF
+$jfysfC: center;
+
+// ALING-SELF
+$algsfC: center;
+
+// TEXT-ALIGN
+$txtalgnc: center;
+$txtalgnJy: justify;
 
 // BREAKPOINTS
 $bpMn: 0px;
@@ -116,9 +165,9 @@ $bpMob: 500px;
 $bpMed: 700px;
 $bpDkp: 900px;
 
-$background-color: #f5f5f5;
+
 $padding: 20px;
-$border-color: #ddd;
+
 $border-radius: 5px;
 $font-family: Arial, sans-serif;
 $font-size: 16px;
