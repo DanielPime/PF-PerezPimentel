@@ -94,6 +94,7 @@ body{
 
 .encuentra{
   &-info{
+    justify-content: $jfyC;
     height: $h300;
     max-width: $mxw700;
     padding: $padding;
@@ -101,6 +102,7 @@ body{
 
     h1{
       color: $fontblack;
+      text-align: $txtalgnc;
     }
 
     p{
@@ -212,55 +214,29 @@ body{
     }
   }
 }
+
                                             // CAT-LADY
                         // MAIN
                         // SECTIONINTER
 .brand-sectionInter{
-  display: $disFx;
-  height: $h200;
-  width: $w100p;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 40px;
+  @include sectionInter;
 
   h2 {
     margin: $m0;
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
                         // SECTIONBRANDS
 .barnd-sectionCH{
   background-image: url(../assets/image/cat-lady-bg1.jpg);
-  @include section-brands;
-  // background-size: $bgCov;
-  // background-position: $bgCen;
-  // background-attachment: $bgAtt;
-  // width: $w100p;
-  // height: $h300;
-  // display: $disFx;
-  // flex-direction: $flxdtn;
-  // justify-content: $jfyE;
-  // align-items: $algC;
-  // padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -268,36 +244,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionCL{
   background-image: url(../assets/image/cat-lady-bg2.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -305,36 +261,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionEL{
   background-image: url(../assets/image/cat-lady-bg3.jpeg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -342,36 +278,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionGV{
   background-image: url(../assets/image/cat-lady-bg4.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -379,36 +295,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionKZ{
   background-image: url(../assets/image/cat-lady-bg5.jpeg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -416,13 +312,7 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 }
 
@@ -432,24 +322,10 @@ body{
                         // SECTIONBRANDS
 .barnd-sectionCHM{
   background-image: url(../assets/image/cat-men-bg1.jpg);
-  @include section-brands;
-  // background-size: $bgCov;
-  // background-position: $bgCen;
-  // background-attachment: $bgAtt;
-  // width: $w100p;
-  // height: $h300;
-  // display: $disFx;
-  // flex-direction: $flxdtn;
-  // justify-content: $jfyE;
-  // align-items: $algC;
-  // padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -457,36 +333,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionCLM{
   background-image: url(../assets/image/cat-men-bg2.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -494,36 +350,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionELM{
   background-image: url(../assets/image/cat-men-bg3.png);
-  background-size: $bgCov;
-  background-position:$bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -531,36 +367,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionGVM{
   background-image: url(../assets/image/cat-men-bg4.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -568,36 +384,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionKZM{
   background-image: url(../assets/image/cat-men-bg5.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -605,13 +401,7 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 }
 
@@ -619,34 +409,20 @@ body{
                         // MAIN
                         // BARNDS
   .brands {
-    margin-top: $mt60;
-    padding: 50px 50px;
-    max-width: $mxw100p;
+    @include container-brands;
   
     &__cards {
-      max-width: $mxw12000;
-      margin: $moa;
-      display: $disGd;
-      grid-template-columns: 1fr;
-      gap: 50px;
+      @include cardsMn;
   
       .card__b {
-        background-color: #fff;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+        @include stylecard;
   
         .header-b img {
-          width: $w100p;
-          height: $hauto;
-          border-radius: 10px;
-          margin-bottom: $mb20;
-          object-fit: $bgCov;
+          @include stylecardimg;
         }
   
         .title-b {
-          margin-bottom: $mb20;
-          font-size: 20px;
+          @include stylecardtitle;
         }
   
         .description-b {
@@ -655,16 +431,7 @@ body{
   
         .linkb1,
         .linkb2 {
-          background-color: $bgblack;
-          color: $fontwhite;
-          font-weight: $fontBld;
-          padding: 15px 25px;
-          border-radius: 10px;
-          width: $w100p;
-          display: $disIB;
-          text-align: $txtalgnc;
-          text-decoration: none;
-          margin: 5px 5px;
+          @include stylecardbutton
         }
       }
     }
@@ -675,34 +442,22 @@ body{
                         // MAIN
                         // FRAGANCIAS
 .containerMobile{
-    display: $disGd;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(1,1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw576;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
+  @include stylebrandsMn;
 
     .frag{
         font-size: 20px;
 
         a{
-            text-decoration: none;
-            color: $fontblack;
-            justify-content: $jfyC;
-            align-content: $algconc;
-            display: $disBk;
+          @include stylebrandsname;
         }
 
         small{
-            display: $disBk;
+            @include stylebrandssmall;
         }
 
     }
     .self{
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+      @include styleself;
     }
 
     .alterned1{
@@ -747,10 +502,7 @@ body{
 
     .frag-img{
         height: 20vh;
-        display: $disFx;
-        justify-content: $jfyC;
-        align-items: $algC;
-        margin: $moa;
+        @include stylebrandsimg;
     }
 
 }
@@ -758,56 +510,28 @@ body{
                                             // WHOLESALE  ////////////////////////////////////////////////////////////////
                         // MAIN
 .descubre{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+  @include styledescubre;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include styledescubreinfo;
 
     h2 {
-      margin: $m0;
+      @include styledescubreinfo;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include styledescubrep;
     }
   }
 }
 
 .mayoreo{
-  background-image: url(../assets/image/bg-whole.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyC;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include stylemayoreo;
 
   &__container-info{
 
     &-text{
-    height: $h400;
-    max-width: $mxw100p;
+      @include stylemayoreoinfo;
     }
     
     h1{
@@ -820,8 +544,7 @@ body{
 
     a{
       .btn {
-        background-color: $fontblack;
-        color: $fontwhite;
+        @include stylemayoreobutton;
       }
     }
   }
@@ -830,56 +553,29 @@ body{
                                             // FREESHIPMENT
                         // MAIN
 .compromiso{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: 100px;
+  margin-top: $mt100;
+  @include stylecompromiso;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include stylecompromisoinfo;
 
     h2 {
       margin: $m0;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include stylecompromisop;
     }
   }
 }
 
 .oferta{
-  background-image: url(../assets/image/bg-shipM.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyC;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include styleoferta;
 
   &__container-info{
 
     &-text{
-    height: $h400;
-    max-width: $mxw100p;
+      @include styleofertainfo;
     }
     
     h1{
@@ -892,42 +588,24 @@ body{
 
     a{
       .btn {
-        background-color: $bgblack;
-        color: $fontwhite;
+        @include styleofertabutton;
       }
     }
   }
 }
 
 .thx{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+  @include stylethx;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include stylethxinfo;
 
     h2 {
       margin: $m0;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include stylethxp;
     }
   }
 }
@@ -935,40 +613,24 @@ body{
                         // MAIN
                         // CARDS
 .contact {
-  margin-top: $mt60;
-  padding: 0 20px;
-  margin-bottom: $mb60;
+  @include stylecontact;
 
     &__title {
-      margin-bottom: $mb40;
-      text-align: $txtalgnc;
-      font-size: 30px;
+      @include stylecontacttitle
     }
 
     &__cards {
-      max-width: $mxw500;
-      margin: $moa;
-      display: $disGd;
-      grid-template-columns: 1fr;
-      gap: 50px;
+      @include stylecontactcardsMn;
 
         .card {
-          background-color: #fff;
-          border-radius: 10px;
-          padding: 20px;
-          box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+          @include stylecontactcardshw;
 
           &__header img {
-            width: $w100p;
-            height: $hauto;
-            border-radius: 10px;
-            margin-bottom: $mb20;
-            object-fit: $bgCov;
+            @include stylecontacardimg;
           }
 
           &__title {
-              margin-bottom: $mb20;
-              font-size: 20px;
+            @include stylecontactcardtitle;
           }
         
           &__description {
@@ -976,15 +638,7 @@ body{
           }
     
           &__link {
-              background-color: $bgblack;
-              color: $fontwhite;
-              font-weight: $fontBld;
-              padding: 15px 0;
-              border-radius: 10px;
-              width: $w100p;
-              display: $disBk;
-              text-align: $txtalgnc;
-              text-decoration: none;
+            @include stylecontactcardbutton;
           }
         }
     }   
@@ -1144,54 +798,29 @@ body{
     }
   }
 }
+
                                             // CAT-LADY
                         // MAIN
                         // SECTIONINTER
 .brand-sectionInter{
-  display: $disFx;
-  height: $h200;
-  width: $w100p;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 40px;
+  @include sectionInter;
 
   h2 {
     margin: $m0;
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
                         // SECTIONBRANDS
 .barnd-sectionCH{
   background-image: url(../assets/image/cat-lady-bg1.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1199,36 +828,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionCL{
   background-image: url(../assets/image/cat-lady-bg2.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1236,36 +845,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionEL{
   background-image: url(../assets/image/cat-lady-bg3.jpeg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1273,36 +862,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionGV{
   background-image: url(../assets/image/cat-lady-bg4.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1310,36 +879,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionKZ{
   background-image: url(../assets/image/cat-lady-bg5.jpeg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1347,38 +896,20 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 }
+
                                             // CAT-MEN
                         // MAIN
                         // SECTIONINTER
                         // SECTIONBRANDS
 .barnd-sectionCHM{
   background-image: url(../assets/image/cat-men-bg1.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;flex-direction: $flxdtn;flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1386,36 +917,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionCLM{
   background-image: url(../assets/image/cat-men-bg2.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1423,36 +934,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionELM{
   background-image: url(../assets/image/cat-men-bg3.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1460,36 +951,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionGVM{
   background-image: url(../assets/image/cat-men-bg4.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1497,36 +968,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionKZM{
   background-image: url(../assets/image/cat-men-bg5.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -1534,47 +985,28 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 }
+
                                             // MAINBRANDS //////////////////////////////////////////////////////////
                         // MAIN
                         // BARNDS
 .brands {
-  margin-top: $mt60;
-    padding: 50px 50px;
-    max-width: $mxw100p;
+  @include container-brands;
 
     &__cards {
-        max-width: $mxw12000;
-        margin: $moa;
-        display: $disGd;
-        grid-template-columns: 1fr;
-        gap: 50px;
+      @include cardsMob;
 
         .card-b {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+          @include stylecard;
 
             .header-b img {
-                width: $w100p;
-                height: $hauto;
-                border-radius: 10px;
-                margin-bottom: $mb20;
-                object-fit: $bgCov;
+              @include stylecardimg;
             }
 
             .title-b {
-                margin-bottom: $mb20;
-                font-size: 20px;
+              @include stylecardtitle;
             }
 
             .description-b {
@@ -1583,16 +1015,7 @@ body{
 
             .link-b1,
             .link-b2 {
-                background-color: $bgblack;
-                color: $fontwhite;
-                font-weight: $fontBld;
-                padding: 15px 25px;
-                border-radius: 10px;
-                width: $w100p;
-                display: $disIB;
-                text-align: $txtalgnc;
-                text-decoration: none;
-                margin: 5px 5px;
+              @include stylecardbutton;
             }
         }
     }
@@ -1602,35 +1025,23 @@ body{
                         // MAIN
                         // FRAGANCIAS
 .containerMobile{
-    display: $disGd;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(1,1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw576;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
+  @include stylebrandsMob;
 
     .frag{
         font-size: 30px;
 
         a{
-            text-decoration: none;
-            color: $fontblack;
-            justify-content: $jfyC;
-            align-content: $algconc;
-            display: $disBk;
+          @include stylebrandsname;
         }
 
         small{
-            display: $disBk;
+          @include stylebrandssmall;
         }
 
     }
     
     .self{
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+      @include styleself;
     }
 
     .alterned1{
@@ -1675,66 +1086,35 @@ body{
 
     .frag-img{
         height: 65vh;
-        display: $disFx;
-        justify-content: $jfyC;
-        align-items: $algC;
-        margin: $moa;
+        @include stylebrandsimg;
     }
 }
 
                                             // WHOLESALE  ////////////////////////////////////////////////////////////////
                         // MAIN
 .descubre{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+  @include styledescubre;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include styledescubreinfo;
 
     h2 {
-      margin: $m0;
+      @include styledescubretitle;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include styledescubrep;
     }
   }
 }
 
 .mayoreo{
-  background-image: url(../assets/image/bg-whole.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyC;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include stylemayoreo;
 
   &__container-info{
 
     &-text{
-    height: $h400;
-    max-width: $mxw100p;
+      @include stylemayoreoinfo;
     }
     
     h1{
@@ -1748,8 +1128,7 @@ body{
 
     a{
       .btn {
-        background-color: $bgblack;
-        color: $fontwhite;
+        @include stylemayoreobutton;
       }
     }
   }
@@ -1758,56 +1137,29 @@ body{
                                             // FREESHIPMENT
                         // MAIN
 .compromiso{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
   margin-top: $mt60;
+  @include stylecompromiso;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include stylecompromisoinfo;
 
     h2 {
       margin: $m0;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include stylecompromisop;
     }
   }
 }
 
 .oferta{
-  background-image: url(../assets/image/bg-shipM.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyC;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include styleoferta;
 
   &__container-info{
 
     &-text{
-    height: $h400;
-    max-width: $mxw100p;
+      @include styleofertainfo;
     }
     
     h1{
@@ -1820,42 +1172,24 @@ body{
 
     a{
       .btn {
-        background-color: $bgblack;
-        color: $fontwhite;
+        @include styleofertabutton;
       }
     }
   }
 }
 
 .thx{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+  @include stylethx;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include stylethxinfo;
 
     h2 {
       margin: $m0;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include stylethxp;
     }
   }
 }
@@ -1863,40 +1197,24 @@ body{
                         // MAIN
                         // CARDS
 .contact {
-  margin-top: $mt60;
-  padding: 0 20px;
-  margin-bottom: $mb60;
+  @include stylecontact;
 
     &__title {
-        margin-bottom: $mb40;
-        text-align: $txtalgnc;
-        font-size: 30px;
+      @include stylecontacttitle;
     }
 
     &__cards {
-        max-width: $mxw700;
-        margin: $moa;
-        display: $disGd;
-        grid-template-columns: 1fr;
-        gap: 50px;
+      @include stylecontactcardsMob;
 
         .card {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+          @include stylecontactcardshw;
 
             &__header img {
-                width: $w100p;
-                height: $hauto;
-                border-radius: 10px;
-                margin-bottom: $mb20;
-                object-fit: $bgCov;
+              @include stylecontacardimg;
             }
 
             &__title {
-                margin-bottom: $mb20;
-                font-size: 20px;
+              @include stylecontactcardtitle;
             }
     
             &__description {
@@ -1904,15 +1222,7 @@ body{
             }
     
             &__link {
-                background-color: $bgblack;
-                color: $fontwhite;
-                font-weight: $fontBld;
-                padding: 15px 0;
-                border-radius: 10px;
-                width: $w100p;
-                display: $disBk;
-                text-align: $txtalgnc;
-                text-decoration: none;
+              @include stylecontactcardbutton;
             }
         }
 
@@ -1960,6 +1270,7 @@ body{
 
 .encuentra{
   &-info{
+    justify-content: $jfyC;
     height: $h300;
     max-width: $mxw700;
     padding: $padding;
@@ -1967,6 +1278,7 @@ body{
 
     h1{
       color: $fontblack;
+      text-align: $txtalgnc;
     }
 
     p{
@@ -2077,26 +1389,14 @@ body{
                         // MAIN
                         // SECTIONINTER
 .brand-sectionInter{
-  display: $disFx;
-  height: $h200;
-  width: $w100p;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 40px;
+  @include  sectionInter;
 
   h2 {
     margin: $m0;
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 
 }
@@ -2104,23 +1404,10 @@ body{
                         // SECTIONBRANDS
 .barnd-sectionCH{
   background-image: url(../assets/image/cat-lady-bg1.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2128,36 +1415,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionCL{
   background-image: url(../assets/image/cat-lady-bg2.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2165,36 +1432,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionEL{
   background-image: url(../assets/image/cat-lady-bg3.jpeg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2202,36 +1449,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionGV{
   background-image: url(../assets/image/cat-lady-bg4.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2239,36 +1466,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionKZ{
   background-image: url(../assets/image/cat-lady-bg5.jpeg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2276,13 +1483,7 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 }
 
@@ -2292,23 +1493,10 @@ body{
                         // SECTIONBRANDS
 .barnd-sectionCHM{
   background-image: url(../assets/image/cat-men-bg1.jpg);
-  background-size: $bgCov;
-  background-position: c$bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2316,36 +1504,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionCLM{
   background-image: url(../assets/image/cat-men-bg2.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2353,36 +1521,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionELM{
   background-image: url(../assets/image/cat-men-bg3.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2390,36 +1538,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionGVM{
   background-image: url(../assets/image/cat-men-bg4.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2427,36 +1555,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionKZM{
   background-image: url(../assets/image/cat-men-bg5.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -2464,13 +1572,7 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 }
 
@@ -2478,34 +1580,20 @@ body{
                         // MAIN
                         // BARNDS
 .brands {
-  margin-top: $mt60;
-    padding: 50px 50px;
-    max-width: $mxw100p;
+  @include container-brands;
   
     &__cards {
-        max-width: $mxw100p;
-         margin: $moa;
-         display: $disGd;
-         grid-template-columns: repeat(3, 1fr);
-         gap: 50px;
+      @include cardsMed;
   
       .card__b {
-        background-color: $fontwhite;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+        @include stylecard;
   
         .header-b img {
-          width: $w100p;
-          height: $hauto;
-          border-radius: 10px;
-          margin-bottom: $mb20;
-          object-fit: $bgCov;
+          @include stylecardimg;
         }
   
         .title-b {
-          margin-bottom: $mb20;
-          font-size: 20px;
+          @include stylecardtitle;
         }
   
         .description-b {
@@ -2514,16 +1602,7 @@ body{
   
         .linkb1,
         .linkb2 {
-          background-color: $bgblack;
-          color: $fontwhite;
-          font-weight: $fontBld;
-          padding: 15px 25px;
-          border-radius: 10px;
-          width: $w100p;
-          display: $disIB;
-          text-align: $txtalgnc;
-          text-decoration: none;
-          margin: 5px 5px;
+          @include stylecardbutton;
         }
       }
     }
@@ -2534,34 +1613,22 @@ body{
                         // FRAGANCIAS
 ///////////////////////////////////////////////////CH-LADY
 .frags__container-CH {
-  display: $disGd;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 50px;
-  margin: $moa;
-  max-width: $mxw500;
-  margin-top: $mt50;
-  margin-bottom: $mb50;
+  @include stylebrandsMed;
 
   .frag {
     font-size: 30px;
 
     a {
-      text-decoration: none;
-      color: $fontblack;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      display: $disBk;
+      @include stylebrandsname;
     }
 
     small {
-      display: $disBk;
+      @include stylebrandssmall;
     }
   }
 
   .self {
-    justify-self: $jfysfC;
-    align-self: $algsfC;
+    @include styleself;
   }
 
   .alterned1 {
@@ -2695,44 +1762,29 @@ body{
   }
 
   .frag-imgCH {
-    height: $h100p;
-    object-fit: $bgCov;
-    opacity: 1;
-    transition: opacity 0.3s;
+    @include stylebrandsimghr;
   }
 }
 
 ///////////////////////////////////////////////////CLINIQUE-LADY  
 .frags__container-CL {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
-  
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+
+    small {
+      @include stylebrandssmall;
     }
+  }
+
+  .self {
+    @include styleself;
+  }
     .alterned1 {
         order: 1;
     }
@@ -2864,44 +1916,29 @@ body{
     }
 
     .frag-imgCL {
-        height: $h100p;
-        object-fit: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
 }
 
 ///////////////////////////////////////////////////ESTEEL-LADY
 .frags__container-EL {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
-  
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+
+    small {
+      @include stylebrandssmall;
     }
+  }
+
+  .self {
+    @include styleself;
+  }
 
     .alterned1 {
         order: 1;
@@ -3034,39 +2071,29 @@ body{
     }
 
     .frag-imgEL {
-        height: $h100p;
-        object-fit: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
 }
 
 ///////////////////////////////////////////////////GIVENCHY-LADY
 .frags__container-GV {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
   
     .self {
       justify-self: $jfysfC;
@@ -3204,44 +2231,29 @@ body{
     }
 
     .frag-imgGV {
-        height: $h100p;
-        object-fit: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
 }
 
 ///////////////////////////////////////////////////KENZO-LADY
 .frags__container-KZ {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
-  
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+
+    small {
+      @include stylebrandssmall;
     }
+  }
+
+  .self {
+    @include styleself;
+  }
 
     .alterned1 {
         order: 1;
@@ -3374,44 +2386,29 @@ body{
     }
 
     .frag-imgKZ {
-        height: $h100p;
-        object-fit: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
 }
 
 ///////////////////////////////////////////////////CH-MEN
 .frags__container-CHM {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
-  
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+
+    small {
+      @include stylebrandssmall;
     }
+  }
+
+  .self {
+    @include styleself;
+  }
   
     .alterned1 {
       order: 1;
@@ -3544,44 +2541,29 @@ body{
     }
   
     .frag-imgCHM {
-      height: $h100p;
-      object-fit: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
   }
 
 //////////////////////////////////////////////////CLINIQUE-MEN
 .frags__container-CLM {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
-  
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+
+    small {
+      @include stylebrandssmall;
     }
+  }
+
+  .self {
+    @include styleself;
+  }
   
     .alterned1 {
       order: 1;
@@ -3714,44 +2696,29 @@ body{
     }
   
     .frag-imgCLM {
-      height: $h100p;
-      object-fit: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
   }
 
 //////////////////////////////////////////////////ESTEEL-MEN
 .frags__container-ELM {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
-  
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+
+    small {
+      @include stylebrandssmall;
     }
+  }
+
+  .self {
+    @include styleself;
+  }
   
     .alterned1 {
       order: 1;
@@ -3884,44 +2851,29 @@ body{
     }
   
     .frag-imgELM {
-      height: $h100p;
-      object-fit: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
   }
 
 //////////////////////////////////////////////////GIVENCHY-MEN
 .frags__container-GVM {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
-  
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+
+    small {
+      @include stylebrandssmall;
     }
+  }
+
+  .self {
+    @include styleself;
+  }
   
     .alterned1 {
       order: 1;
@@ -4054,44 +3006,29 @@ body{
     }
   
     .frag-imgGVM {
-      height: $h100p;
-      object-fit: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
   }
 
 //////////////////////////////////////////////////KENZO-MEN
 .frags__container-KZM {
-    display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
-  
-    .frag {
-      font-size: 30px;
-  
-      a {
-        text-decoration: none;
-        color: $fontblack;
-        justify-content: $jfyC;
-        align-content: $algconc;
-        display: $disBk;
-      }
-  
-      small {
-        display: $disBk;
-      }
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
-  
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+
+    small {
+      @include stylebrandssmall;
     }
+  }
+
+  .self {
+    @include styleself;
+  }
   
     .alterned1 {
       order: 1;
@@ -4224,66 +3161,35 @@ body{
     }
   
     .frag-imgKZM {
-      height: $h100p;
-      object-fit: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
+      @include stylebrandsimghr;
     }
   }
  
                                             // WHOLESALE  ////////////////////////////////////////////////////////////////
                         // MAIN
 .descubre{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+  @include styledescubre;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include styledescubreinfo;
 
     h2 {
-      margin: $m0;
+      @include  styledescubretitle;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include styledescubrep;
     }
   }
 }
 
 .mayoreo{
-  background-image: url(../assets/image/bg-whole.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyC;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include stylemayoreo;
 
   &__container-info{
 
     &-text{
-    height: $h400;
-    max-width: $mxw100p;
+      @include stylemayoreoinfo;
     }
     
     h1{
@@ -4297,8 +3203,7 @@ body{
 
     a{
       .btn {
-        background-color: $fontblack;
-        color: $fontwhite;
+        @include stylemayoreobutton;
       }
     }
   }
@@ -4307,56 +3212,29 @@ body{
                                             // FREESHIPMENT
                         // MAIN
 .compromiso{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;margin-top: $mt60;
+  margin-top: $mt60;
+  @include stylecompromiso;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include stylecompromisoinfo;
 
     h2 {
       margin: $m0;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include stylecompromisop;
     }
   }
 }
 
 .oferta{
-  background-image: url(../assets/image/bg-shipM.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyC;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include styleoferta;
 
   &__container-info{
 
     &-text{
-    height: $h400;
-    max-width: $mxw100p;
+      @include styleofertainfo;
     }
     
     h1{
@@ -4369,42 +3247,24 @@ body{
 
     a{
       .btn {
-        background-color: $bgblack;
-        color: $fontwhite;
+        @include styleofertabutton;
       }
     }
   }
 }
 
 .thx{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+  @include stylethx;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include stylethxinfo;
 
     h2 {
       margin: $m0;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include stylethxp;
     }
   }
 }
@@ -4412,40 +3272,24 @@ body{
                         // MAIN
                         // CARDS
 .contact {
-    margin-top: $mt60;
-    padding: 0 20px;
-    margin-bottom: $mb60;
+  @include stylecontact;
 
     &__title {
-        margin-bottom: $mb40;
-        text-align: $txtalgnc;
-        font-size: 30px;
+      @include stylecontacttitle;
     }
 
     &__cards {
-        max-width: $mxw12000;
-        margin: $moa;
-        display: $disGd;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 50px;
+      @include stylecontactcardsMed;
 
         .card {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+          @include stylecontactcardshw;
 
             &__header img {
-                width: $w100p;
-                height: $hauto;
-                border-radius: 10px;
-                margin-bottom: $mb20;
-                object-fit: $bgCov;
+              @include stylecontacardimg;
             }
 
             &__title {
-                margin-bottom: $mb20;
-                font-size: 20px;
+              @include stylecontactcardtitle;
             }
             
             &__description {
@@ -4453,15 +3297,7 @@ body{
             }
     
             &__link {
-                background-color: $bgblack;
-                color: $fontwhite;
-                font-weight: $fontBld;
-                padding: 15px 0;
-                border-radius: 10px;
-                width: $w100p;
-                display: $disBk;
-                text-align: $txtalgnc;
-                text-decoration: none;
+              @include stylecontactcardbutton;
             }
         }
     }
@@ -4525,7 +3361,7 @@ body{
 
     p{
       padding: 20px;
-      // text-align: $txtalgnJy;
+      text-align: $txtalgnJy;
       justify-content: $jfyC;
       align-content: $algconc;
       color: $fontblack;
@@ -4631,26 +3467,14 @@ body{
                         // MAIN
                         // SECTIONINTER
 .brand-sectionInter{
-  display: $disFx;
-  height: $h200;
-  width: $w100p;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 40px;
+  @include sectionInter;
 
   h2 {
     margin: $m0;
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 
 }
@@ -4658,23 +3482,10 @@ body{
                         // SECTIONBRANDS
 .barnd-sectionCH{
   background-image: url(../assets/image/cat-lady-bg1.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4682,36 +3493,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionCL{
   background-image: url(../assets/image/cat-lady-bg2.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4719,36 +3510,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionEL{
   background-image: url(../assets/image/cat-lady-bg3.jpeg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4756,36 +3527,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionGV{
   background-image: url(../assets/image/cat-lady-bg4.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4793,36 +3544,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionKZ{
   background-image: url(../assets/image/cat-lady-bg5.jpeg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4830,13 +3561,7 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 }
                                             // CAT-MEN
@@ -4845,23 +3570,10 @@ body{
                         // SECTIONBRANDS
 .barnd-sectionCHM{
   background-image: url(../assets/image/cat-men-bg1.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4869,36 +3581,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionCLM{
   background-image: url(../assets/image/cat-men-bg2.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4906,36 +3598,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionELM{
   background-image: url(../assets/image/cat-men-bg3.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4943,36 +3615,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionGVM{
   background-image: url(../assets/image/cat-men-bg4.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -4980,36 +3632,16 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
-
 }
 
 .barnd-sectionKZM{
   background-image: url(../assets/image/cat-men-bg5.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include section-cat;
 
   a {
-    text-decoration: none;
-    color: $fontwhite;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    align-items: $algC;
+    @include a-cat;
   }
 
   h2 {
@@ -5017,13 +3649,7 @@ body{
   }
 
   span {
-    display: $disIB;
-    padding: 10px 20px;
-    background-color: $fontwhite;
-    color: $fontogrey;
-    font-weight: $fontBld;
-    border-radius: 4px;
-    margin-top: $mt20;
+    @include span-cat;
   }
 }
 
@@ -5031,34 +3657,20 @@ body{
                         // MAIN
                         // BARNDS
 .brands {
-  margin-top: $mt60;
-    padding: 50px 50px;
-    max-width: $mxw100p;
+  @include container-brands;
 
     &__cards {
-        max-width: $mxw12000;
-        margin: $moa;
-        display: $disGd;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 50px;
+      @include cardsDskp;
 
         .card__b {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+          @include stylecard;
 
             .header-b img {
-                width: $w100p;
-                height: $hauto;
-                border-radius: 10px;
-                margin-bottom: $mb20;
-                object-fit: $bgCov;
+              @include stylecardimg;
             }
 
             .title-b {
-                margin-bottom: $mb20;
-                font-size: 20px;
+              @include stylecardtitle;
             }
 
             .description-b {
@@ -5067,16 +3679,7 @@ body{
 
             .linkb1,
             .linkb2 {
-              background-color: $bgblack;
-              color: $fontwhite;
-              font-weight: $fontBld;
-              padding: 15px 25px;
-              border-radius: 10px;
-              width: $w100p;
-              display: $disIB;
-              text-align: $txtalgnc;
-              text-decoration: none;
-              margin: 5px 5px;
+              @include stylecardbutton;
             }
         }
     }
@@ -5085,38 +3688,180 @@ body{
                                             // BARNDS STYLE ////////////////////////////////////////////////////////////
                         // MAIN
                         // FRAGANCIAS
-    .frags__container {
-      display: $disGd;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    margin: $moa;
-    max-width: $mxw500;
-    margin-top: $mt50;
-    margin-bottom: $mb50;
+///////////////////////////////////////////////////CH-LADY
+.frags__container-CH {
+  @include stylebrandsMed;
 
-    .frag {
-        font-size: 30px;
+  .frag {
+    font-size: 30px;
 
-        a {
-          text-decoration: none;
-          color: $fontblack;
-          justify-content: $jfyC;
-          align-content: $algconc;
-          display: $disBk;
-        }
-
-        small {
-          display: $disBk;
-        }
+    a {
+      @include stylebrandsname;
     }
 
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+
+  .alterned1 {
+    order: 1;
+  }
+
+  .alterned2 {
+    order: 2;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-GG.jpg");
+      background-size: $bgCov;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .alterned3 {
+    order: 4;
+  }
+
+  .alterned4 {
+    order: 3;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-CH.jpg");
+      background-size: $bgCov;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .alterned5 {
+    order: 5;
+  }
+
+  .alterned6 {
+    order: 6;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-212.jpg");
+      background-size: $bgCov;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .alterned7 {
+    order: 8;
+  }
+
+  .alterned8 {
+    order: 7;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-EDP.jpg");
+      background-size: $bgCov;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .alterned9 {
+    order: 9;
+  }
+
+  .alterned10 {
+    order: 10;
+    position: relative;
+
+    &:hover .frag-imgCH {
+      opacity: 0;
+    }
+    
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../assets/image/CH/LADY/CH-212V.jpg");
+      background-size: $bgCov;
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .frag-imgCH {
+    @include stylebrandsimghr;
+  }
+}
+
+///////////////////////////////////////////////////CLINIQUE-LADY  
+.frags__container-CL {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
     }
 
-    ///////////////////////////////////////////////////CH-LADY
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
     .alterned1 {
         order: 1;
     }
@@ -5125,7 +3870,7 @@ body{
         order: 2;
         position: relative;
 
-        &:hover .frag-imgCH {
+        &:hover .frag-imgCL {
         opacity: 0;
         }
         
@@ -5136,7 +3881,7 @@ body{
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url("../assets/image/CH/LADY/CH-GG.jpg");
+        background-image: url("../assets/image/CLINIQUE/LADY/C-AE.jpg");
         background-size: $bgCov;
         opacity: 1;
         transition: opacity 0.3s;
@@ -5151,7 +3896,7 @@ body{
         order: 3;
         position: relative;
 
-        &:hover .frag-imgCH {
+        &:hover .frag-imgCL {
         opacity: 0;
         }
         
@@ -5162,7 +3907,7 @@ body{
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url("../assets/image/CH/LADY/CH-CH.jpg");
+        background-image: url("../assets/image/CLINIQUE/LADY/C-C.jpg");
         background-size: $bgCov;
         opacity: 1;
         transition: opacity 0.3s;
@@ -5177,7 +3922,7 @@ body{
         order: 6;
         position: relative;
 
-        &:hover .frag-imgCH {
+        &:hover .frag-imgCL {
         opacity: 0;
         }
         
@@ -5188,7 +3933,7 @@ body{
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url("../assets/image/CH/LADY/CH-212.jpg");
+        background-image: url("../assets/image/CLINIQUE/LADY/C-HB.jpg");
         background-size: $bgCov;
         opacity: 1;
         transition: opacity 0.3s;
@@ -5203,7 +3948,7 @@ body{
         order: 7;
         position: relative;
 
-        &:hover .frag-imgCH {
+        &:hover .frag-imgCL {
         opacity: 0;
         }
         
@@ -5214,7 +3959,7 @@ body{
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url("../assets/image/CH/LADY/CH-EDP.jpg");
+        background-image: url("../assets/image/CLINIQUE/LADY/C-HH.jpg");
         background-size: $bgCov;
         opacity: 1;
         transition: opacity 0.3s;
@@ -5229,7 +3974,7 @@ body{
         order: 10;
         position: relative;
 
-        &:hover .frag-imgCH {
+        &:hover .frag-imgCL {
         opacity: 0;
         }
         
@@ -5240,627 +3985,1288 @@ body{
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url("../assets/image/CH/LADY/CH-212V.jpg");
+        background-image: url("../assets/image/CLINIQUE/LADY/C-S.jpg");
         background-size: $bgCov;
         opacity: 1;
         transition: opacity 0.3s;
         }
     }
 
-    .frag-imgCH {
-        height: $h100p;
-        object-fit: $bgCov;
+    .frag-imgCL {
+      @include stylebrandsimghr;
+    }
+}
+
+///////////////////////////////////////////////////ESTEEL-LADY
+.frags__container-EL {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
+    }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+
+    .alterned1 {
+        order: 1;
+    }
+
+    .alterned2 {
+        order: 2;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-BM.jpg");
+        background-size: $bgCov;
         opacity: 1;
         transition: opacity 0.3s;
-    }
-
-    ///////////////////////////////////////////////////CLINIQUE-LADY  
-        .alterned1 {
-            order: 1;
-        }
-
-        .alterned2 {
-            order: 2;
-            position: relative;
-
-            &:hover .frag-imgCL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/CLINIQUE/LADY/C-AE.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned3 {
-            order: 4;
-        }
-
-        .alterned4 {
-            order: 3;
-            position: relative;
-
-            &:hover .frag-imgCL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/CLINIQUE/LADY/C-C.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned5 {
-            order: 5;
-        }
-
-        .alterned6 {
-            order: 6;
-            position: relative;
-
-            &:hover .frag-imgCL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/CLINIQUE/LADY/C-HB.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned7 {
-            order: 8;
-        }
-
-        .alterned8 {
-            order: 7;
-            position: relative;
-
-            &:hover .frag-imgCL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/CLINIQUE/LADY/C-HH.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned9 {
-            order: 9;
-        }
-
-        .alterned10 {
-            order: 10;
-            position: relative;
-
-            &:hover .frag-imgCL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/CLINIQUE/LADY/C-S.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .frag-imgCL {
-            height: $h100p;
-            object-fit: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-        }
-
-
-    ///////////////////////////////////////////////////ESTEEL-LADY
-        .alterned1 {
-            order: 1;
-        }
-
-        .alterned2 {
-            order: 2;
-            position: relative;
-
-            &:hover .frag-imgEL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/ESTEE-L/LADY/EL-BM.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned3 {
-            order: 4;
-        }
-
-        .alterned4 {
-            order: 3;
-            position: relative;
-
-            &:hover .frag-imgEL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/ESTEE-L/LADY/EL-BP.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned5 {
-            order: 5;
-        }
-
-        .alterned6 {
-            order: 6;
-            position: relative;
-
-            &:hover .frag-imgEL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/ESTEE-L/LADY/EL-P.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned7 {
-            order: 8;
-        }
-
-        .alterned8 {
-            order: 7;
-            position: relative;
-
-            &:hover .frag-imgEL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/ESTEE-L/LADY/EL-RD.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned9 {
-            order: 9;
-        }
-
-        .alterned10 {
-            order: 10;
-            position: relative;
-
-            &:hover .frag-imgEL {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/ESTEE-L/LADY/EL-SN.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .frag-imgEL {
-            height: $h100p;
-            object-fit: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-        }
-
-    ///////////////////////////////////////////////////GIVENCHY-LADY
-        .alterned1 {
-            order: 1;
-        }
-
-        .alterned2 {
-            order: 2;
-            position: relative;
-
-            &:hover .frag-imgGV {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/GIVENCHY/LADY/GV-A.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned3 {
-            order: 4;
-        }
-
-        .alterned4 {
-            order: 3;
-            position: relative;
-
-            &:hover .frag-imgGV {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/GIVENCHY/LADY/GV-DD.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned5 {
-            order: 5;
-        }
-
-        .alterned6 {
-            order: 6;
-            position: relative;
-
-            &:hover .frag-imgGV {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/GIVENCHY/LADY/GV-L.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned7 {
-            order: 8;
-        }
-
-        .alterned8 {
-            order: 7;
-            position: relative;
-
-            &:hover .frag-imgGV {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/GIVENCHY/LADY/GV-LB.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned9 {
-            order: 9;
-        }
-
-        .alterned10 {
-            order: 10;
-            position: relative;
-
-            &:hover .frag-imgGV {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/GIVENCHY/LADY/GV-LR.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .frag-imgGV {
-            height: $h100p;
-            object-fit: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-        }
-
-    ///////////////////////////////////////////////////KENZO-LADY
-        .alterned1 {
-            order: 1;
-        }
-
-        .alterned2 {
-            order: 2;
-            position: relative;
-
-            &:hover .frag-imgKZ {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned3 {
-            order: 4;
-        }
-
-        .alterned4 {
-            order: 3;
-            position: relative;
-
-            &:hover .frag-imgKZ {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned5 {
-            order: 5;
-        }
-
-        .alterned6 {
-            order: 6;
-            position: relative;
-
-            &:hover .frag-imgKZ {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned7 {
-            order: 8;
-        }
-
-        .alterned8 {
-            order: 7;
-            position: relative;
-
-            &:hover .frag-imgKZ {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .alterned9 {
-            order: 9;
-        }
-
-        .alterned10 {
-            order: 10;
-            position: relative;
-
-            &:hover .frag-imgKZ {
-            opacity: 0;
-            }
-            
-            &:hover::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
-            background-size: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
-            }
-        }
-
-        .frag-imgKZ {
-            height: $h100p;
-            object-fit: $bgCov;
-            opacity: 1;
-            transition: opacity 0.3s;
         }
     }
+
+    .alterned3 {
+        order: 4;
+    }
+
+    .alterned4 {
+        order: 3;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-BP.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned5 {
+        order: 5;
+    }
+
+    .alterned6 {
+        order: 6;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-P.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned7 {
+        order: 8;
+    }
+
+    .alterned8 {
+        order: 7;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-RD.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned9 {
+        order: 9;
+    }
+
+    .alterned10 {
+        order: 10;
+        position: relative;
+
+        &:hover .frag-imgEL {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/LADY/EL-SN.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .frag-imgEL {
+      @include stylebrandsimghr;
+    }
+}
+
+///////////////////////////////////////////////////GIVENCHY-LADY
+.frags__container-GV {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
+    }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+  
+    .self {
+      justify-self: $jfysfC;
+      align-self: $algsfC;
+    }
+
+    .alterned1 {
+        order: 1;
+    }
+
+    .alterned2 {
+        order: 2;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-A.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned3 {
+        order: 4;
+    }
+
+    .alterned4 {
+        order: 3;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-DD.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned5 {
+        order: 5;
+    }
+
+    .alterned6 {
+        order: 6;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-L.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned7 {
+        order: 8;
+    }
+
+    .alterned8 {
+        order: 7;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-LB.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned9 {
+        order: 9;
+    }
+
+    .alterned10 {
+        order: 10;
+        position: relative;
+
+        &:hover .frag-imgGV {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/LADY/GV-LR.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .frag-imgGV {
+      @include stylebrandsimghr;
+    }
+}
+
+///////////////////////////////////////////////////KENZO-LADY
+.frags__container-KZ {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
+    }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+
+    .alterned1 {
+        order: 1;
+    }
+
+    .alterned2 {
+        order: 2;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned3 {
+        order: 4;
+    }
+
+    .alterned4 {
+        order: 3;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned5 {
+        order: 5;
+    }
+
+    .alterned6 {
+        order: 6;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned7 {
+        order: 8;
+    }
+
+    .alterned8 {
+        order: 7;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .alterned9 {
+        order: 9;
+    }
+
+    .alterned10 {
+        order: 10;
+        position: relative;
+
+        &:hover .frag-imgKZ {
+        opacity: 0;
+        }
+        
+        &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+        }
+    }
+
+    .frag-imgKZ {
+      @include stylebrandsimghr;
+    }
+}
+
+///////////////////////////////////////////////////CH-MEN
+.frags__container-CHM {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
+    }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-212NYC.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-212VB.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-212VP.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-BB.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgCHM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CH/MEN/CH-CH.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgCHM {
+      @include stylebrandsimghr;
+    }
+  }
+
+//////////////////////////////////////////////////CLINIQUE-MEN
+.frags__container-CLM {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
+    }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-HM.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-HM100.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-ET.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-OIL.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgCLM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/CLINIQUE/MEN/CL-SPF.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgCLM {
+      @include stylebrandsimghr;
+    }
+  }
+
+//////////////////////////////////////////////////ESTEEL-MEN
+.frags__container-ELM {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
+    }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-P.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-BP.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-I.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-WM.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgELM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/ESTEE-L/MEN/EL-CS.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgELM {
+      @include stylebrandsimghr;
+    }
+  }
+
+//////////////////////////////////////////////////GIVENCHY-MEN
+.frags__container-GVM {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
+    }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV-GB.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV--G.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV-GY.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV-PH.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgGVM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/GIVENCHY/MEN/GV-PI.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgGVM {
+      @include stylebrandsimghr;
+    }
+  }
+
+//////////////////////////////////////////////////KENZO-MEN
+.frags__container-KZM {
+  @include stylebrandsMed;
+
+  .frag {
+    font-size: 30px;
+
+    a {
+      @include stylebrandsname;
+    }
+
+    small {
+      @include stylebrandssmall;
+    }
+  }
+
+  .self {
+    @include styleself;
+  }
+  
+    .alterned1 {
+      order: 1;
+    }
+  
+    .alterned2 {
+      order: 2;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-PH.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned3 {
+      order: 4;
+    }
+  
+    .alterned4 {
+      order: 3;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-H.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned5 {
+      order: 5;
+    }
+  
+    .alterned6 {
+      order: 6;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-LE.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned7 {
+      order: 8;
+    }
+  
+    .alterned8 {
+      order: 7;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-A.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .alterned9 {
+      order: 9;
+    }
+  
+    .alterned10 {
+      order: 10;
+      position: relative;
+  
+      &:hover .frag-imgKZM {
+        opacity: 0;
+      }
+      
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../assets/image/KENZO/MEN/KZ-JH.jpg");
+        background-size: $bgCov;
+        opacity: 1;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .frag-imgKZM {
+      @include stylebrandsimghr;
+    }
+  }
 
                                             // WHOLESALE  ////////////////////////////////////////////////////////////////
                         // MAIN
 .descubre{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+  @include styledescubre;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include styledescubreinfo;
 
     h2 {
-      margin: $m0;
+      @include styledescubretitle;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include styledescubrep;
     }
   }
 }
 
 .mayoreo{
-  background-image: url(../assets/image/bg-whole.png);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyE;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include stylemayoreo;
 
   &__container-info{
 
     &-text{
-    height: $h400;
-    max-width: $mxw100p;
+      @include stylemayoreoinfo;
     }
     
     h1{
@@ -5874,8 +5280,7 @@ body{
 
     a{
       .btn {
-        background-color: $bgblack;
-        color: $fontwhite;
+        @include stylemayoreobutton;
       }
     }
   }
@@ -5884,56 +5289,29 @@ body{
                                             // FREESHIPMENT
                         // MAIN
 .compromiso{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
   margin-top: $mt60;
+  @include stylecompromiso;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include stylecompromisoinfo;
 
     h2 {
       margin: $m0;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include stylecompromisop;
     }
   }
 }
 
 .oferta{
-  background-image: url(../assets/image/bg-shipM.jpg);
-  background-size: $bgCov;
-  background-position: $bgCen;
-  background-attachment: $bgAtt;
-  width: $w100p;
-  height: $h300;
-  display: $disFx;
-  flex-direction: $flxdtn;
-  justify-content: $jfyC;
-  align-items: $algC;
-  padding-bottom: 30px;
+  @include styleoferta;
 
   &__container-info{
 
     &-text{
-    height: $h400;
-    max-width: $mxw100p;
+      @include styleofertainfo;
     }
     
     h1{
@@ -5946,42 +5324,24 @@ body{
 
     a{
       .btn {
-        background-color: $bgblack;
-        color: $fontwhite;
+        @include styleofertabutton;
       }
     }
   }
 }
 
 .thx{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+  @include stylethx;
 
   &__container-info{
-    max-width: $mxw700;
-    height: $h300;
-    display: $disFx;
-    flex-direction: $flxdtn;
-    justify-content: $jfyC;
-    align-items: $algC;
-    padding-bottom: 30px;
+    @include stylethxinfo;
 
     h2 {
       margin: $m0;
     }
   
     p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-      margin-bottom: $mb0;
+      @include stylethxp
     }
   }
 }
@@ -5989,40 +5349,24 @@ body{
                         // MAIN
                         // CARDS
 .contact {
-    margin-top: $mt60;
-    padding: 0 20px;
-    margin-bottom: $mb60;
+  @include stylecontact;
 
     &__title {
-        margin-bottom: $mb40;
-        text-align: $txtalgnc;
-        font-size: 30px;
+      @include stylecontacttitle;
     }
 
     &__cards {
-        max-width: $mxw12000;
-        margin: $moa;
-        display: $disGd;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 50px;
+      @include stylecontactcardsDskp;
 
         .card {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+          @include stylecontactcardshw;
 
             &__header img {
-                width: $w100p;
-                height: $hauto;
-                border-radius: 10px;
-                margin-bottom: $mb20;
-                object-fit: $bgCov;
+              @include stylecontacardimg;
             }
 
             &__title {
-                margin-bottom: $mb20;
-                font-size: 20px;
+              @include stylecontactcardtitle;
             }
 
             &__description {
@@ -6030,15 +5374,7 @@ body{
             }
 
             &__link {
-                background-color: $bgblack;
-                color: $fontwhite;
-                font-weight: $fontBld;
-                padding: 15px 0;
-                border-radius: 10px;
-                width: $w100p;
-                display: $disBk;
-                text-align: $txtalgnc;
-                text-decoration: none;
+              @include stylecontactcardbutton;
             }
         }
     }
