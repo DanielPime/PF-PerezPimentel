@@ -1,10 +1,3 @@
-                                                                                                        // GENERAL
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-}
-
-
 // UTILS
 @import "utils/variables";
 @import "utils/global";
@@ -33,5350 +26,5337 @@ body{
 @import "views/wholes";
 @import "views/frees";
 @import "views/contact";
-                                                                                                        // INDEX
-                                                                                                        // MAIN
 
-
-                              
-
-
-
-
-
-                                                                                                    // CH
-                                            // MAIN
-.main__frags{
-  margin-top: $mt60;
-}
-
+// {
                                                                                                 // ETIQUETAS @MEDIA
 // ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 // MINIM
-@media (min-width: $bpMn){
+// @media (min-width: $bpMn){
                                             // INDEX
                         // MAIN
-                        // VIDEOSECTION-LADY
-.video-section-lady {
-  position: relative;
-  overflow: hidden;
-  height: $h400;
-  margin-top: $mt90;
+//                         // VIDEOSECTION-LADY
+// .video-section-lady {
+//   position: relative;
+//   overflow: hidden;
+//   height: $h400;
+//   margin-top: $mt90;
 
-  .video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+//   .video-background {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
 
-    video {
-      width: $w100p;
-      height: $h100p;
-      object-fit: $bgCov;
-    }
-  }
+//     video {
+//       width: $w100p;
+//       height: $h100p;
+//       object-fit: $bgCov;
+//     }
+//   }
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: $fontwhite;
-    text-align: $txtalgnc;
-    padding: 20px;
-    margin-top: $mt250;
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: $fontwhite;
+//     text-align: $txtalgnc;
+//     padding: 20px;
+//     margin-top: $mt250;
 
-    a{
-      color: $fontwhite;
-      text-decoration: none;
-    }
-  }
-}
+//     a{
+//       color: $fontwhite;
+//       text-decoration: none;
+//     }
+//   }
+// }
 
-.encuentra{
-  &-info{
-    justify-content: $jfyC;
-    height: $h300;
-    max-width: $mxw700;
-    padding: $padding;
-    margin: 60px 0px;
+// .encuentra{
+//   &-info{
+//     justify-content: $jfyC;
+//     height: $h300;
+//     max-width: $mxw700;
+//     padding: $padding;
+//     margin: 60px 0px;
 
-    h1{
-      color: $fontblack;
-      text-align: $txtalgnc;
-    }
+//     h1{
+//       color: $fontblack;
+//       text-align: $txtalgnc;
+//     }
 
-    p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-    }
-  }
-}
+//     p{
+//       padding: 20px;
+//       text-align: $txtalgnJy;
+//       justify-content: $jfyC;
+//       align-content: $algconc;
+//       color: $fontblack;
+//       font-family: $font-family;
+//       font-size: $font-size;
+//       color: $fontogrey;
+//     }
+//   }
+// }
 
-                        // VIDEOSECTION-MEN
-.video-section-men {
-  position: relative;
-  overflow: hidden;
-  height: $h400;
+//                         // VIDEOSECTION-MEN
+// .video-section-men {
+//   position: relative;
+//   overflow: hidden;
+//   height: $h400;
 
-  .video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+//   .video-background {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
 
-    video {
-      width: $w100p;
-      height: $h100p;
-      object-fit: $bgCov;
-    }
-  }
+//     video {
+//       width: $w100p;
+//       height: $h100p;
+//       object-fit: $bgCov;
+//     }
+//   }
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: $fontwhite;
-    text-align: $txtalgnc;
-    padding: 20px;
-    margin-top: $mt250;
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: $fontwhite;
+//     text-align: $txtalgnc;
+//     padding: 20px;
+//     margin-top: $mt250;
 
-    a{
-      color: $fontwhite;
-      text-decoration: none;
-    }
-  }
-}
+//     a{
+//       color: $fontwhite;
+//       text-decoration: none;
+//     }
+//   }
+// }
 
-                                             // OFERTA
-.newsindex{
-  margin-top: $mt200;
-  max-width: $mxw100p;
+//                                              // OFERTA
+// .newsindex{
+//   margin-top: $mt200;
+//   max-width: $mxw100p;
   
 
-  .ofertaindex{
-    background-image: url(../assets/image/bg-shipM.jpg);
-    background-size: $bgCov;
-    background-position: $bgCen;
-    background-attachment: $bgAtt;
-    height: $h300;
+//   .ofertaindex{
+//     background-image: url(../assets/image/bg-shipM.jpg);
+//     background-size: $bgCov;
+//     background-position: $bgCen;
+//     background-attachment: $bgAtt;
+//     height: $h300;
 
-    &__container{
-      display: $disFx;
-      flex-direction: $flxdtn;
-      justify-content: $jfyC;
-      align-items: $algC;
-      text-align: $txtalgnc;
-      padding: 70px;
-      color: $fontwhite;
+//     &__container{
+//       display: $disFx;
+//       flex-direction: $flxdtn;
+//       justify-content: $jfyC;
+//       align-items: $algC;
+//       text-align: $txtalgnc;
+//       padding: 70px;
+//       color: $fontwhite;
 
-      &-title{
-        font-weight: $titlesize100;
-      }
+//       &-title{
+//         font-weight: $titlesize100;
+//       }
 
-      button{
-        background-color: $bgwhite;
-      }
-    }
-  }
+//       button{
+//         background-color: $bgwhite;
+//       }
+//     }
+//   }
 
-                                             //WHOLESALE 
-  .mayoreoindex{
-    background-image: url(../assets/image/bg-whole.png);
-    background-size: $bgCov;
-    background-position: $bgCen;
-    background-attachment: $bgAtt;
-    height: $h300;
+//                                              //WHOLESALE 
+//   .mayoreoindex{
+//     background-image: url(../assets/image/bg-whole.png);
+//     background-size: $bgCov;
+//     background-position: $bgCen;
+//     background-attachment: $bgAtt;
+//     height: $h300;
     
 
-    &__container{
-      display: $disFx;
-      flex-direction: $flxdtn;
-      justify-content: $jfyC;
-      align-items: $algC;
-      text-align: $txtalgnc;
-      padding: 70px;
-      color: $fontwhite;
+//     &__container{
+//       display: $disFx;
+//       flex-direction: $flxdtn;
+//       justify-content: $jfyC;
+//       align-items: $algC;
+//       text-align: $txtalgnc;
+//       padding: 70px;
+//       color: $fontwhite;
 
-      &-title{
-        font-weight: $titlesize100;
-      }
+//       &-title{
+//         font-weight: $titlesize100;
+//       }
 
-      button{
-        background-color: $bgwhite;
-      }
-    }
-  }
-}
+//       button{
+//         background-color: $bgwhite;
+//       }
+//     }
+//   }
+// }
 
                                             // CAT-LADY
                         // MAIN
                         // SECTIONINTER
-.brand-sectionInter{
-  @include sectionInter;
+// .brand-sectionInter{
+//   @include sectionInter;
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                         // SECTIONBRANDS
-.barnd-sectionCH{
-  background-image: url(../assets/image/cat-lady-bg1.jpg);
-  @include section-cat;
+// .barnd-sectionCH{
+//   background-image: url(../assets/image/cat-lady-bg1.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionCL{
-  background-image: url(../assets/image/cat-lady-bg2.jpg);
-  @include section-cat;
+// .barnd-sectionCL{
+//   background-image: url(../assets/image/cat-lady-bg2.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionEL{
-  background-image: url(../assets/image/cat-lady-bg3.jpeg);
-  @include section-cat;
+// .barnd-sectionEL{
+//   background-image: url(../assets/image/cat-lady-bg3.jpeg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionGV{
-  background-image: url(../assets/image/cat-lady-bg4.jpg);
-  @include section-cat;
+// .barnd-sectionGV{
+//   background-image: url(../assets/image/cat-lady-bg4.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionKZ{
-  background-image: url(../assets/image/cat-lady-bg5.jpeg);
-  @include section-cat;
+// .barnd-sectionKZ{
+//   background-image: url(../assets/image/cat-lady-bg5.jpeg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                                             // CAT-MEN
                         // MAIN
                         // SECTIONINTER
                         // SECTIONBRANDS
-.barnd-sectionCHM{
-  background-image: url(../assets/image/cat-men-bg1.jpg);
-  @include section-cat;
+// .barnd-sectionCHM{
+//   background-image: url(../assets/image/cat-men-bg1.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionCLM{
-  background-image: url(../assets/image/cat-men-bg2.png);
-  @include section-cat;
+// .barnd-sectionCLM{
+//   background-image: url(../assets/image/cat-men-bg2.png);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionELM{
-  background-image: url(../assets/image/cat-men-bg3.png);
-  @include section-cat;
+// .barnd-sectionELM{
+//   background-image: url(../assets/image/cat-men-bg3.png);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionGVM{
-  background-image: url(../assets/image/cat-men-bg4.jpg);
-  @include section-cat;
+// .barnd-sectionGVM{
+//   background-image: url(../assets/image/cat-men-bg4.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionKZM{
-  background-image: url(../assets/image/cat-men-bg5.jpg);
-  @include section-cat;
+// .barnd-sectionKZM{
+//   background-image: url(../assets/image/cat-men-bg5.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                                             // MAINBRANDS //////////////////////////////////////////////////////////
                         // MAIN
                         // BARNDS
-  .brands {
-    @include container-brands;
+//   .brands {
+//     @include container-brands;
   
-    &__cards {
-      @include cardsMn;
+//     &__cards {
+//       @include cardsMn;
   
-      .card__b {
-        @include stylecard;
+//       .card__b {
+//         @include stylecard;
   
-        .header-b img {
-          @include stylecardimg;
-        }
+//         .header-b img {
+//           @include stylecardimg;
+//         }
   
-        .title-b {
-          @include stylecardtitle;
-        }
+//         .title-b {
+//           @include stylecardtitle;
+//         }
   
-        .description-b {
-          margin-bottom: $mb40;
-        }
+//         .description-b {
+//           margin-bottom: $mb40;
+//         }
   
-        .linkb1,
-        .linkb2 {
-          @include stylecardbutton
-        }
-      }
-    }
-}
+//         .linkb1,
+//         .linkb2 {
+//           @include stylecardbutton
+//         }
+//       }
+//     }
+// }
   
 
                                             // BRANDS STYLE  ////////////////////////////////////////////////////////////
                         // MAIN
                         // FRAGANCIAS
-.containerMobile{
-  @include stylebrandsMn;
+// .containerMobile{
+//   @include stylebrandsMn;
 
-    .frag{
-        font-size: 20px;
+//     .frag{
+//         font-size: 20px;
 
-        a{
-          @include stylebrandsname;
-        }
+//         a{
+//           @include stylebrandsname;
+//         }
 
-        small{
-            @include stylebrandssmall;
-        }
+//         small{
+//             @include stylebrandssmall;
+//         }
 
-    }
-    .self{
-      @include styleself;
-    }
+//     }
+//     .self{
+//       @include styleself;
+//     }
 
-    .alterned1{
-        order: 2;
-    }
+//     .alterned1{
+//         order: 2;
+//     }
 
-    .alterned2{
-        order: 1;
-    }
+//     .alterned2{
+//         order: 1;
+//     }
     
-    .alterned3{
-        order: 4;
-    }
+//     .alterned3{
+//         order: 4;
+//     }
     
-    .alterned4{
-        order: 3;
-    }
+//     .alterned4{
+//         order: 3;
+//     }
     
-    .alterned5{
-        order: 6;
-    }
+//     .alterned5{
+//         order: 6;
+//     }
     
-    .alterned6{
-        order: 5;
-    }
+//     .alterned6{
+//         order: 5;
+//     }
     
-    .alterned7{
-        order: 8;
-    }
+//     .alterned7{
+//         order: 8;
+//     }
     
-    .alterned8{
-        order: 7;
-    }
+//     .alterned8{
+//         order: 7;
+//     }
     
-    .alterned9{
-        order: 10;
-    }
+//     .alterned9{
+//         order: 10;
+//     }
     
-    .alterned10{
-        order: 9;
-    }
+//     .alterned10{
+//         order: 9;
+//     }
 
-    .frag-img{
-        height: 20vh;
-        @include stylebrandsimg;
-    }
+//     .frag-img{
+//         height: 20vh;
+//         @include stylebrandsimg;
+//     }
 
-}
+// }
 
                                             // WHOLESALE  ////////////////////////////////////////////////////////////////
                         // MAIN
-.descubre{
-  @include styledescubre;
+// .descubre{
+//   @include styledescubre;
 
-  &__container-info{
-    @include styledescubreinfo;
+//   &__container-info{
+//     @include styledescubreinfo;
 
-    h2 {
-      @include styledescubreinfo;
-    }
+//     h2 {
+//       @include styledescubreinfo;
+//     }
   
-    p{
-      @include styledescubrep;
-    }
-  }
-}
+//     p{
+//       @include styledescubrep;
+//     }
+//   }
+// }
 
-.mayoreo{
-  @include stylemayoreo;
+// .mayoreo{
+//   @include stylemayoreo;
 
-  &__container-info{
+//   &__container-info{
 
-    &-text{
-      @include stylemayoreoinfo;
-    }
+//     &-text{
+//       @include stylemayoreoinfo;
+//     }
     
-    h1{
-      color: $fontblack;
-    }
+//     h1{
+//       color: $fontblack;
+//     }
 
-    p{
-      color: $fontblack;
-    }
+//     p{
+//       color: $fontblack;
+//     }
 
-    a{
-      .btn {
-        @include stylemayoreobutton;
-      }
-    }
-  }
-}
+//     a{
+//       .btn {
+//         @include stylemayoreobutton;
+//       }
+//     }
+//   }
+// }
 
                                             // FREESHIPMENT
                         // MAIN
-.compromiso{
-  margin-top: $mt100;
-  @include stylecompromiso;
+// .compromiso{
+//   margin-top: $mt100;
+//   @include stylecompromiso;
 
-  &__container-info{
-    @include stylecompromisoinfo;
+//   &__container-info{
+//     @include stylecompromisoinfo;
 
-    h2 {
-      margin: $m0;
-    }
+//     h2 {
+//       margin: $m0;
+//     }
   
-    p{
-      @include stylecompromisop;
-    }
-  }
-}
+//     p{
+//       @include stylecompromisop;
+//     }
+//   }
+// }
 
-.oferta{
-  @include styleoferta;
+// .oferta{
+//   @include styleoferta;
 
-  &__container-info{
+//   &__container-info{
 
-    &-text{
-      @include styleofertainfo;
-    }
+//     &-text{
+//       @include styleofertainfo;
+//     }
     
-    h1{
-      color: $fontblack;
-    }
+//     h1{
+//       color: $fontblack;
+//     }
 
-    p{
-      color: $fontblack;
-    }
+//     p{
+//       color: $fontblack;
+//     }
 
-    a{
-      .btn {
-        @include styleofertabutton;
-      }
-    }
-  }
-}
+//     a{
+//       .btn {
+//         @include styleofertabutton;
+//       }
+//     }
+//   }
+// }
 
-.thx{
-  @include stylethx;
+// .thx{
+//   @include stylethx;
 
-  &__container-info{
-    @include stylethxinfo;
+//   &__container-info{
+//     @include stylethxinfo;
 
-    h2 {
-      margin: $m0;
-    }
+//     h2 {
+//       margin: $m0;
+//     }
   
-    p{
-      @include stylethxp;
-    }
-  }
-}
+//     p{
+//       @include stylethxp;
+//     }
+//   }
+// }
                                             // CONTACT ////////////////////////////////////////////////////////////
                         // MAIN
                         // CARDS
-.contact {
-  @include stylecontact;
+// .contact {
+//   @include stylecontact;
 
-    &__title {
-      @include stylecontacttitle
-    }
+//     &__title {
+//       @include stylecontacttitle
+//     }
 
-    &__cards {
-      @include stylecontactcardsMn;
+//     &__cards {
+//       @include stylecontactcardsMn;
 
-        .card {
-          @include stylecontactcardshw;
+//         .card {
+//           @include stylecontactcardshw;
 
-          &__header img {
-            @include stylecontacardimg;
-          }
+//           &__header img {
+//             @include stylecontacardimg;
+//           }
 
-          &__title {
-            @include stylecontactcardtitle;
-          }
+//           &__title {
+//             @include stylecontactcardtitle;
+//           }
         
-          &__description {
-              margin-bottom: $mb40;
-          }
+//           &__description {
+//               margin-bottom: $mb40;
+//           }
     
-          &__link {
-            @include stylecontactcardbutton;
-          }
-        }
-    }   
-}
-}
+//           &__link {
+//             @include stylecontactcardbutton;
+//           }
+//         }
+//     }   
+// }
+// }
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // MOBILE FIRST
-@media (min-width:$bpMob){
+// @media (min-width:$bpMob){
                                             // INDEX
                         // MAIN
-                        // VIDEOSECTION-LADY
-.video-section-lady {
-  position: relative;
-  overflow: hidden;
-  height: $h400;
-  margin-top: $mt90;
+//                         // VIDEOSECTION-LADY
+// .video-section-lady {
+//   position: relative;
+//   overflow: hidden;
+//   height: $h400;
+//   margin-top: $mt90;
 
-  .video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+//   .video-background {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
 
-    video {
-      width: $w100p;
-      height: $h100p;
-      object-fit: $bgCov;
-    }
-  }
+//     video {
+//       width: $w100p;
+//       height: $h100p;
+//       object-fit: $bgCov;
+//     }
+//   }
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: $fontwhite;
-    text-align: $txtalgnc;
-    padding: 20px;
-    margin-top: $mt250;
-  }
-}
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: $fontwhite;
+//     text-align: $txtalgnc;
+//     padding: 20px;
+//     margin-top: $mt250;
+//   }
+// }
 
-.encuentra{
-  &-info{
-    height: $h300;
-    max-width: $mxw700;
-    padding: $padding;
-    margin: 60px 0px;
+// .encuentra{
+//   &-info{
+//     height: $h300;
+//     max-width: $mxw700;
+//     padding: $padding;
+//     margin: 60px 0px;
 
-    h1{
-      color: $fontblack;
-    }
+//     h1{
+//       color: $fontblack;
+//     }
 
-    p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-    }
-  }
-}
+//     p{
+//       padding: 20px;
+//       text-align: $txtalgnJy;
+//       justify-content: $jfyC;
+//       align-content: $algconc;
+//       color: $fontblack;
+//       font-family: $font-family;
+//       font-size: $font-size;
+//       color: $fontogrey;
+//     }
+//   }
+// }
 
-                        // VIDEOSECTION-MEN
-.video-section-men {
-  position: relative;
-  overflow: hidden;
-  height: $h400;
+//                         // VIDEOSECTION-MEN
+// .video-section-men {
+//   position: relative;
+//   overflow: hidden;
+//   height: $h400;
 
-  .video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+//   .video-background {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
 
-    video {
-      width: $w100p;
-      height: $h100p;
-      object-fit: $bgCov;
-    }
-  }
+//     video {
+//       width: $w100p;
+//       height: $h100p;
+//       object-fit: $bgCov;
+//     }
+//   }
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: $fontwhite;
-    text-align: $txtalgnc;
-    padding: 20px;
-    margin-top: $mt250;
-  }
-}
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: $fontwhite;
+//     text-align: $txtalgnc;
+//     padding: 20px;
+//     margin-top: $mt250;
+//   }
+// }
 
-                                             // OFERTA
-.newsindex{
-  display: $disFx;
-  margin-top: $mt200;
+//                                              // OFERTA
+// .newsindex{
+//   display: $disFx;
+//   margin-top: $mt200;
   
 
-  .ofertaindex{
-    background-image: url(../assets/image/bg-ship.jpg);
-    background-size: $bgCov;
-    background-position: $bgCen;
-    background-attachment: $bgAtt;
-    height: $h500;
+//   .ofertaindex{
+//     background-image: url(../assets/image/bg-ship.jpg);
+//     background-size: $bgCov;
+//     background-position: $bgCen;
+//     background-attachment: $bgAtt;
+//     height: $h500;
 
-    &__container{
-      display: $disFx;
-      flex-direction: $flxdtn;
-      justify-content: $jfyC;
-      align-items: $algC;
-      text-align: $txtalgnc;
-      padding: 70px;
-      color: $fontwhite;
+//     &__container{
+//       display: $disFx;
+//       flex-direction: $flxdtn;
+//       justify-content: $jfyC;
+//       align-items: $algC;
+//       text-align: $txtalgnc;
+//       padding: 70px;
+//       color: $fontwhite;
 
-      &-title{
-        font-weight: $titlesize100;
-      }
+//       &-title{
+//         font-weight: $titlesize100;
+//       }
 
-      button{
-        background-color: $bgwhite;
-      }
-    }
-  }
+//       button{
+//         background-color: $bgwhite;
+//       }
+//     }
+//   }
 
-                                             //WHOLESALE 
-  .mayoreoindex{
-    background-image: url(../assets/image/bg-whole.png);
-    background-size: $bgCov;
-    background-position: $bgCen;
-    background-attachment: $bgAtt;
-    height: $h500;
+//                                              //WHOLESALE 
+//   .mayoreoindex{
+//     background-image: url(../assets/image/bg-whole.png);
+//     background-size: $bgCov;
+//     background-position: $bgCen;
+//     background-attachment: $bgAtt;
+//     height: $h500;
     
 
-    &__container{
-      display: $disFx;
-      flex-direction: $flxdtn;
-      justify-content: $jfyC;
-      align-items: $algC;
-      text-align: $txtalgnc;
-      padding: 70px;
-      color: $fontwhite;
+//     &__container{
+//       display: $disFx;
+//       flex-direction: $flxdtn;
+//       justify-content: $jfyC;
+//       align-items: $algC;
+//       text-align: $txtalgnc;
+//       padding: 70px;
+//       color: $fontwhite;
 
-      &-title{
-        font-weight: $titlesize100;
-      }
+//       &-title{
+//         font-weight: $titlesize100;
+//       }
 
-      button{
-        background-color: $bgwhite;
-      }
-    }
-  }
-}
+//       button{
+//         background-color: $bgwhite;
+//       }
+//     }
+//   }
+// }
 
                                             // CAT-LADY
                         // MAIN
                         // SECTIONINTER
-.brand-sectionInter{
-  @include sectionInter;
+// .brand-sectionInter{
+//   @include sectionInter;
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                         // SECTIONBRANDS
-.barnd-sectionCH{
-  background-image: url(../assets/image/cat-lady-bg1.jpg);
-  @include section-cat;
+// .barnd-sectionCH{
+//   background-image: url(../assets/image/cat-lady-bg1.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionCL{
-  background-image: url(../assets/image/cat-lady-bg2.jpg);
-  @include section-cat;
+// .barnd-sectionCL{
+//   background-image: url(../assets/image/cat-lady-bg2.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionEL{
-  background-image: url(../assets/image/cat-lady-bg3.jpeg);
-  @include section-cat;
+// .barnd-sectionEL{
+//   background-image: url(../assets/image/cat-lady-bg3.jpeg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionGV{
-  background-image: url(../assets/image/cat-lady-bg4.jpg);
-  @include section-cat;
+// .barnd-sectionGV{
+//   background-image: url(../assets/image/cat-lady-bg4.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionKZ{
-  background-image: url(../assets/image/cat-lady-bg5.jpeg);
-  @include section-cat;
+// .barnd-sectionKZ{
+//   background-image: url(../assets/image/cat-lady-bg5.jpeg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                                             // CAT-MEN
                         // MAIN
                         // SECTIONINTER
                         // SECTIONBRANDS
-.barnd-sectionCHM{
-  background-image: url(../assets/image/cat-men-bg1.jpg);
-  @include section-cat;
+// .barnd-sectionCHM{
+//   background-image: url(../assets/image/cat-men-bg1.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionCLM{
-  background-image: url(../assets/image/cat-men-bg2.png);
-  @include section-cat;
+// .barnd-sectionCLM{
+//   background-image: url(../assets/image/cat-men-bg2.png);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionELM{
-  background-image: url(../assets/image/cat-men-bg3.png);
-  @include section-cat;
+// .barnd-sectionELM{
+//   background-image: url(../assets/image/cat-men-bg3.png);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionGVM{
-  background-image: url(../assets/image/cat-men-bg4.jpg);
-  @include section-cat;
+// .barnd-sectionGVM{
+//   background-image: url(../assets/image/cat-men-bg4.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionKZM{
-  background-image: url(../assets/image/cat-men-bg5.jpg);
-  @include section-cat;
+// .barnd-sectionKZM{
+//   background-image: url(../assets/image/cat-men-bg5.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                                             // MAINBRANDS //////////////////////////////////////////////////////////
                         // MAIN
                         // BARNDS
-.brands {
-  @include container-brands;
+// .brands {
+//   @include container-brands;
 
-    &__cards {
-      @include cardsMob;
+//     &__cards {
+//       @include cardsMob;
 
-        .card-b {
-          @include stylecard;
+//         .card-b {
+//           @include stylecard;
 
-            .header-b img {
-              @include stylecardimg;
-            }
+//             .header-b img {
+//               @include stylecardimg;
+//             }
 
-            .title-b {
-              @include stylecardtitle;
-            }
+//             .title-b {
+//               @include stylecardtitle;
+//             }
 
-            .description-b {
-                margin-bottom: $mb40;
-            }
+//             .description-b {
+//                 margin-bottom: $mb40;
+//             }
 
-            .link-b1,
-            .link-b2 {
-              @include stylecardbutton;
-            }
-        }
-    }
-}
+//             .link-b1,
+//             .link-b2 {
+//               @include stylecardbutton;
+//             }
+//         }
+//     }
+// }
 
                                             // BRANDS STYLE  ////////////////////////////////////////////////////////////
                         // MAIN
                         // FRAGANCIAS
-.containerMobile{
-  @include stylebrandsMob;
+// .containerMobile{
+//   @include stylebrandsMob;
 
-    .frag{
-        font-size: 30px;
+//     .frag{
+//         font-size: 30px;
 
-        a{
-          @include stylebrandsname;
-        }
+//         a{
+//           @include stylebrandsname;
+//         }
 
-        small{
-          @include stylebrandssmall;
-        }
+//         small{
+//           @include stylebrandssmall;
+//         }
 
-    }
+//     }
     
-    .self{
-      @include styleself;
-    }
+//     .self{
+//       @include styleself;
+//     }
 
-    .alterned1{
-        order: 2;
-    }
+//     .alterned1{
+//         order: 2;
+//     }
       
-    .alterned2{
-        order: 1;
-    }
+//     .alterned2{
+//         order: 1;
+//     }
       
-    .alterned3{
-        order: 4;
-    }
+//     .alterned3{
+//         order: 4;
+//     }
       
-    .alterned4{
-        order: 3;
-    }
+//     .alterned4{
+//         order: 3;
+//     }
       
-    .alterned5{
-        order: 6;
-    }
+//     .alterned5{
+//         order: 6;
+//     }
       
-    .alterned6{
-        order: 5;
-    }
+//     .alterned6{
+//         order: 5;
+//     }
       
-    .alterned7{
-        order: 8;
-    }
+//     .alterned7{
+//         order: 8;
+//     }
       
-    .alterned8{
-        order: 7;
-    }
+//     .alterned8{
+//         order: 7;
+//     }
       
-    .alterned9{
-        order: 10;
-    }
+//     .alterned9{
+//         order: 10;
+//     }
       
-    .alterned10{
-        order: 9;
-    }
+//     .alterned10{
+//         order: 9;
+//     }
 
-    .frag-img{
-        height: 65vh;
-        @include stylebrandsimg;
-    }
-}
+//     .frag-img{
+//         height: 65vh;
+//         @include stylebrandsimg;
+//     }
+// }
 
                                             // WHOLESALE  ////////////////////////////////////////////////////////////////
                         // MAIN
-.descubre{
-  @include styledescubre;
+// .descubre{
+//   @include styledescubre;
 
-  &__container-info{
-    @include styledescubreinfo;
+//   &__container-info{
+//     @include styledescubreinfo;
 
-    h2 {
-      @include styledescubretitle;
-    }
+//     h2 {
+//       @include styledescubretitle;
+//     }
   
-    p{
-      @include styledescubrep;
-    }
-  }
-}
+//     p{
+//       @include styledescubrep;
+//     }
+//   }
+// }
 
-.mayoreo{
-  @include stylemayoreo;
+// .mayoreo{
+//   @include stylemayoreo;
 
-  &__container-info{
+//   &__container-info{
 
-    &-text{
-      @include stylemayoreoinfo;
-    }
+//     &-text{
+//       @include stylemayoreoinfo;
+//     }
     
-    h1{
-      color: $fontblack;
-      margin-top: $mt50;
-    }
+//     h1{
+//       color: $fontblack;
+//       margin-top: $mt50;
+//     }
 
-    p{
-      color: $fontblack;
-    }
+//     p{
+//       color: $fontblack;
+//     }
 
-    a{
-      .btn {
-        @include stylemayoreobutton;
-      }
-    }
-  }
-}
+//     a{
+//       .btn {
+//         @include stylemayoreobutton;
+//       }
+//     }
+//   }
+// }
 
                                             // FREESHIPMENT
                         // MAIN
-.compromiso{
-  margin-top: $mt60;
-  @include stylecompromiso;
+// .compromiso{
+//   margin-top: $mt60;
+//   @include stylecompromiso;
 
-  &__container-info{
-    @include stylecompromisoinfo;
+//   &__container-info{
+//     @include stylecompromisoinfo;
 
-    h2 {
-      margin: $m0;
-    }
+//     h2 {
+//       margin: $m0;
+//     }
   
-    p{
-      @include stylecompromisop;
-    }
-  }
-}
+//     p{
+//       @include stylecompromisop;
+//     }
+//   }
+// }
 
-.oferta{
-  @include styleoferta;
+// .oferta{
+//   @include styleoferta;
 
-  &__container-info{
+//   &__container-info{
 
-    &-text{
-      @include styleofertainfo;
-    }
+//     &-text{
+//       @include styleofertainfo;
+//     }
     
-    h1{
-      color: $fontblack;
-    }
+//     h1{
+//       color: $fontblack;
+//     }
 
-    p{
-      color: $fontblack;
-    }
+//     p{
+//       color: $fontblack;
+//     }
 
-    a{
-      .btn {
-        @include styleofertabutton;
-      }
-    }
-  }
-}
+//     a{
+//       .btn {
+//         @include styleofertabutton;
+//       }
+//     }
+//   }
+// }
 
-.thx{
-  @include stylethx;
+// .thx{
+//   @include stylethx;
 
-  &__container-info{
-    @include stylethxinfo;
+//   &__container-info{
+//     @include stylethxinfo;
 
-    h2 {
-      margin: $m0;
-    }
+//     h2 {
+//       margin: $m0;
+//     }
   
-    p{
-      @include stylethxp;
-    }
-  }
-}
+//     p{
+//       @include stylethxp;
+//     }
+//   }
+// }
                                             // CONTACT  //////////////////////////////////////////////////////////////
                         // MAIN
                         // CARDS
-.contact {
-  @include stylecontact;
+// .contact {
+//   @include stylecontact;
 
-    &__title {
-      @include stylecontacttitle;
-    }
+//     &__title {
+//       @include stylecontacttitle;
+//     }
 
-    &__cards {
-      @include stylecontactcardsMob;
+//     &__cards {
+//       @include stylecontactcardsMob;
 
-        .card {
-          @include stylecontactcardshw;
+//         .card {
+//           @include stylecontactcardshw;
 
-            &__header img {
-              @include stylecontacardimg;
-            }
+//             &__header img {
+//               @include stylecontacardimg;
+//             }
 
-            &__title {
-              @include stylecontactcardtitle;
-            }
+//             &__title {
+//               @include stylecontactcardtitle;
+//             }
     
-            &__description {
-                margin-bottom: $mb40;
-            }
+//             &__description {
+//                 margin-bottom: $mb40;
+//             }
     
-            &__link {
-              @include stylecontactcardbutton;
-            }
-        }
+//             &__link {
+//               @include stylecontactcardbutton;
+//             }
+//         }
 
-    }
-}
-}
+//     }
+// }
+// }
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // MEDIUM
-@media (min-width: $bpMed){
+// @media (min-width: $bpMed){
                                             // INDEX
                         // MAIN
-                        // VIDEOSECTION-LADY
-.video-section-lady {
-  position: relative;
-  overflow: hidden;
-  height: $h400;
-  margin-top: $mt90;
+//                         // VIDEOSECTION-LADY
+// .video-section-lady {
+//   position: relative;
+//   overflow: hidden;
+//   height: $h400;
+//   margin-top: $mt90;
 
-  .video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+//   .video-background {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
 
-    video {
-      width: $w100p;
-      height: $h100p;
-      object-fit: $bgCov;
-    }
-  }
+//     video {
+//       width: $w100p;
+//       height: $h100p;
+//       object-fit: $bgCov;
+//     }
+//   }
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: $fontwhite;
-    text-align: $txtalgnc;
-    padding: 20px;
-    margin-top: $mt250;
-  }
-}
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: $fontwhite;
+//     text-align: $txtalgnc;
+//     padding: 20px;
+//     margin-top: $mt250;
+//   }
+// }
 
-.encuentra{
-  &-info{
-    justify-content: $jfyC;
-    height: $h300;
-    max-width: $mxw700;
-    padding: $padding;
-    margin: 60px 0px;
+// .encuentra{
+//   &-info{
+//     justify-content: $jfyC;
+//     height: $h300;
+//     max-width: $mxw700;
+//     padding: $padding;
+//     margin: 60px 0px;
 
-    h1{
-      color: $fontblack;
-      text-align: $txtalgnc;
-    }
+//     h1{
+//       color: $fontblack;
+//       text-align: $txtalgnc;
+//     }
 
-    p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-    }
-  }
-}
+//     p{
+//       padding: 20px;
+//       text-align: $txtalgnJy;
+//       justify-content: $jfyC;
+//       align-content: $algconc;
+//       color: $fontblack;
+//       font-family: $font-family;
+//       font-size: $font-size;
+//       color: $fontogrey;
+//     }
+//   }
+// }
 
-                        // VIDEOSECTION-MEN
-.video-section-men {
-  position: relative;
-  overflow: hidden;
-  height: $h400;
+//                         // VIDEOSECTION-MEN
+// .video-section-men {
+//   position: relative;
+//   overflow: hidden;
+//   height: $h400;
 
-  .video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+//   .video-background {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
 
-    video {
-      width: $w100p;
-      height: $h100p;
-      object-fit: $bgCov;
-    }
-  }
+//     video {
+//       width: $w100p;
+//       height: $h100p;
+//       object-fit: $bgCov;
+//     }
+//   }
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: $fontwhite;
-    text-align: $txtalgnc;
-    padding: 20px;
-    margin-top: $mt250;
-  }
-}
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: $fontwhite;
+//     text-align: $txtalgnc;
+//     padding: 20px;
+//     margin-top: $mt250;
+//   }
+// }
 
-                                             // OFERTA
-.newsindex{
-  display: $disFx;
-  margin-top: $mt200;
+//                                              // OFERTA
+// .newsindex{
+//   display: $disFx;
+//   margin-top: $mt200;
 
-  .ofertaindex{
-    background-image: url(../assets/image/bg-ship.jpg);
-    background-size: $bgCov;
-    background-position: $bgCen;
-    background-attachment: $bgAtt;
-    height: $h300;
+//   .ofertaindex{
+//     background-image: url(../assets/image/bg-ship.jpg);
+//     background-size: $bgCov;
+//     background-position: $bgCen;
+//     background-attachment: $bgAtt;
+//     height: $h300;
 
-    &__container{
-      display: $disFx;
-      flex-direction: $flxdtn;
-      justify-content: $jfyC;
-      align-items: $algC;
-      text-align: $txtalgnc;
-      padding: 70px;
-      color: $fontwhite;
+//     &__container{
+//       display: $disFx;
+//       flex-direction: $flxdtn;
+//       justify-content: $jfyC;
+//       align-items: $algC;
+//       text-align: $txtalgnc;
+//       padding: 70px;
+//       color: $fontwhite;
 
-      &-title{
-        font-weight: $titlesize100;
-      }
+//       &-title{
+//         font-weight: $titlesize100;
+//       }
 
-      button{
-        background-color: $bgwhite;
-      }
-    }
-  }
+//       button{
+//         background-color: $bgwhite;
+//       }
+//     }
+//   }
 
-                                             //WHOLESALE 
-  .mayoreoindex{
-    background-image: url(../assets/image/bg-whole.png);
-    background-size: $bgCov;
-    background-position: $bgCen;
-    background-attachment: $bgAtt;
-    height: $h300;
+//                                              //WHOLESALE 
+//   .mayoreoindex{
+//     background-image: url(../assets/image/bg-whole.png);
+//     background-size: $bgCov;
+//     background-position: $bgCen;
+//     background-attachment: $bgAtt;
+//     height: $h300;
     
 
-    &__container{
-      display: $disFx;
-      flex-direction: $flxdtn;flex-direction: $flxdtn;flex-direction: $flxdtn;
-      justify-content: $jfyC;
-      align-items: $algC;
-      text-align: $txtalgnc;
-      padding: 70px;
-      color: $fontwhite;
+//     &__container{
+//       display: $disFx;
+//       flex-direction: $flxdtn;flex-direction: $flxdtn;flex-direction: $flxdtn;
+//       justify-content: $jfyC;
+//       align-items: $algC;
+//       text-align: $txtalgnc;
+//       padding: 70px;
+//       color: $fontwhite;
 
-      &-title{
-        font-weight: $titlesize100;
-      }
+//       &-title{
+//         font-weight: $titlesize100;
+//       }
 
-      button{
-        background-color: $bgwhite;
-      }
-    }
-  }
-}
+//       button{
+//         background-color: $bgwhite;
+//       }
+//     }
+//   }
+// }
            
                                             // CAT-LADY
                         // MAIN
                         // SECTIONINTER
-.brand-sectionInter{
-  @include  sectionInter;
+// .brand-sectionInter{
+//   @include  sectionInter;
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
+//   span {
+//     @include span-cat;
+//   }
 
-}
+// }
 
                         // SECTIONBRANDS
-.barnd-sectionCH{
-  background-image: url(../assets/image/cat-lady-bg1.jpg);
-  @include section-cat;
+// .barnd-sectionCH{
+//   background-image: url(../assets/image/cat-lady-bg1.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionCL{
-  background-image: url(../assets/image/cat-lady-bg2.jpg);
-  @include section-cat;
+// .barnd-sectionCL{
+//   background-image: url(../assets/image/cat-lady-bg2.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionEL{
-  background-image: url(../assets/image/cat-lady-bg3.jpeg);
-  @include section-cat;
+// .barnd-sectionEL{
+//   background-image: url(../assets/image/cat-lady-bg3.jpeg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionGV{
-  background-image: url(../assets/image/cat-lady-bg4.jpg);
-  @include section-cat;
+// .barnd-sectionGV{
+//   background-image: url(../assets/image/cat-lady-bg4.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionKZ{
-  background-image: url(../assets/image/cat-lady-bg5.jpeg);
-  @include section-cat;
+// .barnd-sectionKZ{
+//   background-image: url(../assets/image/cat-lady-bg5.jpeg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                                             // CAT-MEN
                         // MAIN
                         // SECTIONINTER
                         // SECTIONBRANDS
-.barnd-sectionCHM{
-  background-image: url(../assets/image/cat-men-bg1.jpg);
-  @include section-cat;
+// .barnd-sectionCHM{
+//   background-image: url(../assets/image/cat-men-bg1.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionCLM{
-  background-image: url(../assets/image/cat-men-bg2.png);
-  @include section-cat;
+// .barnd-sectionCLM{
+//   background-image: url(../assets/image/cat-men-bg2.png);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionELM{
-  background-image: url(../assets/image/cat-men-bg3.png);
-  @include section-cat;
+// .barnd-sectionELM{
+//   background-image: url(../assets/image/cat-men-bg3.png);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionGVM{
-  background-image: url(../assets/image/cat-men-bg4.jpg);
-  @include section-cat;
+// .barnd-sectionGVM{
+//   background-image: url(../assets/image/cat-men-bg4.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionKZM{
-  background-image: url(../assets/image/cat-men-bg5.jpg);
-  @include section-cat;
+// .barnd-sectionKZM{
+//   background-image: url(../assets/image/cat-men-bg5.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                                             // MAINBRANDS //////////////////////////////////////////////////////////
                         // MAIN
                         // BARNDS
-.brands {
-  @include container-brands;
+// .brands {
+//   @include container-brands;
   
-    &__cards {
-      @include cardsMed;
+//     &__cards {
+//       @include cardsMed;
   
-      .card__b {
-        @include stylecard;
+//       .card__b {
+//         @include stylecard;
   
-        .header-b img {
-          @include stylecardimg;
-        }
+//         .header-b img {
+//           @include stylecardimg;
+//         }
   
-        .title-b {
-          @include stylecardtitle;
-        }
+//         .title-b {
+//           @include stylecardtitle;
+//         }
   
-        .description-b {
-          margin-bottom: $mb40;
-        }
+//         .description-b {
+//           margin-bottom: $mb40;
+//         }
   
-        .linkb1,
-        .linkb2 {
-          @include stylecardbutton;
-        }
-      }
-    }
-  }
+//         .linkb1,
+//         .linkb2 {
+//           @include stylecardbutton;
+//         }
+//       }
+//     }
+//   }
 
                                             // BARNDS STYLE ////////////////////////////////////////////////////////////
                         // MAIN
                         // FRAGANCIAS
 ///////////////////////////////////////////////////CH-LADY
-.frags__container-CH {
-  @include stylebrandsMed;
+// .frags__container-CH {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
 
-  .alterned1 {
-    order: 1;
-  }
+//   .alterned1 {
+//     order: 1;
+//   }
 
-  .alterned2 {
-    order: 2;
-    position: relative;
+//   .alterned2 {
+//     order: 2;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-GG.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-GG.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .alterned3 {
-    order: 4;
-  }
+//   .alterned3 {
+//     order: 4;
+//   }
 
-  .alterned4 {
-    order: 3;
-    position: relative;
+//   .alterned4 {
+//     order: 3;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-CH.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-CH.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .alterned5 {
-    order: 5;
-  }
+//   .alterned5 {
+//     order: 5;
+//   }
 
-  .alterned6 {
-    order: 6;
-    position: relative;
+//   .alterned6 {
+//     order: 6;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-212.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-212.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .alterned7 {
-    order: 8;
-  }
+//   .alterned7 {
+//     order: 8;
+//   }
 
-  .alterned8 {
-    order: 7;
-    position: relative;
+//   .alterned8 {
+//     order: 7;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-EDP.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-EDP.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .alterned9 {
-    order: 9;
-  }
+//   .alterned9 {
+//     order: 9;
+//   }
 
-  .alterned10 {
-    order: 10;
-    position: relative;
+//   .alterned10 {
+//     order: 10;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-212V.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-212V.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .frag-imgCH {
-    @include stylebrandsimghr;
-  }
-}
+//   .frag-imgCH {
+//     @include stylebrandsimghr;
+//   }
+// }
 
 ///////////////////////////////////////////////////CLINIQUE-LADY  
-.frags__container-CL {
-  @include stylebrandsMed;
+// .frags__container-CL {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
-    .alterned1 {
-        order: 1;
-    }
+//   .self {
+//     @include styleself;
+//   }
+//     .alterned1 {
+//         order: 1;
+//     }
 
-    .alterned2 {
-        order: 2;
-        position: relative;
+//     .alterned2 {
+//         order: 2;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-AE.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-AE.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned3 {
-        order: 4;
-    }
+//     .alterned3 {
+//         order: 4;
+//     }
 
-    .alterned4 {
-        order: 3;
-        position: relative;
+//     .alterned4 {
+//         order: 3;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-C.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-C.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned5 {
-        order: 5;
-    }
+//     .alterned5 {
+//         order: 5;
+//     }
 
-    .alterned6 {
-        order: 6;
-        position: relative;
+//     .alterned6 {
+//         order: 6;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-HB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-HB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned7 {
-        order: 8;
-    }
+//     .alterned7 {
+//         order: 8;
+//     }
 
-    .alterned8 {
-        order: 7;
-        position: relative;
+//     .alterned8 {
+//         order: 7;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-HH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-HH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned9 {
-        order: 9;
-    }
+//     .alterned9 {
+//         order: 9;
+//     }
 
-    .alterned10 {
-        order: 10;
-        position: relative;
+//     .alterned10 {
+//         order: 10;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-S.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-S.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .frag-imgCL {
-      @include stylebrandsimghr;
-    }
-}
+//     .frag-imgCL {
+//       @include stylebrandsimghr;
+//     }
+// }
 
 ///////////////////////////////////////////////////ESTEEL-LADY
-.frags__container-EL {
-  @include stylebrandsMed;
+// .frags__container-EL {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
 
-    .alterned1 {
-        order: 1;
-    }
+//     .alterned1 {
+//         order: 1;
+//     }
 
-    .alterned2 {
-        order: 2;
-        position: relative;
+//     .alterned2 {
+//         order: 2;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-BM.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-BM.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned3 {
-        order: 4;
-    }
+//     .alterned3 {
+//         order: 4;
+//     }
 
-    .alterned4 {
-        order: 3;
-        position: relative;
+//     .alterned4 {
+//         order: 3;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-BP.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-BP.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned5 {
-        order: 5;
-    }
+//     .alterned5 {
+//         order: 5;
+//     }
 
-    .alterned6 {
-        order: 6;
-        position: relative;
+//     .alterned6 {
+//         order: 6;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-P.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-P.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned7 {
-        order: 8;
-    }
+//     .alterned7 {
+//         order: 8;
+//     }
 
-    .alterned8 {
-        order: 7;
-        position: relative;
+//     .alterned8 {
+//         order: 7;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-RD.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-RD.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned9 {
-        order: 9;
-    }
+//     .alterned9 {
+//         order: 9;
+//     }
 
-    .alterned10 {
-        order: 10;
-        position: relative;
+//     .alterned10 {
+//         order: 10;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-SN.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-SN.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .frag-imgEL {
-      @include stylebrandsimghr;
-    }
-}
+//     .frag-imgEL {
+//       @include stylebrandsimghr;
+//     }
+// }
 
 ///////////////////////////////////////////////////GIVENCHY-LADY
-.frags__container-GV {
-  @include stylebrandsMed;
+// .frags__container-GV {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
-    }
+//     .self {
+//       justify-self: $jfysfC;
+//       align-self: $algsfC;
+//     }
 
-    .alterned1 {
-        order: 1;
-    }
+//     .alterned1 {
+//         order: 1;
+//     }
 
-    .alterned2 {
-        order: 2;
-        position: relative;
+//     .alterned2 {
+//         order: 2;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-A.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-A.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned3 {
-        order: 4;
-    }
+//     .alterned3 {
+//         order: 4;
+//     }
 
-    .alterned4 {
-        order: 3;
-        position: relative;
+//     .alterned4 {
+//         order: 3;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-DD.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-DD.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned5 {
-        order: 5;
-    }
+//     .alterned5 {
+//         order: 5;
+//     }
 
-    .alterned6 {
-        order: 6;
-        position: relative;
+//     .alterned6 {
+//         order: 6;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-L.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-L.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned7 {
-        order: 8;
-    }
+//     .alterned7 {
+//         order: 8;
+//     }
 
-    .alterned8 {
-        order: 7;
-        position: relative;
+//     .alterned8 {
+//         order: 7;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-LB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-LB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned9 {
-        order: 9;
-    }
+//     .alterned9 {
+//         order: 9;
+//     }
 
-    .alterned10 {
-        order: 10;
-        position: relative;
+//     .alterned10 {
+//         order: 10;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-LR.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-LR.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .frag-imgGV {
-      @include stylebrandsimghr;
-    }
-}
+//     .frag-imgGV {
+//       @include stylebrandsimghr;
+//     }
+// }
 
 ///////////////////////////////////////////////////KENZO-LADY
-.frags__container-KZ {
-  @include stylebrandsMed;
+// .frags__container-KZ {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
 
-    .alterned1 {
-        order: 1;
-    }
+//     .alterned1 {
+//         order: 1;
+//     }
 
-    .alterned2 {
-        order: 2;
-        position: relative;
+//     .alterned2 {
+//         order: 2;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned3 {
-        order: 4;
-    }
+//     .alterned3 {
+//         order: 4;
+//     }
 
-    .alterned4 {
-        order: 3;
-        position: relative;
+//     .alterned4 {
+//         order: 3;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned5 {
-        order: 5;
-    }
+//     .alterned5 {
+//         order: 5;
+//     }
 
-    .alterned6 {
-        order: 6;
-        position: relative;
+//     .alterned6 {
+//         order: 6;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned7 {
-        order: 8;
-    }
+//     .alterned7 {
+//         order: 8;
+//     }
 
-    .alterned8 {
-        order: 7;
-        position: relative;
+//     .alterned8 {
+//         order: 7;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned9 {
-        order: 9;
-    }
+//     .alterned9 {
+//         order: 9;
+//     }
 
-    .alterned10 {
-        order: 10;
-        position: relative;
+//     .alterned10 {
+//         order: 10;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .frag-imgKZ {
-      @include stylebrandsimghr;
-    }
-}
+//     .frag-imgKZ {
+//       @include stylebrandsimghr;
+//     }
+// }
 
 ///////////////////////////////////////////////////CH-MEN
-.frags__container-CHM {
-  @include stylebrandsMed;
+// .frags__container-CHM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-212NYC.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-212NYC.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-212VB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-212VB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-212VP.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-212VP.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-BB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-BB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-CH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-CH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgCHM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgCHM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
 //////////////////////////////////////////////////CLINIQUE-MEN
-.frags__container-CLM {
-  @include stylebrandsMed;
+// .frags__container-CLM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-HM.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-HM.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-HM100.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-HM100.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-ET.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-ET.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-OIL.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-OIL.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-SPF.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-SPF.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgCLM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgCLM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
 //////////////////////////////////////////////////ESTEEL-MEN
-.frags__container-ELM {
-  @include stylebrandsMed;
+// .frags__container-ELM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-P.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-P.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-BP.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-BP.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-I.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-I.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-WM.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-WM.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-CS.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-CS.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgELM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgELM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
 //////////////////////////////////////////////////GIVENCHY-MEN
-.frags__container-GVM {
-  @include stylebrandsMed;
+// .frags__container-GVM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV-GB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV-GB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV--G.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV--G.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV-GY.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV-GY.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV-PH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV-PH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV-PI.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV-PI.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgGVM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgGVM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
 //////////////////////////////////////////////////KENZO-MEN
-.frags__container-KZM {
-  @include stylebrandsMed;
+// .frags__container-KZM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-PH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-PH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-H.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-H.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-LE.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-LE.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-A.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-A.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-JH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-JH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgKZM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgKZM {
+//       @include stylebrandsimghr;
+//     }
+//   }
  
                                             // WHOLESALE  ////////////////////////////////////////////////////////////////
                         // MAIN
-.descubre{
-  @include styledescubre;
+// .descubre{
+//   @include styledescubre;
 
-  &__container-info{
-    @include styledescubreinfo;
+//   &__container-info{
+//     @include styledescubreinfo;
 
-    h2 {
-      @include  styledescubretitle;
-    }
+//     h2 {
+//       @include  styledescubretitle;
+//     }
   
-    p{
-      @include styledescubrep;
-    }
-  }
-}
+//     p{
+//       @include styledescubrep;
+//     }
+//   }
+// }
 
-.mayoreo{
-  @include stylemayoreo;
+// .mayoreo{
+//   @include stylemayoreo;
 
-  &__container-info{
+//   &__container-info{
 
-    &-text{
-      @include stylemayoreoinfo;
-    }
+//     &-text{
+//       @include stylemayoreoinfo;
+//     }
     
-    h1{
-      color: $fontblack;
-      margin-top: $mt50;
-    }
+//     h1{
+//       color: $fontblack;
+//       margin-top: $mt50;
+//     }
 
-    p{
-      color: $fontblack;
-    }
+//     p{
+//       color: $fontblack;
+//     }
 
-    a{
-      .btn {
-        @include stylemayoreobutton;
-      }
-    }
-  }
-}
+//     a{
+//       .btn {
+//         @include stylemayoreobutton;
+//       }
+//     }
+//   }
+// }
 
                                             // FREESHIPMENT
                         // MAIN
-.compromiso{
-  margin-top: $mt60;
-  @include stylecompromiso;
+// .compromiso{
+//   margin-top: $mt60;
+//   @include stylecompromiso;
 
-  &__container-info{
-    @include stylecompromisoinfo;
+//   &__container-info{
+//     @include stylecompromisoinfo;
 
-    h2 {
-      margin: $m0;
-    }
+//     h2 {
+//       margin: $m0;
+//     }
   
-    p{
-      @include stylecompromisop;
-    }
-  }
-}
+//     p{
+//       @include stylecompromisop;
+//     }
+//   }
+// }
 
-.oferta{
-  @include styleoferta;
+// .oferta{
+//   @include styleoferta;
 
-  &__container-info{
+//   &__container-info{
 
-    &-text{
-      @include styleofertainfo;
-    }
+//     &-text{
+//       @include styleofertainfo;
+//     }
     
-    h1{
-      color: $fontblack;
-    }
+//     h1{
+//       color: $fontblack;
+//     }
 
-    p{
-      color: $fontblack;
-    }
+//     p{
+//       color: $fontblack;
+//     }
 
-    a{
-      .btn {
-        @include styleofertabutton;
-      }
-    }
-  }
-}
+//     a{
+//       .btn {
+//         @include styleofertabutton;
+//       }
+//     }
+//   }
+// }
 
-.thx{
-  @include stylethx;
+// .thx{
+//   @include stylethx;
 
-  &__container-info{
-    @include stylethxinfo;
+//   &__container-info{
+//     @include stylethxinfo;
 
-    h2 {
-      margin: $m0;
-    }
+//     h2 {
+//       margin: $m0;
+//     }
   
-    p{
-      @include stylethxp;
-    }
-  }
-}
+//     p{
+//       @include stylethxp;
+//     }
+//   }
+// }
                                             // CONTACT  ////////////////////////////////////////////////////////////////
                         // MAIN
                         // CARDS
-.contact {
-  @include stylecontact;
+// .contact {
+//   @include stylecontact;
 
-    &__title {
-      @include stylecontacttitle;
-    }
+//     &__title {
+//       @include stylecontacttitle;
+//     }
 
-    &__cards {
-      @include stylecontactcardsMed;
+//     &__cards {
+//       @include stylecontactcardsMed;
 
-        .card {
-          @include stylecontactcardshw;
+//         .card {
+//           @include stylecontactcardshw;
 
-            &__header img {
-              @include stylecontacardimg;
-            }
+//             &__header img {
+//               @include stylecontacardimg;
+//             }
 
-            &__title {
-              @include stylecontactcardtitle;
-            }
+//             &__title {
+//               @include stylecontactcardtitle;
+//             }
             
-            &__description {
-                margin-bottom: $mb40;
-            }
+//             &__description {
+//                 margin-bottom: $mb40;
+//             }
     
-            &__link {
-              @include stylecontactcardbutton;
-            }
-        }
-    }
-}
-}
+//             &__link {
+//               @include stylecontactcardbutton;
+//             }
+//         }
+//     }
+// }
+// }
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // DESKTOP
-@media (min-width: $bpDkp){
+// @media (min-width: $bpDkp){
                                             // INDEX
                         // MAIN
-                        // VIDEOSECTION-LADY
-.video-section-lady {
-  position: relative;
-  overflow: hidden;
-  height: $h400;
-  margin-top: $mt90;
+//                         // VIDEOSECTION-LADY
+// .video-section-lady {
+//   position: relative;
+//   overflow: hidden;
+//   height: $h400;
+//   margin-top: $mt90;
 
-  .video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+//   .video-background {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
 
-    video {
-      width: $w100p;
-      height: $h100p;
-      object-fit: $bgCov;
-    }
-  }
+//     video {
+//       width: $w100p;
+//       height: $h100p;
+//       object-fit: $bgCov;
+//     }
+//   }
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: $fontwhite;
-    text-align: $txtalgnc;
-    padding: 20px;
-    margin-top: $mt250;
-  }
-}
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: $fontwhite;
+//     text-align: $txtalgnc;
+//     padding: 20px;
+//     margin-top: $mt250;
+//   }
+// }
 
-.encuentra{
-  justify-content: $jfyC;
-  max-width: $mxw100p;
-  display: $disFx;
-  margin-top: $mt60;
+// .encuentra{
+//   justify-content: $jfyC;
+//   max-width: $mxw100p;
+//   display: $disFx;
+//   margin-top: $mt60;
 
-  &-info{
-    height: $h300;
-    max-width: $mxw700;
-    padding: $padding;
-    margin: 60px 0px;
+//   &-info{
+//     height: $h300;
+//     max-width: $mxw700;
+//     padding: $padding;
+//     margin: 60px 0px;
 
-    h1{
-      color: $fontblack;
-      text-align: $txtalgnc;
-    }
+//     h1{
+//       color: $fontblack;
+//       text-align: $txtalgnc;
+//     }
 
-    p{
-      padding: 20px;
-      text-align: $txtalgnJy;
-      justify-content: $jfyC;
-      align-content: $algconc;
-      color: $fontblack;
-      font-family: $font-family;
-      font-size: $font-size;
-      color: $fontogrey;
-    }
-  }
-}
+//     p{
+//       padding: 20px;
+//       text-align: $txtalgnJy;
+//       justify-content: $jfyC;
+//       align-content: $algconc;
+//       color: $fontblack;
+//       font-family: $font-family;
+//       font-size: $font-size;
+//       color: $fontogrey;
+//     }
+//   }
+// }
 
-                                             // OFERTA
-.newsindex{
-  display: $disFx;
-  margin-top: $mt200;
+//                                              // OFERTA
+// .newsindex{
+//   display: $disFx;
+//   margin-top: $mt200;
 
-  .ofertaindex{
-    background-image: url(../assets/image/bg-ship.jpg);
-    background-size: $bgCov;
-    background-position: $bgCen;
-    background-attachment: $bgAtt;
-    height: $h300;
+//   .ofertaindex{
+//     background-image: url(../assets/image/bg-ship.jpg);
+//     background-size: $bgCov;
+//     background-position: $bgCen;
+//     background-attachment: $bgAtt;
+//     height: $h300;
 
-    &__container{
-      display: $disFx;
-      flex-direction: $flxdtn;
-      justify-content: $jfyC;
-      align-items: $algC;
-      text-align: $txtalgnc;
-      padding: 70px;
-      color: $fontwhite;
+//     &__container{
+//       display: $disFx;
+//       flex-direction: $flxdtn;
+//       justify-content: $jfyC;
+//       align-items: $algC;
+//       text-align: $txtalgnc;
+//       padding: 70px;
+//       color: $fontwhite;
 
-      &-title{
-        font-weight: $titlesize100;
-      }
+//       &-title{
+//         font-weight: $titlesize100;
+//       }
 
-      button{
-        background-color: $bgwhite;
-      }
-    }
-  }
+//       button{
+//         background-color: $bgwhite;
+//       }
+//     }
+//   }
 
-                                            // WHOLESALE 
-  .mayoreoindex{
-    background-image: url(../assets/image/bg-whole.png);
-    background-size: $bgCov;
-    background-position: $bgCen;
-    background-attachment: $bgAtt;
-    height: $h300;
+//                                             // WHOLESALE 
+//   .mayoreoindex{
+//     background-image: url(../assets/image/bg-whole.png);
+//     background-size: $bgCov;
+//     background-position: $bgCen;
+//     background-attachment: $bgAtt;
+//     height: $h300;
     
 
-    &__container{
-      display: $disFx;
-      flex-direction: $flxdtn;
-      justify-content: $jfyC;
-      align-items: $algC;
-      text-align: $txtalgnc;
-      padding: 70px;
-      color: $fontwhite;
+//     &__container{
+//       display: $disFx;
+//       flex-direction: $flxdtn;
+//       justify-content: $jfyC;
+//       align-items: $algC;
+//       text-align: $txtalgnc;
+//       padding: 70px;
+//       color: $fontwhite;
 
-      &-title{
-        font-weight: $titlesize100;
-      }
+//       &-title{
+//         font-weight: $titlesize100;
+//       }
 
-      button{
-        background-color: $bgwhite;
-      }
-    }
-  }
-}
+//       button{
+//         background-color: $bgwhite;
+//       }
+//     }
+//   }
+// }
            
 
-                        // VIDEOSECTION-MEN
-.video-section-men {
-  position: relative;
-  overflow: hidden;
-  height: $h400;
+//                         // VIDEOSECTION-MEN
+// .video-section-men {
+//   position: relative;
+//   overflow: hidden;
+//   height: $h400;
 
-  .video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+//   .video-background {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
 
-    video {
-      width: $w100p;
-      height: $h100p;
-      object-fit: $bgCov;
-    }
-  }
+//     video {
+//       width: $w100p;
+//       height: $h100p;
+//       object-fit: $bgCov;
+//     }
+//   }
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: $fontwhite;
-    text-align: $txtalgnc;
-    padding: 20px;
-    margin-top: $mt250;
-  }
-}
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: $fontwhite;
+//     text-align: $txtalgnc;
+//     padding: 20px;
+//     margin-top: $mt250;
+//   }
+// }
                                             // CAT-LADY
                         // MAIN
                         // SECTIONINTER
-.brand-sectionInter{
-  @include sectionInter;
+// .brand-sectionInter{
+//   @include sectionInter;
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
+//   span {
+//     @include span-cat;
+//   }
 
-}
+// }
 
                         // SECTIONBRANDS
-.barnd-sectionCH{
-  background-image: url(../assets/image/cat-lady-bg1.jpg);
-  @include section-cat;
+// .barnd-sectionCH{
+//   background-image: url(../assets/image/cat-lady-bg1.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionCL{
-  background-image: url(../assets/image/cat-lady-bg2.jpg);
-  @include section-cat;
+// .barnd-sectionCL{
+//   background-image: url(../assets/image/cat-lady-bg2.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionEL{
-  background-image: url(../assets/image/cat-lady-bg3.jpeg);
-  @include section-cat;
+// .barnd-sectionEL{
+//   background-image: url(../assets/image/cat-lady-bg3.jpeg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionGV{
-  background-image: url(../assets/image/cat-lady-bg4.jpg);
-  @include section-cat;
+// .barnd-sectionGV{
+//   background-image: url(../assets/image/cat-lady-bg4.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionKZ{
-  background-image: url(../assets/image/cat-lady-bg5.jpeg);
-  @include section-cat;
+// .barnd-sectionKZ{
+//   background-image: url(../assets/image/cat-lady-bg5.jpeg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
                                             // CAT-MEN
                         // MAIN
                         // SECTIONINTER
                         // SECTIONBRANDS
-.barnd-sectionCHM{
-  background-image: url(../assets/image/cat-men-bg1.jpg);
-  @include section-cat;
+// .barnd-sectionCHM{
+//   background-image: url(../assets/image/cat-men-bg1.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionCLM{
-  background-image: url(../assets/image/cat-men-bg2.png);
-  @include section-cat;
+// .barnd-sectionCLM{
+//   background-image: url(../assets/image/cat-men-bg2.png);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionELM{
-  background-image: url(../assets/image/cat-men-bg3.png);
-  @include section-cat;
+// .barnd-sectionELM{
+//   background-image: url(../assets/image/cat-men-bg3.png);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionGVM{
-  background-image: url(../assets/image/cat-men-bg4.jpg);
-  @include section-cat;
+// .barnd-sectionGVM{
+//   background-image: url(../assets/image/cat-men-bg4.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
-.barnd-sectionKZM{
-  background-image: url(../assets/image/cat-men-bg5.jpg);
-  @include section-cat;
+// .barnd-sectionKZM{
+//   background-image: url(../assets/image/cat-men-bg5.jpg);
+//   @include section-cat;
 
-  a {
-    @include a-cat;
-  }
+//   a {
+//     @include a-cat;
+//   }
 
-  h2 {
-    margin: $m0;
-  }
+//   h2 {
+//     margin: $m0;
+//   }
 
-  span {
-    @include span-cat;
-  }
-}
+//   span {
+//     @include span-cat;
+//   }
+// }
 
                                             // MAINBRANDS //////////////////////////////////////////////////////////
                         // MAIN
                         // BARNDS
-.brands {
-  @include container-brands;
+// .brands {
+//   @include container-brands;
 
-    &__cards {
-      @include cardsDskp;
+//     &__cards {
+//       @include cardsDskp;
 
-        .card__b {
-          @include stylecard;
+//         .card__b {
+//           @include stylecard;
 
-            .header-b img {
-              @include stylecardimg;
-            }
+//             .header-b img {
+//               @include stylecardimg;
+//             }
 
-            .title-b {
-              @include stylecardtitle;
-            }
+//             .title-b {
+//               @include stylecardtitle;
+//             }
 
-            .description-b {
-                margin-bottom: $mb40;
-            }
+//             .description-b {
+//                 margin-bottom: $mb40;
+//             }
 
-            .linkb1,
-            .linkb2 {
-              @include stylecardbutton;
-            }
-        }
-    }
-}
+//             .linkb1,
+//             .linkb2 {
+//               @include stylecardbutton;
+//             }
+//         }
+//     }
+// }
 
                                             // BARNDS STYLE ////////////////////////////////////////////////////////////
                         // MAIN
                         // FRAGANCIAS
 ///////////////////////////////////////////////////CH-LADY
-.frags__container-CH {
-  @include stylebrandsMed;
+// .frags__container-CH {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
 
-  .alterned1 {
-    order: 1;
-  }
+//   .alterned1 {
+//     order: 1;
+//   }
 
-  .alterned2 {
-    order: 2;
-    position: relative;
+//   .alterned2 {
+//     order: 2;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-GG.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-GG.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .alterned3 {
-    order: 4;
-  }
+//   .alterned3 {
+//     order: 4;
+//   }
 
-  .alterned4 {
-    order: 3;
-    position: relative;
+//   .alterned4 {
+//     order: 3;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-CH.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-CH.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .alterned5 {
-    order: 5;
-  }
+//   .alterned5 {
+//     order: 5;
+//   }
 
-  .alterned6 {
-    order: 6;
-    position: relative;
+//   .alterned6 {
+//     order: 6;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-212.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-212.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .alterned7 {
-    order: 8;
-  }
+//   .alterned7 {
+//     order: 8;
+//   }
 
-  .alterned8 {
-    order: 7;
-    position: relative;
+//   .alterned8 {
+//     order: 7;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-EDP.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-EDP.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .alterned9 {
-    order: 9;
-  }
+//   .alterned9 {
+//     order: 9;
+//   }
 
-  .alterned10 {
-    order: 10;
-    position: relative;
+//   .alterned10 {
+//     order: 10;
+//     position: relative;
 
-    &:hover .frag-imgCH {
-      opacity: 0;
-    }
+//     &:hover .frag-imgCH {
+//       opacity: 0;
+//     }
     
-    &:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url("../assets/image/CH/LADY/CH-212V.jpg");
-      background-size: $bgCov;
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-  }
+//     &:hover::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       background-image: url("../assets/image/CH/LADY/CH-212V.jpg");
+//       background-size: $bgCov;
+//       opacity: 1;
+//       transition: opacity 0.3s;
+//     }
+//   }
 
-  .frag-imgCH {
-    @include stylebrandsimghr;
-  }
-}
+//   .frag-imgCH {
+//     @include stylebrandsimghr;
+//   }
+// }
 
 ///////////////////////////////////////////////////CLINIQUE-LADY  
-.frags__container-CL {
-  @include stylebrandsMed;
+// .frags__container-CL {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
-    .alterned1 {
-        order: 1;
-    }
+//   .self {
+//     @include styleself;
+//   }
+//     .alterned1 {
+//         order: 1;
+//     }
 
-    .alterned2 {
-        order: 2;
-        position: relative;
+//     .alterned2 {
+//         order: 2;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-AE.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-AE.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned3 {
-        order: 4;
-    }
+//     .alterned3 {
+//         order: 4;
+//     }
 
-    .alterned4 {
-        order: 3;
-        position: relative;
+//     .alterned4 {
+//         order: 3;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-C.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-C.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned5 {
-        order: 5;
-    }
+//     .alterned5 {
+//         order: 5;
+//     }
 
-    .alterned6 {
-        order: 6;
-        position: relative;
+//     .alterned6 {
+//         order: 6;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-HB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-HB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned7 {
-        order: 8;
-    }
+//     .alterned7 {
+//         order: 8;
+//     }
 
-    .alterned8 {
-        order: 7;
-        position: relative;
+//     .alterned8 {
+//         order: 7;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-HH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-HH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned9 {
-        order: 9;
-    }
+//     .alterned9 {
+//         order: 9;
+//     }
 
-    .alterned10 {
-        order: 10;
-        position: relative;
+//     .alterned10 {
+//         order: 10;
+//         position: relative;
 
-        &:hover .frag-imgCL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgCL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/LADY/C-S.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/LADY/C-S.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .frag-imgCL {
-      @include stylebrandsimghr;
-    }
-}
+//     .frag-imgCL {
+//       @include stylebrandsimghr;
+//     }
+// }
 
 ///////////////////////////////////////////////////ESTEEL-LADY
-.frags__container-EL {
-  @include stylebrandsMed;
+// .frags__container-EL {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
 
-    .alterned1 {
-        order: 1;
-    }
+//     .alterned1 {
+//         order: 1;
+//     }
 
-    .alterned2 {
-        order: 2;
-        position: relative;
+//     .alterned2 {
+//         order: 2;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-BM.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-BM.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned3 {
-        order: 4;
-    }
+//     .alterned3 {
+//         order: 4;
+//     }
 
-    .alterned4 {
-        order: 3;
-        position: relative;
+//     .alterned4 {
+//         order: 3;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-BP.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-BP.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned5 {
-        order: 5;
-    }
+//     .alterned5 {
+//         order: 5;
+//     }
 
-    .alterned6 {
-        order: 6;
-        position: relative;
+//     .alterned6 {
+//         order: 6;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-P.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-P.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned7 {
-        order: 8;
-    }
+//     .alterned7 {
+//         order: 8;
+//     }
 
-    .alterned8 {
-        order: 7;
-        position: relative;
+//     .alterned8 {
+//         order: 7;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-RD.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-RD.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned9 {
-        order: 9;
-    }
+//     .alterned9 {
+//         order: 9;
+//     }
 
-    .alterned10 {
-        order: 10;
-        position: relative;
+//     .alterned10 {
+//         order: 10;
+//         position: relative;
 
-        &:hover .frag-imgEL {
-        opacity: 0;
-        }
+//         &:hover .frag-imgEL {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/LADY/EL-SN.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/LADY/EL-SN.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .frag-imgEL {
-      @include stylebrandsimghr;
-    }
-}
+//     .frag-imgEL {
+//       @include stylebrandsimghr;
+//     }
+// }
 
 ///////////////////////////////////////////////////GIVENCHY-LADY
-.frags__container-GV {
-  @include stylebrandsMed;
+// .frags__container-GV {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .self {
-      justify-self: $jfysfC;
-      align-self: $algsfC;
-    }
+//     .self {
+//       justify-self: $jfysfC;
+//       align-self: $algsfC;
+//     }
 
-    .alterned1 {
-        order: 1;
-    }
+//     .alterned1 {
+//         order: 1;
+//     }
 
-    .alterned2 {
-        order: 2;
-        position: relative;
+//     .alterned2 {
+//         order: 2;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-A.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-A.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned3 {
-        order: 4;
-    }
+//     .alterned3 {
+//         order: 4;
+//     }
 
-    .alterned4 {
-        order: 3;
-        position: relative;
+//     .alterned4 {
+//         order: 3;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-DD.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-DD.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned5 {
-        order: 5;
-    }
+//     .alterned5 {
+//         order: 5;
+//     }
 
-    .alterned6 {
-        order: 6;
-        position: relative;
+//     .alterned6 {
+//         order: 6;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-L.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-L.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned7 {
-        order: 8;
-    }
+//     .alterned7 {
+//         order: 8;
+//     }
 
-    .alterned8 {
-        order: 7;
-        position: relative;
+//     .alterned8 {
+//         order: 7;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-LB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-LB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned9 {
-        order: 9;
-    }
+//     .alterned9 {
+//         order: 9;
+//     }
 
-    .alterned10 {
-        order: 10;
-        position: relative;
+//     .alterned10 {
+//         order: 10;
+//         position: relative;
 
-        &:hover .frag-imgGV {
-        opacity: 0;
-        }
+//         &:hover .frag-imgGV {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/LADY/GV-LR.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/LADY/GV-LR.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .frag-imgGV {
-      @include stylebrandsimghr;
-    }
-}
+//     .frag-imgGV {
+//       @include stylebrandsimghr;
+//     }
+// }
 
 ///////////////////////////////////////////////////KENZO-LADY
-.frags__container-KZ {
-  @include stylebrandsMed;
+// .frags__container-KZ {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
 
-    .alterned1 {
-        order: 1;
-    }
+//     .alterned1 {
+//         order: 1;
+//     }
 
-    .alterned2 {
-        order: 2;
-        position: relative;
+//     .alterned2 {
+//         order: 2;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned3 {
-        order: 4;
-    }
+//     .alterned3 {
+//         order: 4;
+//     }
 
-    .alterned4 {
-        order: 3;
-        position: relative;
+//     .alterned4 {
+//         order: 3;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned5 {
-        order: 5;
-    }
+//     .alterned5 {
+//         order: 5;
+//     }
 
-    .alterned6 {
-        order: 6;
-        position: relative;
+//     .alterned6 {
+//         order: 6;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned7 {
-        order: 8;
-    }
+//     .alterned7 {
+//         order: 8;
+//     }
 
-    .alterned8 {
-        order: 7;
-        position: relative;
+//     .alterned8 {
+//         order: 7;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .alterned9 {
-        order: 9;
-    }
+//     .alterned9 {
+//         order: 9;
+//     }
 
-    .alterned10 {
-        order: 10;
-        position: relative;
+//     .alterned10 {
+//         order: 10;
+//         position: relative;
 
-        &:hover .frag-imgKZ {
-        opacity: 0;
-        }
+//         &:hover .frag-imgKZ {
+//         opacity: 0;
+//         }
         
-        &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-        }
-    }
+//         &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//         }
+//     }
 
-    .frag-imgKZ {
-      @include stylebrandsimghr;
-    }
-}
+//     .frag-imgKZ {
+//       @include stylebrandsimghr;
+//     }
+// }
 
 ///////////////////////////////////////////////////CH-MEN
-.frags__container-CHM {
-  @include stylebrandsMed;
+// .frags__container-CHM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-212NYC.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-212NYC.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-212VB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-212VB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-212VP.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-212VP.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-BB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-BB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgCHM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCHM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CH/MEN/CH-CH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CH/MEN/CH-CH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgCHM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgCHM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
 //////////////////////////////////////////////////CLINIQUE-MEN
-.frags__container-CLM {
-  @include stylebrandsMed;
+// .frags__container-CLM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-HM.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-HM.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-HM100.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-HM100.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-ET.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-ET.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-OIL.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-OIL.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgCLM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgCLM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/CLINIQUE/MEN/CL-SPF.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/CLINIQUE/MEN/CL-SPF.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgCLM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgCLM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
 //////////////////////////////////////////////////ESTEEL-MEN
-.frags__container-ELM {
-  @include stylebrandsMed;
+// .frags__container-ELM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-P.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-P.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-BP.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-BP.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-I.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-I.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-WM.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-WM.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgELM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgELM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/ESTEE-L/MEN/EL-CS.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/ESTEE-L/MEN/EL-CS.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgELM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgELM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
 //////////////////////////////////////////////////GIVENCHY-MEN
-.frags__container-GVM {
-  @include stylebrandsMed;
+// .frags__container-GVM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV-GB.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV-GB.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV--G.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV--G.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV-GY.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV-GY.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV-PH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV-PH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgGVM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgGVM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/GIVENCHY/MEN/GV-PI.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/GIVENCHY/MEN/GV-PI.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgGVM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgGVM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
 //////////////////////////////////////////////////KENZO-MEN
-.frags__container-KZM {
-  @include stylebrandsMed;
+// .frags__container-KZM {
+//   @include stylebrandsMed;
 
-  .frag {
-    font-size: 30px;
+//   .frag {
+//     font-size: 30px;
 
-    a {
-      @include stylebrandsname;
-    }
+//     a {
+//       @include stylebrandsname;
+//     }
 
-    small {
-      @include stylebrandssmall;
-    }
-  }
+//     small {
+//       @include stylebrandssmall;
+//     }
+//   }
 
-  .self {
-    @include styleself;
-  }
+//   .self {
+//     @include styleself;
+//   }
   
-    .alterned1 {
-      order: 1;
-    }
+//     .alterned1 {
+//       order: 1;
+//     }
   
-    .alterned2 {
-      order: 2;
-      position: relative;
+//     .alterned2 {
+//       order: 2;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-PH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-PH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned3 {
-      order: 4;
-    }
+//     .alterned3 {
+//       order: 4;
+//     }
   
-    .alterned4 {
-      order: 3;
-      position: relative;
+//     .alterned4 {
+//       order: 3;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-H.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-H.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned5 {
-      order: 5;
-    }
+//     .alterned5 {
+//       order: 5;
+//     }
   
-    .alterned6 {
-      order: 6;
-      position: relative;
+//     .alterned6 {
+//       order: 6;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-LE.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-LE.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned7 {
-      order: 8;
-    }
+//     .alterned7 {
+//       order: 8;
+//     }
   
-    .alterned8 {
-      order: 7;
-      position: relative;
+//     .alterned8 {
+//       order: 7;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-A.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-A.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .alterned9 {
-      order: 9;
-    }
+//     .alterned9 {
+//       order: 9;
+//     }
   
-    .alterned10 {
-      order: 10;
-      position: relative;
+//     .alterned10 {
+//       order: 10;
+//       position: relative;
   
-      &:hover .frag-imgKZM {
-        opacity: 0;
-      }
+//       &:hover .frag-imgKZM {
+//         opacity: 0;
+//       }
       
-      &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("../assets/image/KENZO/MEN/KZ-JH.jpg");
-        background-size: $bgCov;
-        opacity: 1;
-        transition: opacity 0.3s;
-      }
-    }
+//       &:hover::before {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         background-image: url("../assets/image/KENZO/MEN/KZ-JH.jpg");
+//         background-size: $bgCov;
+//         opacity: 1;
+//         transition: opacity 0.3s;
+//       }
+//     }
   
-    .frag-imgKZM {
-      @include stylebrandsimghr;
-    }
-  }
+//     .frag-imgKZM {
+//       @include stylebrandsimghr;
+//     }
+//   }
 
                                             // WHOLESALE  ////////////////////////////////////////////////////////////////
                         // MAIN
-.descubre{
-  @include styledescubre;
+// .descubre{
+//   @include styledescubre;
 
-  &__container-info{
-    @include styledescubreinfo;
+//   &__container-info{
+//     @include styledescubreinfo;
 
-    h2 {
-      @include styledescubretitle;
-    }
+//     h2 {
+//       @include styledescubretitle;
+//     }
   
-    p{
-      @include styledescubrep;
-    }
-  }
-}
+//     p{
+//       @include styledescubrep;
+//     }
+//   }
+// }
 
-.mayoreo{
-  @include stylemayoreo;
+// .mayoreo{
+//   @include stylemayoreo;
 
-  &__container-info{
+//   &__container-info{
 
-    &-text{
-      @include stylemayoreoinfo;
-    }
+//     &-text{
+//       @include stylemayoreoinfo;
+//     }
     
-    h1{
-      color: $fontblack;
-      margin-top: $mt50;
-    }
+//     h1{
+//       color: $fontblack;
+//       margin-top: $mt50;
+//     }
 
-    p{
-      color: $fontblack;
-    }
+//     p{
+//       color: $fontblack;
+//     }
 
-    a{
-      .btn {
-        @include stylemayoreobutton;
-      }
-    }
-  }
-}
+//     a{
+//       .btn {
+//         @include stylemayoreobutton;
+//       }
+//     }
+//   }
+// }
 
                                             // FREESHIPMENT
                         // MAIN
-.compromiso{
-  margin-top: $mt60;
-  @include stylecompromiso;
+// .compromiso{
+//   margin-top: $mt60;
+//   @include stylecompromiso;
 
-  &__container-info{
-    @include stylecompromisoinfo;
+//   &__container-info{
+//     @include stylecompromisoinfo;
 
-    h2 {
-      margin: $m0;
-    }
+//     h2 {
+//       margin: $m0;
+//     }
   
-    p{
-      @include stylecompromisop;
-    }
-  }
-}
+//     p{
+//       @include stylecompromisop;
+//     }
+//   }
+// }
 
-.oferta{
-  @include styleoferta;
+// .oferta{
+//   @include styleoferta;
 
-  &__container-info{
+//   &__container-info{
 
-    &-text{
-      @include styleofertainfo;
-    }
+//     &-text{
+//       @include styleofertainfo;
+//     }
     
-    h1{
-      color: $fontblack;
-    }
+//     h1{
+//       color: $fontblack;
+//     }
 
-    p{
-      color: $fontblack;
-    }
+//     p{
+//       color: $fontblack;
+//     }
 
-    a{
-      .btn {
-        @include styleofertabutton;
-      }
-    }
-  }
-}
+//     a{
+//       .btn {
+//         @include styleofertabutton;
+//       }
+//     }
+//   }
+// }
 
-.thx{
-  @include stylethx;
+// .thx{
+//   @include stylethx;
 
-  &__container-info{
-    @include stylethxinfo;
+//   &__container-info{
+//     @include stylethxinfo;
 
-    h2 {
-      margin: $m0;
-    }
+//     h2 {
+//       margin: $m0;
+//     }
   
-    p{
-      @include stylethxp
-    }
-  }
-}
+//     p{
+//       @include stylethxp
+//     }
+//   }
+// }
                                             // CONTACT  ////////////////////////////////////////////////////////////
                         // MAIN
                         // CARDS
-.contact {
-  @include stylecontact;
+// .contact {
+//   @include stylecontact;
 
-    &__title {
-      @include stylecontacttitle;
-    }
+//     &__title {
+//       @include stylecontacttitle;
+//     }
 
-    &__cards {
-      @include stylecontactcardsDskp;
+//     &__cards {
+//       @include stylecontactcardsDskp;
 
-        .card {
-          @include stylecontactcardshw;
+//         .card {
+//           @include stylecontactcardshw;
 
-            &__header img {
-              @include stylecontacardimg;
-            }
+//             &__header img {
+//               @include stylecontacardimg;
+//             }
 
-            &__title {
-              @include stylecontactcardtitle;
-            }
+//             &__title {
+//               @include stylecontactcardtitle;
+//             }
 
-            &__description {
-                margin-bottom: $mb40;
-            }
+//             &__description {
+//                 margin-bottom: $mb40;
+//             }
 
-            &__link {
-              @include stylecontactcardbutton;
-            }
-        }
-    }
-}
-}
+//             &__link {
+//               @include stylecontactcardbutton;
+//             }
+//         }
+//     }
+// }
+// }
+// }

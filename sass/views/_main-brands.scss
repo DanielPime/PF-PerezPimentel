@@ -7,3 +7,131 @@
     background-attachment: fixed;
     margin-top: 60px;
   }
+
+    // MINIM
+    @media (min-width: $bpMn){
+      .brands {
+        @include container-brands;
+      
+        &__cards {
+          @include cardsMn;
+      
+          .card__b {
+            @include stylecard;
+      
+            .header-b img {
+              @include stylecardimg;
+            }
+      
+            .title-b {
+              @include stylecardtitle;
+            }
+      
+            .description-b {
+              margin-bottom: $mb40;
+            }
+      
+            .linkb1,
+            .linkb2 {
+              @include stylecardbutton
+            }
+          }
+        }
+    }
+    }
+
+    // MOBILE FIRST
+    @media (min-width: $bpMob){
+      .brands {
+        @include container-brands;
+      
+          &__cards {
+            @include cardsMob;
+      
+              .card-b {
+                @include stylecard;
+      
+                  .header-b img {
+                    @include stylecardimg;
+                  }
+      
+                  .title-b {
+                    @include stylecardtitle;
+                  }
+      
+                  .description-b {
+                      margin-bottom: $mb40;
+                  }
+      
+                  .link-b1,
+                  .link-b2 {
+                    @include stylecardbutton;
+                  }
+              }
+          }
+      }
+    }
+  
+    // MEDIUM
+    @media (min-width: $bpMed){
+      .brands {
+        @include container-brands;
+        
+          &__cards {
+            @include cardsMed;
+        
+            .card__b {
+              @include stylecard;
+        
+              .header-b img {
+                @include stylecardimg;
+              }
+        
+              .title-b {
+                @include stylecardtitle;
+              }
+        
+              .description-b {
+                margin-bottom: $mb40;
+              }
+        
+              .linkb1,
+              .linkb2 {
+                @include stylecardbutton;
+              }
+            }
+          }
+        }
+    }
+  
+    // DESKTOP
+    @media (min-width: $bpDkp){
+      .brands {
+        @include container-brands;
+      
+          &__cards {
+            @include cardsDskp;
+      
+              .card__b {
+                @include stylecard;
+      
+                  .header-b img {
+                    @include stylecardimg;
+                  }
+      
+                  .title-b {
+                    @include stylecardtitle;
+                  }
+      
+                  .description-b {
+                      margin-bottom: $mb40;
+                  }
+      
+                  .linkb1,
+                  .linkb2 {
+                    @include stylecardbutton;
+                  }
+              }
+          }
+      }
+    }

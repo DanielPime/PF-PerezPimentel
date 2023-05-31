@@ -1,0 +1,451 @@
+  // MINIM
+  @media (min-width: $bpMn){
+    .containerMobile{
+        @include stylebrandsMn;
+      
+          .frag{
+              font-size: 20px;
+      
+              a{
+                @include stylebrandsname;
+              }
+      
+              small{
+                  @include stylebrandssmall;
+              }
+      
+          }
+          .self{
+            @include styleself;
+          }
+      
+          .alterned1{
+              order: 2;
+          }
+      
+          .alterned2{
+              order: 1;
+          }
+          
+          .alterned3{
+              order: 4;
+          }
+          
+          .alterned4{
+              order: 3;
+          }
+          
+          .alterned5{
+              order: 6;
+          }
+          
+          .alterned6{
+              order: 5;
+          }
+          
+          .alterned7{
+              order: 8;
+          }
+          
+          .alterned8{
+              order: 7;
+          }
+          
+          .alterned9{
+              order: 10;
+          }
+          
+          .alterned10{
+              order: 9;
+          }
+      
+          .frag-img{
+              height: 20vh;
+              @include stylebrandsimg;
+          }
+      
+      }
+  }
+
+  // MOBILE FIRST
+  @media (min-width: $bpMob){
+    .containerMobile{
+        @include stylebrandsMob;
+      
+          .frag{
+              font-size: 30px;
+      
+              a{
+                @include stylebrandsname;
+              }
+      
+              small{
+                @include stylebrandssmall;
+              }
+      
+          }
+          
+          .self{
+            @include styleself;
+          }
+      
+          .alterned1{
+              order: 2;
+          }
+            
+          .alterned2{
+              order: 1;
+          }
+            
+          .alterned3{
+              order: 4;
+          }
+            
+          .alterned4{
+              order: 3;
+          }
+            
+          .alterned5{
+              order: 6;
+          }
+            
+          .alterned6{
+              order: 5;
+          }
+            
+          .alterned7{
+              order: 8;
+          }
+            
+          .alterned8{
+              order: 7;
+          }
+            
+          .alterned9{
+              order: 10;
+          }
+            
+          .alterned10{
+              order: 9;
+          }
+      
+          .frag-img{
+              height: 65vh;
+              @include stylebrandsimg;
+          }
+      }
+  }
+
+  // MEDIUM
+  @media (min-width: $bpMed){
+    .frags__container-KZ {
+        @include stylebrandsMed;
+      
+        .frag {
+          font-size: 30px;
+      
+          a {
+            @include stylebrandsname;
+          }
+      
+          small {
+            @include stylebrandssmall;
+          }
+        }
+      
+        .self {
+          @include styleself;
+        }
+      
+          .alterned1 {
+              order: 1;
+          }
+      
+          .alterned2 {
+              order: 2;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .alterned3 {
+              order: 4;
+          }
+      
+          .alterned4 {
+              order: 3;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .alterned5 {
+              order: 5;
+          }
+      
+          .alterned6 {
+              order: 6;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .alterned7 {
+              order: 8;
+          }
+      
+          .alterned8 {
+              order: 7;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .alterned9 {
+              order: 9;
+          }
+      
+          .alterned10 {
+              order: 10;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .frag-imgKZ {
+            @include stylebrandsimghr;
+          }
+      }
+  }
+
+  // DESKTOP
+  @media (min-width: $bpDkp){
+    .frags__container-KZ {
+        @include stylebrandsMed;
+      
+        .frag {
+          font-size: 30px;
+      
+          a {
+            @include stylebrandsname;
+          }
+      
+          small {
+            @include stylebrandssmall;
+          }
+        }
+      
+        .self {
+          @include styleself;
+        }
+      
+          .alterned1 {
+              order: 1;
+          }
+      
+          .alterned2 {
+              order: 2;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-A.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .alterned3 {
+              order: 4;
+          }
+      
+          .alterned4 {
+              order: 3;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-DAM.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .alterned5 {
+              order: 5;
+          }
+      
+          .alterned6 {
+              order: 6;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-FWR.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .alterned7 {
+              order: 8;
+          }
+      
+          .alterned8 {
+              order: 7;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-J.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .alterned9 {
+              order: 9;
+          }
+      
+          .alterned10 {
+              order: 10;
+              position: relative;
+      
+              &:hover .frag-imgKZ {
+              opacity: 0;
+              }
+              
+              &:hover::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-image: url("../assets/image/KENZO/LADY/KZ-M.jpg");
+              background-size: $bgCov;
+              opacity: 1;
+              transition: opacity 0.3s;
+              }
+          }
+      
+          .frag-imgKZ {
+            @include stylebrandsimghr;
+          }
+      }
+  }
