@@ -1,0 +1,140 @@
+  // MINIM
+  @media (min-width: $bpMn){
+    .contact {
+  @include stylecontact;
+
+    &__title {
+      @include stylecontacttitle
+    }
+
+    &__cards {
+      @include stylecontactcardsMn;
+
+        .card {
+          @include stylecontactcardshw;
+
+          &__header img {
+            @include stylecontacardimg;
+          }
+
+          &__title {
+            @include stylecontactcardtitle;
+          }
+        
+          &__description {
+              margin-bottom: $mb40;
+          }
+    
+          &__link {
+            @include stylecontactcardbutton;
+          }
+        }
+    }   
+}
+  }
+
+  // MOBILE FIRST
+  @media (min-width: $bpMob){
+    .contact {
+  @include stylecontact;
+
+    &__title {
+      @include stylecontacttitle;
+    }
+
+    &__cards {
+      @include stylecontactcardsMob;
+
+        .card {
+          @include stylecontactcardshw;
+
+            &__header img {
+              @include stylecontacardimg;
+            }
+
+            &__title {
+              @include stylecontactcardtitle;
+            }
+    
+            &__description {
+                margin-bottom: $mb40;
+            }
+    
+            &__link {
+              @include stylecontactcardbutton;
+            }
+        }
+
+    }
+}
+  }
+
+  // MEDIUM
+  @media (min-width: $bpMed){
+    .contact {
+  @include stylecontact;
+
+    &__title {
+      @include stylecontacttitle;
+    }
+
+    &__cards {
+      @include stylecontactcardsMed;
+
+        .card {
+          @include stylecontactcardshw;
+
+            &__header img {
+              @include stylecontacardimg;
+            }
+
+            &__title {
+              @include stylecontactcardtitle;
+            }
+            
+            &__description {
+                margin-bottom: $mb40;
+            }
+    
+            &__link {
+              @include stylecontactcardbutton;
+            }
+        }
+    }
+}
+  }
+
+  // DESKTOP
+  @media (min-width: $bpDkp){
+    .contact {
+  @include stylecontact;
+
+    &__title {
+      @include stylecontacttitle;
+    }
+
+    &__cards {
+      @include stylecontactcardsDskp;
+
+        .card {
+          @include stylecontactcardshw;
+
+            &__header img {
+              @include stylecontacardimg;
+            }
+
+            &__title {
+              @include stylecontactcardtitle;
+            }
+
+            &__description {
+                margin-bottom: $mb40;
+            }
+
+            &__link {
+              @include stylecontactcardbutton;
+            }
+        }
+    }
+}
+  }

@@ -78,6 +78,7 @@ $mt20: 20px;
 $mt50: 50px;
 $mt60: 60px;
 $mt90: 90px;
+$mt100: 100px;
 $mt200: 200px;
 $mt250: 250px;
 // mb
@@ -111,7 +112,7 @@ $w100p: 100%;
 $mxw500: 500px;
 $mxw700: 700px;
 $mxw576: 576px;
-$mxw12000: 1200px;
+$mxw1200: 1200px;
 // %
 $mxw100p: 100%;
 
@@ -171,3 +172,6 @@ $padding: 20px;
 $border-radius: 5px;
 $font-family: Arial, sans-serif;
 $font-size: 16px;
+
+// TRANSITION LINKS
+$transition: all 0.3s;

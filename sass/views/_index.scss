@@ -28,3 +28,736 @@
       }
   }
  
+
+  // MINIM
+  @media (min-width: $bpMn){
+                            // VIDEOSECTION-LADY
+.video-section-lady {
+  position: relative;
+  overflow: hidden;
+  height: $h400;
+  margin-top: $mt90;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: $w100p;
+      height: $h100p;
+      object-fit: $bgCov;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: $fontwhite;
+    text-align: $txtalgnc;
+    padding: 20px;
+    margin-top: $mt250;
+
+    a{
+      color: $fontwhite;
+      text-decoration: none;
+    }
+  }
+}
+
+.encuentra{
+  &-info{
+    justify-content: $jfyC;
+    height: $h300;
+    max-width: $mxw700;
+    padding: $padding;
+    margin: 60px 0px;
+
+    h1{
+      color: $fontblack;
+      text-align: $txtalgnc;
+    }
+
+    p{
+      padding: 20px;
+      text-align: $txtalgnJy;
+      justify-content: $jfyC;
+      align-content: $algconc;
+      color: $fontblack;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: $fontogrey;
+    }
+  }
+}
+
+                        // VIDEOSECTION-MEN
+.video-section-men {
+  position: relative;
+  overflow: hidden;
+  height: $h400;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: $w100p;
+      height: $h100p;
+      object-fit: $bgCov;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: $fontwhite;
+    text-align: $txtalgnc;
+    padding: 20px;
+    margin-top: $mt250;
+
+    a{
+      color: $fontwhite;
+      text-decoration: none;
+    }
+  }
+}
+
+                                             // OFERTA
+.newsindex{
+  margin-top: $mt200;
+  max-width: $mxw100p;
+  
+
+  .ofertaindex{
+    background-image: url(../assets/image/bg-shipM.jpg);
+    background-size: $bgCov;
+    background-position: $bgCen;
+    background-attachment: $bgAtt;
+    height: $h300;
+
+    &__container{
+      display: $disFx;
+      flex-direction: $flxdtn;
+      justify-content: $jfyC;
+      align-items: $algC;
+      text-align: $txtalgnc;
+      padding: 70px;
+      color: $fontwhite;
+
+      &-title{
+        font-weight: $titlesize100;
+      }
+
+      a{
+        text-decoration: none;
+        color: $fontwhite;
+        
+        span{
+          border: white solid thin;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-weight: $fontBld;
+          
+  
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
+        }
+      }
+    }
+  }
+
+                                             //WHOLESALE 
+  .mayoreoindex{
+    background-image: url(../assets/image/bg-whole.png);
+    background-size: $bgCov;
+    background-position: $bgCen;
+    background-attachment: $bgAtt;
+    height: $h300;
+    
+
+    &__container{
+      display: $disFx;
+      flex-direction: $flxdtn;
+      justify-content: $jfyC;
+      align-items: $algC;
+      text-align: $txtalgnc;
+      padding: 70px;
+      color: $fontwhite;
+
+      &-title{
+        font-weight: $titlesize100;
+      }
+
+      a{
+        text-decoration: none;
+        color: $fontwhite;
+        
+        span{
+          border: white solid thin;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-weight: $fontBld;
+          
+  
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
+        }
+      }
+    }
+  }
+}
+
+  }
+
+  // MOBILE FIRST
+  @media (min-width: $bpMob){
+                            // VIDEOSECTION-LADY
+.video-section-lady {
+  position: relative;
+  overflow: hidden;
+  height: $h400;
+  margin-top: $mt90;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: $w100p;
+      height: $h100p;
+      object-fit: $bgCov;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: $fontwhite;
+    text-align: $txtalgnc;
+    padding: 20px;
+    margin-top: $mt250;
+  }
+}
+
+.encuentra{
+  &-info{
+    height: $h300;
+    max-width: $mxw700;
+    padding: $padding;
+    margin: 60px 0px;
+
+    h1{
+      color: $fontblack;
+    }
+
+    p{
+      padding: 20px;
+      text-align: $txtalgnJy;
+      justify-content: $jfyC;
+      align-content: $algconc;
+      color: $fontblack;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: $fontogrey;
+    }
+  }
+}
+
+                        // VIDEOSECTION-MEN
+.video-section-men {
+  position: relative;
+  overflow: hidden;
+  height: $h400;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: $w100p;
+      height: $h100p;
+      object-fit: $bgCov;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: $fontwhite;
+    text-align: $txtalgnc;
+    padding: 20px;
+    margin-top: $mt250;
+  }
+}
+
+                                             // OFERTA
+.newsindex{
+  display: $disFx;
+  margin-top: $mt200;
+  
+
+  .ofertaindex{
+    background-image: url(../assets/image/bg-ship.jpg);
+    background-size: $bgCov;
+    background-position: $bgCen;
+    background-attachment: $bgAtt;
+    height: $h500;
+
+    &__container{
+      display: $disFx;
+      flex-direction: $flxdtn;
+      justify-content: $jfyC;
+      align-items: $algC;
+      text-align: $txtalgnc;
+      padding: 70px;
+      color: $fontwhite;
+
+      &-title{
+        font-weight: $titlesize100;
+      }
+
+      a{
+        text-decoration: none;
+        color: $fontwhite;
+        
+        span{
+          border: white solid thin;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-weight: $fontBld;
+          
+  
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
+        }
+      }
+    }
+  }
+
+                                             //WHOLESALE 
+  .mayoreoindex{
+    background-image: url(../assets/image/bg-whole.png);
+    background-size: $bgCov;
+    background-position: $bgCen;
+    background-attachment: $bgAtt;
+    height: $h500;
+    
+
+    &__container{
+      display: $disFx;
+      flex-direction: $flxdtn;
+      justify-content: $jfyC;
+      align-items: $algC;
+      text-align: $txtalgnc;
+      padding: 70px;
+      color: $fontwhite;
+
+      &-title{
+        font-weight: $titlesize100;
+      }
+
+      a{
+        text-decoration: none;
+        color: $fontwhite;
+        
+        span{
+          border: white solid thin;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-weight: $fontBld;
+          
+  
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
+        }
+      }
+    }
+  }
+}
+  }
+
+  // MEDIUM
+  @media (min-width: $bpMed){
+                            // VIDEOSECTION-LADY
+.video-section-lady {
+  position: relative;
+  overflow: hidden;
+  height: $h400;
+  margin-top: $mt90;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: $w100p;
+      height: $h100p;
+      object-fit: $bgCov;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: $fontwhite;
+    text-align: $txtalgnc;
+    padding: 20px;
+    margin-top: $mt250;
+  }
+}
+
+.encuentra{
+  &-info{
+    justify-content: $jfyC;
+    height: $h300;
+    max-width: $mxw700;
+    padding: $padding;
+    margin: 60px 0px;
+
+    h1{
+      color: $fontblack;
+      text-align: $txtalgnc;
+    }
+
+    p{
+      padding: 20px;
+      text-align: $txtalgnJy;
+      justify-content: $jfyC;
+      align-content: $algconc;
+      color: $fontblack;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: $fontogrey;
+    }
+  }
+}
+
+                        // VIDEOSECTION-MEN
+.video-section-men {
+  position: relative;
+  overflow: hidden;
+  height: $h400;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: $w100p;
+      height: $h100p;
+      object-fit: $bgCov;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: $fontwhite;
+    text-align: $txtalgnc;
+    padding: 20px;
+    margin-top: $mt250;
+  }
+}
+
+                                             // OFERTA
+.newsindex{
+  display: $disFx;
+  margin-top: $mt200;
+
+  .ofertaindex{
+    background-image: url(../assets/image/bg-ship.jpg);
+    background-size: $bgCov;
+    background-position: $bgCen;
+    background-attachment: $bgAtt;
+    height: $h300;
+
+    &__container{
+      display: $disFx;
+      flex-direction: $flxdtn;
+      justify-content: $jfyC;
+      align-items: $algC;
+      text-align: $txtalgnc;
+      padding: 70px;
+      color: $fontwhite;
+
+      &-title{
+        font-weight: $titlesize100;
+      }
+
+      a{
+        text-decoration: none;
+        color: $fontwhite;
+        
+        span{
+          border: white solid thin;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-weight: $fontBld;
+          
+  
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
+        }
+      }
+    }
+  }
+
+                                             //WHOLESALE 
+  .mayoreoindex{
+    background-image: url(../assets/image/bg-whole.png);
+    background-size: $bgCov;
+    background-position: $bgCen;
+    background-attachment: $bgAtt;
+    height: $h300;
+    
+
+    &__container{
+      display: $disFx;
+      flex-direction: $flxdtn;flex-direction: $flxdtn;flex-direction: $flxdtn;
+      justify-content: $jfyC;
+      align-items: $algC;
+      text-align: $txtalgnc;
+      padding: 70px;
+      color: $fontwhite;
+
+      &-title{
+        font-weight: $titlesize100;
+      }
+
+      a{
+        text-decoration: none;
+        color: $fontwhite;
+        
+        span{
+          border: white solid thin;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-weight: $fontBld;
+          
+  
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
+        }
+      }
+    }
+  }
+}
+  }
+
+  // DESKTOP
+  @media (min-width: $bpDkp){
+                            // VIDEOSECTION-LADY
+.video-section-lady {
+  position: relative;
+  overflow: hidden;
+  height: $h400;
+  margin-top: $mt90;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: $w100p;
+      height: $h100p;
+      object-fit: $bgCov;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: $fontwhite;
+    text-align: $txtalgnc;
+    padding: 20px;
+    margin-top: $mt250;
+  }
+}
+
+.encuentra{
+  justify-content: $jfyC;
+  max-width: $mxw100p;
+  display: $disFx;
+  margin-top: $mt60;
+
+  &-info{
+    height: $h300;
+    max-width: $mxw700;
+    padding: $padding;
+    margin: 60px 0px;
+
+    h1{
+      color: $fontblack;
+      text-align: $txtalgnc;
+    }
+
+    p{
+      padding: 20px;
+      text-align: $txtalgnJy;
+      justify-content: $jfyC;
+      align-content: $algconc;
+      color: $fontblack;
+      font-family: $font-family;
+      font-size: $font-size;
+      color: $fontogrey;
+    }
+  }
+}
+                        // VIDEOSECTION-MEN
+.video-section-men {
+  position: relative;
+  overflow: hidden;
+  height: $h400;
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+      width: $w100p;
+      height: $h100p;
+      object-fit: $bgCov;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: $fontwhite;
+    text-align: $txtalgnc;
+    padding: 20px;
+    margin-top: $mt250;
+  }
+}
+                                             // OFERTA
+.newsindex{
+  display: $disFx;
+  margin-top: $mt200;
+
+  .ofertaindex{
+    background-image: url(../assets/image/bg-ship.jpg);
+    background-size: $bgCov;
+    background-position: $bgCen;
+    background-attachment: $bgAtt;
+    height: $h300;
+
+    &__container{
+      display: $disFx;
+      flex-direction: $flxdtn;
+      justify-content: $jfyC;
+      align-items: $algC;
+      text-align: $txtalgnc;
+      padding: 70px;
+      color: $fontwhite;
+
+      &-title{
+        font-weight: $titlesize100;
+      }
+
+      a{
+        text-decoration: none;
+        color: $fontwhite;  
+        
+        span{
+          border: white solid thin;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-weight: $fontBld;
+          
+  
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
+        }
+      }
+    }
+  }
+
+                                            // WHOLESALE 
+  .mayoreoindex{
+    background-image: url(../assets/image/bg-whole.png);
+    background-size: $bgCov;
+    background-position: $bgCen;
+    background-attachment: $bgAtt;
+    height: $h300;
+    
+
+    &__container{
+      display: $disFx;
+      flex-direction: $flxdtn;
+      justify-content: $jfyC;
+      align-items: $algC;
+      text-align: $txtalgnc;
+      padding: 70px;
+      color: $fontwhite;
+
+      &-title{
+        font-weight: $titlesize100;
+      }
+
+      a{
+        text-decoration: none;
+        color: $fontwhite;
+        
+        span{
+          border: white solid thin;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-weight: $fontBld;
+          
+  
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
+        }
+      }
+    }
+  }
+}
+  }  
