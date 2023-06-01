@@ -1,243 +1,243 @@
   // MINIM
-  @media (min-width: $bpMn){
-    .compromiso{
-  margin-top: $mt100;
-  @include stylecompromiso;
+  @media (min-width: $bpMn) {
+    .compromiso {
+      margin-top: $mt100;
+      @include stylecompromiso;
 
-  &__container-info{
-    @include stylecompromisoinfo;
+      &__container-info {
+        @include stylecompromisoinfo;
 
-    h2 {
-      margin: $m0;
-    }
-  
-    p{
-      @include stylecompromisop;
-    }
-  }
-}
+        h2 {
+          margin: $m0;
+        }
 
-.oferta{
-  @include styleoferta;
-
-  &__container-info{
-
-    &-text{
-      @include styleofertainfo;
-    }
-    
-    h1{
-      color: $fontblack;
-    }
-
-    p{
-      color: $fontblack;
-    }
-
-    a{
-      .btn {
-        @include styleofertabutton;
+        p {
+          @include stylecompromisop;
+        }
       }
     }
-  }
-}
 
-.thx{
-  @include stylethx;
+    .oferta {
+      @include styleoferta;
 
-  &__container-info{
-    @include stylethxinfo;
+      &__container-info {
 
-    h2 {
-      margin: $m0;
+        &-text {
+          @include styleofertainfo;
+        }
+
+        h1 {
+          color: $fontblack;
+        }
+
+        p {
+          color: $fontblack;
+        }
+
+        a {
+          .btn {
+            @include styleofertabutton;
+          }
+        }
+      }
     }
-  
-    p{
-      @include stylethxp;
+
+    .thx {
+      @include stylethx;
+
+      &__container-info {
+        @include stylethxinfo;
+
+        h2 {
+          margin: $m0;
+        }
+
+        p {
+          @include stylethxp;
+        }
+      }
     }
-  }
-}
   }
 
   // MOBILE FIRST
-  @media (min-width: $bpMob){
-    .compromiso{
-  margin-top: $mt60;
-  @include stylecompromiso;
+  @media (min-width: $bpMob) {
+    .compromiso {
+      margin-top: $mt60;
+      @include stylecompromiso;
 
-  &__container-info{
-    @include stylecompromisoinfo;
+      &__container-info {
+        @include stylecompromisoinfo;
 
-    h2 {
-      margin: $m0;
-    }
-  
-    p{
-      @include stylecompromisop;
-    }
-  }
-}
+        h2 {
+          margin: $m0;
+        }
 
-.oferta{
-  @include styleoferta;
-
-  &__container-info{
-
-    &-text{
-      @include styleofertainfo;
-    }
-    
-    h1{
-      color: $fontblack;
-    }
-
-    p{
-      color: $fontblack;
-    }
-
-    a{
-      .btn {
-        @include styleofertabutton;
+        p {
+          @include stylecompromisop;
+        }
       }
     }
-  }
-}
 
-.thx{
-  @include stylethx;
+    .oferta {
+      @include styleoferta;
 
-  &__container-info{
-    @include stylethxinfo;
+      &__container-info {
 
-    h2 {
-      margin: $m0;
+        &-text {
+          @include styleofertainfo;
+        }
+
+        h1 {
+          color: $fontblack;
+        }
+
+        p {
+          color: $fontblack;
+        }
+
+        a {
+          .btn {
+            @include styleofertabutton;
+          }
+        }
+      }
     }
-  
-    p{
-      @include stylethxp;
+
+    .thx {
+      @include stylethx;
+
+      &__container-info {
+        @include stylethxinfo;
+
+        h2 {
+          margin: $m0;
+        }
+
+        p {
+          @include stylethxp;
+        }
+      }
     }
-  }
-}
   }
 
   // MEDIUM
-  @media (min-width: $bpMed){
-    .compromiso{
-  margin-top: $mt60;
-  @include stylecompromiso;
+  @media (min-width: $bpMed) {
+    .compromiso {
+      margin-top: $mt60;
+      @include stylecompromiso;
 
-  &__container-info{
-    @include stylecompromisoinfo;
+      &__container-info {
+        @include stylecompromisoinfo;
 
-    h2 {
-      margin: $m0;
-    }
-  
-    p{
-      @include stylecompromisop;
-    }
-  }
-}
+        h2 {
+          margin: $m0;
+        }
 
-.oferta{
-  @include styleoferta;
-
-  &__container-info{
-
-    &-text{
-      @include styleofertainfo;
-    }
-    
-    h1{
-      color: $fontblack;
-    }
-
-    p{
-      color: $fontblack;
-    }
-
-    a{
-      .btn {
-        @include styleofertabutton;
+        p {
+          @include stylecompromisop;
+        }
       }
     }
-  }
-}
 
-.thx{
-  @include stylethx;
+    .oferta {
+      @include styleoferta;
 
-  &__container-info{
-    @include stylethxinfo;
+      &__container-info {
 
-    h2 {
-      margin: $m0;
+        &-text {
+          @include styleofertainfo;
+        }
+
+        h1 {
+          color: $fontblack;
+        }
+
+        p {
+          color: $fontblack;
+        }
+
+        a {
+          .btn {
+            @include styleofertabutton;
+          }
+        }
+      }
     }
-  
-    p{
-      @include stylethxp;
+
+    .thx {
+      @include stylethx;
+
+      &__container-info {
+        @include stylethxinfo;
+
+        h2 {
+          margin: $m0;
+        }
+
+        p {
+          @include stylethxp;
+        }
+      }
     }
-  }
-}
   }
 
   // DESKTOP
-  @media (min-width: $bpDkp){
-    .compromiso{
-  margin-top: $mt60;
-  @include stylecompromiso;
+  @media (min-width: $bpDkp) {
+    .compromiso {
+      margin-top: $mt60;
+      @include stylecompromiso;
 
-  &__container-info{
-    @include stylecompromisoinfo;
+      &__container-info {
+        @include stylecompromisoinfo;
 
-    h2 {
-      margin: $m0;
-    }
-  
-    p{
-      @include stylecompromisop;
-    }
-  }
-}
+        h2 {
+          margin: $m0;
+        }
 
-.oferta{
-  @include styleoferta;
-
-  &__container-info{
-
-    &-text{
-      @include styleofertainfo;
-    }
-    
-    h1{
-      color: $fontblack;
-    }
-
-    p{
-      color: $fontblack;
-    }
-
-    a{
-      .btn {
-        @include styleofertabutton;
+        p {
+          @include stylecompromisop;
+        }
       }
     }
-  }
-}
 
-.thx{
-  @include stylethx;
+    .oferta {
+      @include styleoferta;
 
-  &__container-info{
-    @include stylethxinfo;
+      &__container-info {
 
-    h2 {
-      margin: $m0;
+        &-text {
+          @include styleofertainfo;
+        }
+
+        h1 {
+          color: $fontblack;
+        }
+
+        p {
+          color: $fontblack;
+        }
+
+        a {
+          .btn {
+            @include styleofertabutton;
+          }
+        }
+      }
     }
-  
-    p{
-      @include stylethxp
+
+    .thx {
+      @include stylethx;
+
+      &__container-info {
+        @include stylethxinfo;
+
+        h2 {
+          margin: $m0;
+        }
+
+        p {
+          @include stylethxp
+        }
+      }
     }
-  }
-}
   }

@@ -1,4 +1,4 @@
-.brand-sectionInter{
+.brand-sectionInter {
   @include sectionInter;
 
   h2 {
@@ -8,446 +8,446 @@
   span {
     @include span-cat;
   }
-}  
-  
-  // MINIM
-  @media (min-width: $bpMn){
-    .barnd-sectionCH{
-        background-image: url(../assets/image/cat-lady-bg1.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+}
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionCL{
-        background-image: url(../assets/image/cat-lady-bg2.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
-          
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionEL{
-        background-image: url(../assets/image/cat-lady-bg3.jpeg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
-        }
-      }
-      
-      .barnd-sectionGV{
-        background-image: url(../assets/image/cat-lady-bg4.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+// MINIM
+@media (min-width: $bpMn) {
+  .barnd-sectionCH {
+    background-image: url(../assets/image/cat-lady-bg1.jpg);
+    @include section-cat;
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionKZ{
-        background-image: url(../assets/image/cat-lady-bg5.jpeg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    a {
+      @include a-cat;
+    }
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
       }
+    }
   }
 
-  // MOBILE FIRST
-  @media (min-width: $bpMob){
-    .barnd-sectionCH{
-        background-image: url(../assets/image/cat-lady-bg1.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
-        }
-      }
-      
-      .barnd-sectionCL{
-        background-image: url(../assets/image/cat-lady-bg2.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+  .barnd-sectionCL {
+    background-image: url(../assets/image/cat-lady-bg2.jpg);
+    @include section-cat;
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionEL{
-        background-image: url(../assets/image/cat-lady-bg3.jpeg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    a {
+      @include a-cat;
+    }
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionGV{
-        background-image: url(../assets/image/cat-lady-bg4.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    h2 {
+      margin: $m0;
+    }
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionKZ{
-        background-image: url(../assets/image/cat-lady-bg5.jpeg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    span {
+      @include span-cat;
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
       }
+    }
   }
 
-  // MEDIUM
-  @media (min-width: $bpMed){
-    .barnd-sectionCH{
-        background-image: url(../assets/image/cat-lady-bg1.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+  .barnd-sectionEL {
+    background-image: url(../assets/image/cat-lady-bg3.jpeg);
+    @include section-cat;
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionCL{
-        background-image: url(../assets/image/cat-lady-bg2.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    a {
+      @include a-cat;
+    }
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionEL{
-        background-image: url(../assets/image/cat-lady-bg3.jpeg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    h2 {
+      margin: $m0;
+    }
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionGV{
-        background-image: url(../assets/image/cat-lady-bg4.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
-
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionKZ{
-        background-image: url(../assets/image/cat-lady-bg5.jpeg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
-
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
+    span {
+      @include span-cat;
+    }
   }
 
-  // DESKTOP
-  @media (min-width: $bpDkp){
-    .barnd-sectionCH{
-        background-image: url(../assets/image/cat-lady-bg1.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+  .barnd-sectionGV {
+    background-image: url(../assets/image/cat-lady-bg4.jpg);
+    @include section-cat;
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionCL{
-        background-image: url(../assets/image/cat-lady-bg2.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    a {
+      @include a-cat;
+    }
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionEL{
-        background-image: url(../assets/image/cat-lady-bg3.jpeg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    h2 {
+      margin: $m0;
+    }
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
-      
-      .barnd-sectionGV{
-        background-image: url(../assets/image/cat-lady-bg4.jpg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
+    span {
+      @include span-cat;
 
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
       }
-      
-      .barnd-sectionKZ{
-        background-image: url(../assets/image/cat-lady-bg5.jpeg);
-        @include section-cat;
-      
-        a {
-          @include a-cat;
-        }
-      
-        h2 {
-          margin: $m0;
-        }
-      
-        span {
-          @include span-cat;
-
-          &:hover{
-            background-color: $bgwhite;
-            color:$fontogrey;
-          }
-        }
-      }
+    }
   }
+
+  .barnd-sectionKZ {
+    background-image: url(../assets/image/cat-lady-bg5.jpeg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+}
+
+// MOBILE FIRST
+@media (min-width: $bpMob) {
+  .barnd-sectionCH {
+    background-image: url(../assets/image/cat-lady-bg1.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+    }
+  }
+
+  .barnd-sectionCL {
+    background-image: url(../assets/image/cat-lady-bg2.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionEL {
+    background-image: url(../assets/image/cat-lady-bg3.jpeg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionGV {
+    background-image: url(../assets/image/cat-lady-bg4.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionKZ {
+    background-image: url(../assets/image/cat-lady-bg5.jpeg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+}
+
+// MEDIUM
+@media (min-width: $bpMed) {
+  .barnd-sectionCH {
+    background-image: url(../assets/image/cat-lady-bg1.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionCL {
+    background-image: url(../assets/image/cat-lady-bg2.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionEL {
+    background-image: url(../assets/image/cat-lady-bg3.jpeg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionGV {
+    background-image: url(../assets/image/cat-lady-bg4.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionKZ {
+    background-image: url(../assets/image/cat-lady-bg5.jpeg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+}
+
+// DESKTOP
+@media (min-width: $bpDkp) {
+  .barnd-sectionCH {
+    background-image: url(../assets/image/cat-lady-bg1.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionCL {
+    background-image: url(../assets/image/cat-lady-bg2.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionEL {
+    background-image: url(../assets/image/cat-lady-bg3.jpeg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionGV {
+    background-image: url(../assets/image/cat-lady-bg4.jpg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+
+  .barnd-sectionKZ {
+    background-image: url(../assets/image/cat-lady-bg5.jpeg);
+    @include section-cat;
+
+    a {
+      @include a-cat;
+    }
+
+    h2 {
+      margin: $m0;
+    }
+
+    span {
+      @include span-cat;
+
+      &:hover {
+        background-color: $bgwhite;
+        color: $fontogrey;
+      }
+    }
+  }
+}

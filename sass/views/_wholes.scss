@@ -1,178 +1,178 @@
   // MINIM
-  @media (min-width: $bpMn){
-    .descubre{
-  @include styledescubre;
+  @media (min-width: $bpMn) {
+    .descubre {
+      @include styledescubre;
 
-  &__container-info{
-    @include styledescubreinfo;
+      &__container-info {
+        @include styledescubreinfo;
 
-    h2 {
-      @include styledescubreinfo;
-    }
-  
-    p{
-      @include styledescubrep;
-    }
-  }
-}
+        h2 {
+          @include styledescubreinfo;
+        }
 
-.mayoreo{
-  @include stylemayoreo;
-
-  &__container-info{
-
-    &-text{
-      @include stylemayoreoinfo;
-    }
-    
-    h1{
-      color: $fontblack;
-    }
-
-    p{
-      color: $fontblack;
-    }
-
-    a{
-      .btn {
-        @include stylemayoreobutton;
+        p {
+          @include styledescubrep;
+        }
       }
     }
-  }
-}
+
+    .mayoreo {
+      @include stylemayoreo;
+
+      &__container-info {
+
+        &-text {
+          @include stylemayoreoinfo;
+        }
+
+        h1 {
+          color: $fontblack;
+        }
+
+        p {
+          color: $fontblack;
+        }
+
+        a {
+          .btn {
+            @include stylemayoreobutton;
+          }
+        }
+      }
+    }
   }
 
   // MOBILE FIRST
-  @media (min-width: $bpMob){
-    .descubre{
-  @include styledescubre;
+  @media (min-width: $bpMob) {
+    .descubre {
+      @include styledescubre;
 
-  &__container-info{
-    @include styledescubreinfo;
+      &__container-info {
+        @include styledescubreinfo;
 
-    h2 {
-      @include styledescubretitle;
-    }
-  
-    p{
-      @include styledescubrep;
-    }
-  }
-}
+        h2 {
+          @include styledescubretitle;
+        }
 
-.mayoreo{
-  @include stylemayoreo;
-
-  &__container-info{
-
-    &-text{
-      @include stylemayoreoinfo;
-    }
-    
-    h1{
-      color: $fontblack;
-      margin-top: $mt50;
-    }
-
-    p{
-      color: $fontblack;
-    }
-
-    a{
-      .btn {
-        @include stylemayoreobutton;
+        p {
+          @include styledescubrep;
+        }
       }
     }
-  }
-}
+
+    .mayoreo {
+      @include stylemayoreo;
+
+      &__container-info {
+
+        &-text {
+          @include stylemayoreoinfo;
+        }
+
+        h1 {
+          color: $fontblack;
+          margin-top: $mt50;
+        }
+
+        p {
+          color: $fontblack;
+        }
+
+        a {
+          .btn {
+            @include stylemayoreobutton;
+          }
+        }
+      }
+    }
   }
 
   // MEDIUM
-  @media (min-width: $bpMed){
-    .descubre{
-  @include styledescubre;
+  @media (min-width: $bpMed) {
+    .descubre {
+      @include styledescubre;
 
-  &__container-info{
-    @include styledescubreinfo;
+      &__container-info {
+        @include styledescubreinfo;
 
-    h2 {
-      @include  styledescubretitle;
-    }
-  
-    p{
-      @include styledescubrep;
-    }
-  }
-}
+        h2 {
+          @include styledescubretitle;
+        }
 
-.mayoreo{
-  @include stylemayoreo;
-
-  &__container-info{
-
-    &-text{
-      @include stylemayoreoinfo;
-    }
-    
-    h1{
-      color: $fontblack;
-      margin-top: $mt50;
-    }
-
-    p{
-      color: $fontblack;
-    }
-
-    a{
-      .btn {
-        @include stylemayoreobutton;
+        p {
+          @include styledescubrep;
+        }
       }
     }
-  }
-}
+
+    .mayoreo {
+      @include stylemayoreo;
+
+      &__container-info {
+
+        &-text {
+          @include stylemayoreoinfo;
+        }
+
+        h1 {
+          color: $fontblack;
+          margin-top: $mt50;
+        }
+
+        p {
+          color: $fontblack;
+        }
+
+        a {
+          .btn {
+            @include stylemayoreobutton;
+          }
+        }
+      }
+    }
   }
 
   // DESKTOP
-  @media (min-width: $bpDkp){
-    .descubre{
-  @include styledescubre;
+  @media (min-width: $bpDkp) {
+    .descubre {
+      @include styledescubre;
 
-  &__container-info{
-    @include styledescubreinfo;
+      &__container-info {
+        @include styledescubreinfo;
 
-    h2 {
-      @include styledescubretitle;
-    }
-  
-    p{
-      @include styledescubrep;
-    }
-  }
-}
+        h2 {
+          @include styledescubretitle;
+        }
 
-.mayoreo{
-  @include stylemayoreo;
-
-  &__container-info{
-
-    &-text{
-      @include stylemayoreoinfo;
-    }
-    
-    h1{
-      color: $fontblack;
-      margin-top: $mt50;
-    }
-
-    p{
-      color: $fontblack;
-    }
-
-    a{
-      .btn {
-        @include stylemayoreobutton;
+        p {
+          @include styledescubrep;
+        }
       }
     }
-  }
-}
+
+    .mayoreo {
+      @include stylemayoreo;
+
+      &__container-info {
+
+        &-text {
+          @include stylemayoreoinfo;
+        }
+
+        h1 {
+          color: $fontblack;
+          margin-top: $mt50;
+        }
+
+        p {
+          color: $fontblack;
+        }
+
+        a {
+          .btn {
+            @include stylemayoreobutton;
+          }
+        }
+      }
+    }
   }

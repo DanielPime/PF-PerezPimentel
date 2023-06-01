@@ -1,14 +1,14 @@
   // MINIM
-  @media (min-width: $bpMn){
+  @media (min-width: $bpMn) {
     .contact {
-  @include stylecontact;
+      @include stylecontact;
 
-    &__title {
-      @include stylecontacttitle
-    }
+      &__title {
+        @include stylecontacttitle
+      }
 
-    &__cards {
-      @include stylecontactcardsMn;
+      &__cards {
+        @include stylecontactcardsMn;
 
         .card {
           @include stylecontactcardshw;
@@ -20,121 +20,121 @@
           &__title {
             @include stylecontactcardtitle;
           }
-        
+
           &__description {
-              margin-bottom: $mb40;
+            margin-bottom: $mb40;
           }
-    
+
           &__link {
             @include stylecontactcardbutton;
           }
         }
-    }   
-}
+      }
+    }
   }
 
   // MOBILE FIRST
-  @media (min-width: $bpMob){
+  @media (min-width: $bpMob) {
     .contact {
-  @include stylecontact;
+      @include stylecontact;
 
-    &__title {
-      @include stylecontacttitle;
-    }
+      &__title {
+        @include stylecontacttitle;
+      }
 
-    &__cards {
-      @include stylecontactcardsMob;
+      &__cards {
+        @include stylecontactcardsMob;
 
         .card {
           @include stylecontactcardshw;
 
-            &__header img {
-              @include stylecontacardimg;
-            }
+          &__header img {
+            @include stylecontacardimg;
+          }
 
-            &__title {
-              @include stylecontactcardtitle;
-            }
-    
-            &__description {
-                margin-bottom: $mb40;
-            }
-    
-            &__link {
-              @include stylecontactcardbutton;
-            }
+          &__title {
+            @include stylecontactcardtitle;
+          }
+
+          &__description {
+            margin-bottom: $mb40;
+          }
+
+          &__link {
+            @include stylecontactcardbutton;
+          }
         }
 
+      }
     }
-}
   }
 
   // MEDIUM
-  @media (min-width: $bpMed){
+  @media (min-width: $bpMed) {
     .contact {
-  @include stylecontact;
+      @include stylecontact;
 
-    &__title {
-      @include stylecontacttitle;
-    }
+      &__title {
+        @include stylecontacttitle;
+      }
 
-    &__cards {
-      @include stylecontactcardsMed;
+      &__cards {
+        @include stylecontactcardsMed;
 
         .card {
           @include stylecontactcardshw;
 
-            &__header img {
-              @include stylecontacardimg;
-            }
+          &__header img {
+            @include stylecontacardimg;
+          }
 
-            &__title {
-              @include stylecontactcardtitle;
-            }
-            
-            &__description {
-                margin-bottom: $mb40;
-            }
-    
-            &__link {
-              @include stylecontactcardbutton;
-            }
+          &__title {
+            @include stylecontactcardtitle;
+          }
+
+          &__description {
+            margin-bottom: $mb40;
+          }
+
+          &__link {
+            @include stylecontactcardbutton;
+          }
         }
+      }
     }
-}
   }
 
   // DESKTOP
-  @media (min-width: $bpDkp){
+  @media (min-width: $bpDkp) {
     .contact {
-  @include stylecontact;
+      @include stylecontact;
 
-    &__title {
-      @include stylecontacttitle;
-    }
+      &__title {
+        @include stylecontacttitle;
+      }
 
-    &__cards {
-      @include stylecontactcardsDskp;
+      &__cards {
+        @include stylecontactcardsDskp;
 
         .card {
           @include stylecontactcardshw;
 
-            &__header img {
-              @include stylecontacardimg;
-            }
+          &__header img {
+            @include stylecontacardimg;
+          }
 
-            &__title {
-              @include stylecontactcardtitle;
-            }
+          &__title {
+            @include stylecontactcardtitle;
+          }
 
-            &__description {
-                margin-bottom: $mb40;
-            }
+          &__description {
+            margin-bottom: $mb40;
+          }
 
-            &__link {
-              @include stylecontactcardbutton;
-            }
+          &__link {
+            @include stylecontactcardbutton;
+          }
         }
+      }
     }
-}
   }
