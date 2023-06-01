@@ -29,6 +29,7 @@
             a {
                 color: $fontwhite;
                 font-weight: $fontMx;
+                transition: $transition;
                 
                 &:hover {
                     opacity: 0.5%;

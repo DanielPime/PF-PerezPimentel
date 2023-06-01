@@ -157,6 +157,16 @@ a{
   transition: opacity 0.3s;
 }
 
+@mixin stylebrandsDskp{
+  display: $disGd;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  margin: $moa;
+  max-width: $mxw500;
+  margin-top: $mt50;
+  margin-bottom: $mb50;
+}
 
 /////////////////////////////////////////////CAT-LADY / CAT-MEN//////////////////////////////////////////////////////
 ///////////////////////////////////////////////////GENERAL///////////////////////////////////////////////////////////
@@ -194,11 +204,11 @@ a{
 @mixin span-cat{
   display: $disIB;
   padding: 10px 20px;
-  background-color: $fontwhite;
-  color: $fontogrey;
+  color: $fontwhite;
   font-weight: $fontBld;
   border-radius: 4px;
   margin-top: $mt20;
+  border: white solid thin;
 }
 
 

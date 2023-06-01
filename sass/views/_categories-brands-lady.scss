@@ -1,3 +1,15 @@
+.brand-sectionInter{
+  @include sectionInter;
+
+  h2 {
+    margin: $m0;
+  }
+
+  span {
+    @include span-cat;
+  }
+}  
+  
   // MINIM
   @media (min-width: $bpMn){
     .barnd-sectionCH{
@@ -14,6 +26,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -31,6 +48,11 @@
       
         span {
           @include span-cat;
+          
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -65,6 +87,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -82,6 +109,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
   }
@@ -119,6 +151,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -136,6 +173,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -153,6 +195,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -170,6 +217,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
   }
@@ -190,6 +242,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -207,6 +264,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -224,6 +286,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -241,6 +308,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -258,6 +330,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
   }
@@ -278,6 +355,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -295,6 +377,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -312,6 +399,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -329,6 +421,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -346,6 +443,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
   }

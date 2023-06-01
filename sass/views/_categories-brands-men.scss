@@ -1,3 +1,20 @@
+.brand-sectionInter{
+  @include sectionInter;
+
+  h2 {
+    margin: $m0;
+  }
+
+  span {
+    @include span-cat;
+
+    &:hover{
+      background-color: $bgwhite;
+      color:$fontogrey;
+    }
+  }
+}  
+  
   // MINIM
   @media (min-width: $bpMn){
     .barnd-sectionCHM{
@@ -14,6 +31,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -31,6 +53,11 @@
       
         span {
           @include span-cat;
+
+          &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -48,6 +75,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -65,6 +97,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -82,6 +119,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
   }
@@ -102,6 +144,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -119,6 +166,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -136,6 +188,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -153,6 +210,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -170,6 +232,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
   }
@@ -190,6 +257,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -207,6 +279,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -224,6 +301,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -241,6 +323,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -258,6 +345,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
   }
@@ -278,6 +370,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -295,6 +392,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -312,6 +414,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -329,6 +436,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
       
@@ -346,6 +458,11 @@
       
         span {
           @include span-cat;
+
+            &:hover{
+            background-color: $bgwhite;
+            color:$fontogrey;
+          }
         }
       }
   }

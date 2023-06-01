@@ -1,6 +1,6 @@
   // MINIM
   @media (min-width: $bpMn){
-    .containerMobile{
+    .frags__container-CLM{
         @include stylebrandsMn;
       
           .frag{
@@ -69,7 +69,7 @@
 
   // MOBILE FIRST
   @media (min-width: $bpMob){
-    .containerMobile{
+    .frags__container-CLM{
         @include stylebrandsMob;
       
           .frag{
