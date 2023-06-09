@@ -1,10 +1,14 @@
-                                            // NAVBAR
 .navbar {
   height: 60px;
   position: sticky;
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
   transition: background-color 0.3s ease;
+
+  .logo_nav {
+    height: 50px;
+    margin-left: 30px;
+  }
 
   &:hover {
     background-color: $bgblack;
@@ -41,7 +45,3 @@
 }  
 } 
 
-.logo_nav {
-  height: 60px;
-  margin-left: 30px;
-}

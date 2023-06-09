@@ -24,6 +24,10 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   transition: background-color 0.3s ease;
 }
+.navbar .logo_nav {
+  height: 50px;
+  margin-left: 30px;
+}
 .navbar:hover {
   background-color: black;
 }
@@ -49,74 +53,298 @@ body {
   opacity: 0.5%;
 }
 
-.logo_nav {
-  height: 60px;
-  margin-left: 30px;
+@media (min-width: 0px) {
+  footer {
+    width: 100%;
+    height: 1530x;
+    padding: 50px 0px;
+    background-color: black;
+  }
+  footer .footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+  footer .footer__logo .logo-b a img {
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+  }
+  footer .map__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  footer .map__container-title {
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: 200px;
+    color: white;
+  }
+  footer .map__container a {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  footer .map__container a:hover {
+    opacity: 0.1;
+  }
+  footer .map__container a h5 {
+    font-size: large;
+    font-weight: 100;
+  }
+  footer .map__container ul {
+    list-style-type: none;
+  }
+  footer .map__container ul li a {
+    font-size: large;
+    font-weight: 100;
+  }
+  footer .box__description {
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+  }
+  footer .box__description hr {
+    border: none;
+    height: 1px;
+    background-color: #343434;
+    margin-bottom: 30px;
+  }
+  footer .box__description p {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+  }
+  footer .box__description span {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+  }
 }
-
-.footer {
-  width: 100%;
-  padding: 50px 0px;
-  background-color: black;
+@media (min-width: 500px) {
+  footer {
+    width: 100%;
+    height: 1130px;
+    padding: 50px 0px;
+    background-color: black;
+  }
+  footer .footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+  footer .footer__logo .logo-b a img {
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+  }
+  footer .map__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  footer .map__container-title {
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: 200px;
+    color: white;
+  }
+  footer .map__container a {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  footer .map__container a:hover {
+    opacity: 0.1;
+  }
+  footer .map__container a h5 {
+    font-size: large;
+    font-weight: 100;
+  }
+  footer .map__container ul {
+    list-style-type: none;
+  }
+  footer .map__container ul li a {
+    font-size: large;
+    font-weight: 100;
+  }
+  footer .box__description {
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+  }
+  footer .box__description hr {
+    border: none;
+    height: 1px;
+    background-color: #343434;
+    margin-bottom: 30px;
+  }
+  footer .box__description p {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+  }
+  footer .box__description span {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+  }
 }
-.footer .container__footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
+@media (min-width: 700px) {
+  footer {
+    width: 100%;
+    height: 890px;
+    padding: 50px 0px;
+    background-color: black;
+  }
+  footer .footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+  footer .footer__logo .logo-b a img {
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+  }
+  footer .map__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  footer .map__container-title {
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: 200px;
+    color: white;
+  }
+  footer .map__container a {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  footer .map__container a:hover {
+    opacity: 0.1;
+  }
+  footer .map__container a h5 {
+    font-size: large;
+    font-weight: 100;
+  }
+  footer .map__container ul {
+    list-style-type: none;
+  }
+  footer .map__container ul li a {
+    font-size: large;
+    font-weight: 100;
+  }
+  footer .box__description {
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+  }
+  footer .box__description hr {
+    border: none;
+    height: 1px;
+    background-color: #343434;
+    margin-bottom: 30px;
+  }
+  footer .box__description p {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+  }
+  footer .box__description span {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+  }
 }
-.footer .container__footer .logo_b {
-  margin-left: 5;
+@media (min-width: 900px) {
+  footer {
+    width: 100%;
+    height: 750px;
+    padding: 50px 0px;
+    background-color: black;
+  }
+  footer .footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+  footer .footer__logo .logo-b a img {
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+  }
+  footer .map__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  footer .map__container-title {
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: 200px;
+    color: white;
+  }
+  footer .map__container a {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  footer .map__container a:hover {
+    opacity: 0.1;
+  }
+  footer .map__container a h5 {
+    font-size: large;
+    font-weight: 100;
+  }
+  footer .map__container ul {
+    list-style-type: none;
+  }
+  footer .map__container ul li a {
+    font-size: large;
+    font-weight: 100;
+  }
+  footer .box__description {
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+  }
+  footer .box__description hr {
+    border: none;
+    height: 1px;
+    background-color: #343434;
+    margin-bottom: 30px;
+  }
+  footer .box__description p {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+  }
+  footer .box__description span {
+    margin-bottom: 0px;
+    color: #343434;
+    font-weight: 500;
+  }
 }
-.footer .box__footer {
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-}
-.footer .box__footer__title {
-  margin-top: 30px;
-  font-size: xx-large;
-  font-weight: 200px;
-  color: white;
-}
-.footer .box__footer ul {
-  list-style-type: none;
-}
-.footer .box__footer a {
-  margin-top: 10px;
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-.footer .box__footer a:hover {
-  opacity: 0.1;
-}
-.footer .box__footer a h5 {
-  font-size: large;
-  font-weight: 100;
-}
-.footer .box__description {
-  max-width: 1170px;
-  margin: auto;
-  text-align: center;
-}
-.footer .box__description hr {
-  border: none;
-  height: 1px;
-  background-color: #343434;
-  margin-bottom: 30px;
-}
-.footer .box__description p {
-  margin-bottom: 0px;
-  color: #343434;
-  font-weight: 500;
-}
-.footer .box__description span {
-  margin-bottom: 0px;
-  color: #343434;
-  font-weight: 500;
-}
-
 .carousel-item img {
   max-height: 550px;
   object-fit: cover;
@@ -174,12 +402,13 @@ body {
   }
   .encuentra-info {
     justify-content: center;
-    height: 300px;
+    height: 500px;
     max-width: 700px;
     padding: 20px;
-    margin: 60px 0px;
+    margin: 90px 0px;
   }
-  .encuentra-info h1 {
+  .encuentra-info h2 {
+    font-size: 300px;
     color: #000000;
     text-align: center;
   }
@@ -323,12 +552,13 @@ body {
     margin-top: 250px;
   }
   .encuentra-info {
-    height: 300px;
+    height: 500px;
     max-width: 700px;
     padding: 20px;
-    margin: 60px 0px;
+    margin: 90px 0px;
   }
-  .encuentra-info h1 {
+  .encuentra-info h2 {
+    font-size: 300px;
     color: #000000;
   }
   .encuentra-info p {
@@ -473,7 +703,8 @@ body {
     padding: 20px;
     margin: 60px 0px;
   }
-  .encuentra-info h1 {
+  .encuentra-info h2 {
+    font-size: 300px;
     color: #000000;
     text-align: center;
   }
@@ -626,7 +857,8 @@ body {
     padding: 20px;
     margin: 60px 0px;
   }
-  .encuentra-info h1 {
+  .encuentra-info h2 {
+    font-size: 300px;
     color: #000000;
     text-align: center;
   }
@@ -667,8 +899,13 @@ body {
     margin-top: 250px;
   }
   .newsindex {
-    display: flex;
-    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.5px;
+    margin: 0 auto;
+    max-width: 2150px;
+    margin-top: 50px;
   }
   .newsindex .ofertaindex {
     background-image: url(../assets/image/bg-ship.jpg);
@@ -738,10 +975,6 @@ body {
   }
 }
 .main__brands {
-  background-image: url(../assets/image/carrusel\ \(1\).jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   margin-top: 60px;
 }
 
@@ -6705,6 +6938,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+    margin-top: 50px;
   }
   .mayoreo__container-info-text {
     height: 400px;
@@ -6763,6 +6997,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+    margin-top: 50px;
   }
   .mayoreo__container-info-text {
     height: 400px;
@@ -6822,6 +7057,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+    margin-top: 50px;
   }
   .mayoreo__container-info-text {
     height: 400px;
@@ -6881,6 +7117,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+    margin-top: 50px;
   }
   .mayoreo__container-info-text {
     height: 400px;
