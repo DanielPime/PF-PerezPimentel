@@ -15,6 +15,25 @@ body {
 
 /////////////////////////////////////////////////MAIN BRANDS/////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////GENERAL///////////////////////////////////////////////////////////
+@mixin styledescubre {
+  background-size: $bgCov;
+  background-position: $bgCen;
+  background-attachment: $bgAtt;
+  max-width: $mxw500;
+  height: $h500;
+  display: $disFx;
+  flex-direction: $flxdtn;
+  justify-content: $jfyC;
+  align-items: $algC;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+@mixin styledescubreinfo {
+  height: $h400;
+  max-width: $mxw500;
+}
+
 @mixin container-brands {
   margin-top: $mt60;
   padding: 50px 50px;

@@ -1,12 +1,7 @@
                                                                                                     // MAIN BRANDS
                                             // MAIN
 .main__brands {
-    // background-image: url(../assets/image/carrusel\ \(1\).jpg);
-    // background-size: cover;
-    // background-position: center;
-    // background-attachment: fixed;
     margin-top: 60px;
-  }
 
     // MINIM
     @media (min-width: $bpMn){
@@ -106,7 +101,29 @@
   
     // DESKTOP
     @media (min-width: $bpDkp){
+
+      .explora {
+        background-image: url(../assets/image/fd.jpg);
+        @include styledescubre;
+  
+        &__container-info {
+  
+          &-text {
+            @include styledescubreinfo;
+          }
+  
+          h1 {
+            color: $fontblack;
+          }
+  
+          p {
+            color: $fontblack;
+          }
+        }
+      }
+    
       .brands {
+
         @include container-brands;
       
           &__cards {
@@ -135,3 +152,4 @@
           }
       }
     }
+  }

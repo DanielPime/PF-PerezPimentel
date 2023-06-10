@@ -22,6 +22,11 @@
   &-collapse {
     display: flex;
     justify-content: center;
+
+
+    &.show{
+      background-color: black;
+    }
     
     .navbar-nav{
 
